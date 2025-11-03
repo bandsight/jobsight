@@ -18,20 +18,20 @@ for _, row in df.iterrows():
     if pd.isna(row.get("list_url")):
         continue
     scraper = {
-        "council": row["council"],
-        "url": row["list_url"].strip(),
-        "max_pages": int(row.get("max_pages", 5)),
-        "list_selector": row.get("list_selector", "").strip(),
-        "title_sel": row["title_sel"].strip(),
-        "location_sel": row.get("location_sel", ""),
-        "salary_sel": row.get("salary_sel", ""),
-        "closing_sel": row.get("closing_sel", ""),
-        "detail_url_pattern": row.get("detail_url_pattern", "{href}"),
-        "detail_location": row.get("detail_location", ""),
-        "detail_salary": row.get("detail_salary", ""),
-        "detail_closing": row.get("detail_closing", ""),
-        "detail_description": row.get("detail_description", ""),
-        "pay_band": row.get("pay_band", "Not specified"),
+        "council": str(row["council"]).strip(),
+        "url": str(row["list_url"]).strip(),
+        "max_pages": int(row.get("max_pages", 5)) if pd.notna(row.get("max_pages")) else 5,
+        "list_selector": str(row.get("list_selector", "")) if pd.notna(row.get("list_selector")) else "",
+        "title_sel": str(row["title_sel"]) if pd.notna(row["title_sel"]) else "",
+        "location_sel": str(row.get("location_sel", "")) if pd.notna(row.get("location_sel")) else "",
+        "salary_sel": str(row.get("salary_sel", "")) if pd.notna(row.get("salary_sel")) else "",
+        "closing_sel": str(row.get("closing_sel", "")) if pd.notna(row.get("closing_sel")) else "",
+        "detail_url_pattern": str(row.get("detail_url_pattern", "{href}")) if pd.notna(row.get("detail_url_pattern")) else "{href}",
+        "detail_location": str(row.get("detail_location", "")) if pd.notna(row.get("detail_location")) else "",
+        "detail_salary": str(row.get("detail_salary", "")) if pd.notna(row.get("detail_salary")) else "",
+        "detail_closing": str(row.get("detail_closing", "")) if pd.notna(row.get("detail_closing")) else "",
+        "detail_description": str(row.get("detail_description", "")) if pd.notna(row.get("detail_description")) else "",
+        "pay_band": str(row.get("pay_band", "Not specified")) if pd.notna(row.get("pay_band")) else "Not specified",
     }
     COUNCIL_SCRAPERS.append(scraper)
 

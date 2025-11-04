@@ -21,16 +21,16 @@ for _, row in df.iterrows():
         "council": str(row["council"]).strip(),
         "url": str(row["list_url"]).strip(),
         "max_pages": int(row.get("max_pages", 5)) if pd.notna(row.get("max_pages")) else 5,
-        "list_selector": str(row.get("list_selector", "")) if pd.notna(row.get("list_selector")) else "",
-        "title_sel": str(row["title_sel"]) if pd.notna(row["title_sel"]) else "",
-        "location_sel": str(row.get("location_sel", "")) if pd.notna(row.get("location_sel")) else "",
-        "salary_sel": str(row.get("salary_sel", "")) if pd.notna(row.get("salary_sel")) else "",
-        "closing_sel": str(row.get("closing_sel", "")) if pd.notna(row.get("closing_sel")) else "",
+        "list_selector": str(row.get("list_selector", "[class*='job']")).strip(),
+        "title_sel": str(row["title_sel"]).strip(),
+        "location_sel": str(row.get("location_sel", "[class*='location']")).strip(),
+        "salary_sel": str(row.get("salary_sel", "[class*='salary']")).strip(),
+        "closing_sel": str(row.get("closing_sel", "[class*='closing']")).strip(),
         "detail_url_pattern": str(row.get("detail_url_pattern", "{href}")) if pd.notna(row.get("detail_url_pattern")) else "{href}",
-        "detail_location": str(row.get("detail_location", "")) if pd.notna(row.get("detail_location")) else "",
-        "detail_salary": str(row.get("detail_salary", "")) if pd.notna(row.get("detail_salary")) else "",
-        "detail_closing": str(row.get("detail_closing", "")) if pd.notna(row.get("detail_closing")) else "",
-        "detail_description": str(row.get("detail_description", "")) if pd.notna(row.get("detail_description")) else "",
+        "detail_location": str(row.get("detail_location", "[class*='location']")).strip(),
+        "detail_salary": str(row.get("detail_salary", "[class*='salary']")).strip(),
+        "detail_closing": str(row.get("detail_closing", "[class*='closing']")).strip(),
+        "detail_description": str(row.get("detail_description", "[class*='description']")).strip(),
         "pay_band": str(row.get("pay_band", "Not specified")) if pd.notna(row.get("pay_band")) else "Not specified",
     }
     COUNCIL_SCRAPERS.append(scraper)
@@ -74,17 +74,16 @@ def scrape_council(c):
             print(f"No HTML for {url}")
             break
         soup = BeautifulSoup(html, "lxml")
-        if not c["list_selector"]:
-            print(f"No list_selector for {c['council']}")
-            continue
         cards = soup.select(c["list_selector"])
+        print(f"Found {len(cards)} cards for {c['council']} page {page}")
         if not cards: 
             print(f"No cards on page {page}")
             break
 
         for card in cards:
             title_tag = card.select_one(c["title_sel"])
-            if not title_tag: continue
+            if not title_tag: 
+                continue
             title = safe_text(title_tag)
             href = title_tag.get("href", "")
             if not href: continue
@@ -109,7 +108,7 @@ def scrape_council(c):
                 "location": location,
                 "salary": salary,
                 "pay_band": pay_band,
-                "closing": "",
+                "closing": safe_text(det_soup.select_one(c["detail_closing"]) or card.select_one(c["closing_sel"])),
                 "url": detail_url,
                 "description": description,
                 "published": datetime.utcnow().isoformat()
@@ -153,6 +152,7 @@ def main():
                        f"<p><strong>Location:</strong> {job['location']}</p>"
                        f"<p><strong>Salary:</strong> {job['salary']}</p>"
                        f"<p><strong>Pay Band:</strong> {job['pay_band']}</p>"
+                       f"<p><strong>Closes:</strong> {job['closing']}</p>"
                        f"<hr>{job['description']}"
                        f"]]>")
         fe.published(job["published"])

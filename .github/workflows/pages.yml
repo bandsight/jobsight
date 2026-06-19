@@ -41,7 +41,27 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build generated public site
-        run: jobsight public
+        run: |
+          jobsight public
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          index_path = Path("public/index.html")
+          board_path = Path("public/data/job-board-data.json")
+          if index_path.exists() and board_path.exists():
+              safe_json = board_path.read_text(encoding="utf-8").replace("</", "<\\/")
+              inline = f'<script id="jobsight-board-data" type="application/json">{safe_json}</script>'
+              text = index_path.read_text(encoding="utf-8")
+              text = re.sub(
+                  r'<script id="jobsight-board-data" type="application/json">.*?</script>',
+                  inline,
+                  text,
+                  count=1,
+                  flags=re.DOTALL,
+              )
+              index_path.write_text(text, encoding="utf-8")
+          PY
 
       - uses: actions/configure-pages@v5
         with:

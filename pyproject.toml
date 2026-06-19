@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobsight"
+version = "0.2.0"
+description = "Deterministic Victorian council job observations and static job board."
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "lxml>=5.3",
+  "pypdf>=5.0",
+  "requests>=2.32",
+  "truststore>=0.10",
+]
+
+[project.scripts]
+jobsight = "jobsight.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

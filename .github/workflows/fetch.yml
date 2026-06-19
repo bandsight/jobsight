@@ -1,0 +1,116 @@
+name: Fetch Jobs
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: jobsight-fetch
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify deterministic source update
+        run: |
+          test -f src/jobsight/intelligence.py
+          PYTHONPATH=src python - <<'PY'
+          from pathlib import Path
+          import jobsight.cli
+
+          cli_path = Path(jobsight.cli.__file__).resolve()
+          text = cli_path.read_text()
+          print(f"Using jobsight.cli from {cli_path}")
+          if "parse_source_smart" not in text:
+              raise SystemExit("jobsight.cli does not include deterministic intelligence wrapper")
+          PY
+
+      - name: Unpack seeded source registry
+        run: |
+          python - <<'PY'
+          import base64
+          import bz2
+          from pathlib import Path
+
+          seed_root = Path("data/seed")
+          packed_sources = seed_root / "sources.json.bz2.b64"
+          if packed_sources.exists():
+              packed = base64.b64decode(packed_sources.read_text().strip())
+              Path("data/sources.json").write_bytes(bz2.decompress(packed))
+
+          chunks = sorted(seed_root.glob("2026-05-27-seed.jsonl.bz2.b64.*"))
+          if chunks:
+              try:
+                  seed_text = "".join(path.read_text().strip() for path in chunks)
+                  # Repairs the first public seed chunk set, which lost four base64 characters in upload.
+                  if len(seed_text) == 68960 and len(chunks) == 7:
+                      seed_text = seed_text[:44444] + "cp7" + seed_text[44444:]
+                      seed_text = seed_text.replace("ungnH8jU1", "ungn2H8jU1", 1)
+                  packed_seed = base64.b64decode(
+                      seed_text,
+                      validate=True,
+                  )
+                  bz2.decompress(packed_seed)
+              except Exception as exc:
+                  print(f"Seed observation archive skipped: {exc}")
+              else:
+                  out = Path("data/observations/2026-05-27-seed.jsonl.bz2")
+                  out.parent.mkdir(parents=True, exist_ok=True)
+                  out.write_bytes(packed_seed)
+          PY
+
+      - name: Fetch and rebuild data
+        run: PYTHONPATH=src python -m jobsight.cli --root . run --timeout 8 --workers 8
+
+      - name: Build public site
+        run: PYTHONPATH=src python -m jobsight.cli --root . public
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Commit generated data
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A app.js index.html styles.css src/jobsight/cli.py src/jobsight/discovery.py src/jobsight/intelligence.py src/jobsight/models.py src/jobsight/outputs.py src/jobsight/text.py src/jobsight/extractors/salary.py src/jobsight/extractors/title.py src/jobsight/platforms/generic.py src/jobsight/platforms/pulse.py tests/test_extractors.py tests/test_intelligence.py data jobs.xml
+          if git diff --staged --quiet; then
+            echo "No generated data changes"
+          else
+            git commit -m "Update job observations $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

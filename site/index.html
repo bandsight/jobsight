@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JobSight</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>JobSight</h1>
+        <p>Deterministic Victorian council job observations.</p>
+      </div>
+      <a href="./jobs.xml">RSS</a>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="Filters">
+        <input id="search" type="search" placeholder="Search title, council, salary, description">
+        <select id="status">
+          <option value="">All evidence</option>
+          <option value="explicit_band">Explicit band</option>
+          <option value="salary_only">Salary only</option>
+          <option value="description_only">Description only</option>
+          <option value="unclassified">Unclassified</option>
+          <option value="parse_warning">Parse warning</option>
+        </select>
+      </section>
+
+      <section class="stats" id="stats"></section>
+      <section class="jobs" id="jobs"></section>
+    </main>
+
+    <template id="job-template">
+      <article class="job">
+        <div class="job-main">
+          <h2></h2>
+          <p class="meta"></p>
+          <p class="salary"></p>
+          <p class="excerpt"></p>
+        </div>
+        <a class="open" target="_blank" rel="noopener">Open</a>
+      </article>
+    </template>
+
+    <script src="./embedded-data.js"></script>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

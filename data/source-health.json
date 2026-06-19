@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T06:20:30Z",
+  "generated_at": "2026-06-19T06:40:23Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 7,
@@ -163,14 +163,14 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 15,
-      "band_coverage": 0.8,
-      "candidate_count": 15,
+      "accepted_count": 16,
+      "band_coverage": 0.8125,
+      "candidate_count": 16,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.6,
+      "description_coverage": 0.625,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -323,7 +323,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260619T062030Z",
+  "run_id": "20260619T064023Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -781,8 +781,8 @@
       ]
     },
     {
-      "accepted_count": 3,
-      "candidate_count": 3,
+      "accepted_count": 4,
+      "candidate_count": 4,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "BAYSIDE",
       "council_name": "Bayside City Council",
@@ -791,31 +791,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 3,
-        "band_count": 3,
-        "candidate_count": 3,
+        "accepted_count": 4,
+        "band_count": 4,
+        "candidate_count": 4,
         "closing_count": 0,
-        "description_count": 3,
+        "description_count": 4,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 3,
-        "score": 249
+        "salary_count": 4,
+        "score": 332
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 249,
+      "score": 332,
       "source_id": "bayside-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 3,
-          "candidate_count": 3,
+          "accepted_count": 4,
+          "candidate_count": 4,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 249,
+          "score": 332,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -1062,7 +1062,20 @@
       "chosen_strategy": "platform:native_council",
       "council_key": "BULOKE",
       "council_name": "Buloke Shire Council",
-      "discovered_endpoints": [],
+      "discovered_endpoints": [
+        {
+          "evidence": "Search SKIP TO CONTENT TOURISM SITE MAKE A PAYMENT FACEBOOK TWITTER Home About Council Your Council Council Meetings News and Consultation Have Your Say Employment What's On In Buloke Governance Publications Rates Local Laws Australia Day A",
+          "id": "45e662b1142b23d6",
+          "kind": "form_action",
+          "url": "https://www.buloke.vic.gov.au/employment"
+        },
+        {
+          "evidence": "SITEMAP",
+          "id": "f07d41240a4fc686",
+          "kind": "feed_or_link",
+          "url": "https://www.buloke.vic.gov.au/site-map/default.aspx"
+        }
+      ],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "native_council",
@@ -1088,12 +1101,32 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 0,
+          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
           "strategy": "platform:native_council"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 2,
+          "message": "",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "ok",
+          "strategy": "json_ld"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 3,
+          "discovered_endpoint_count": 0,
+          "message": "",
+          "rejected_count": 3,
+          "score": -135,
+          "status": "ok",
+          "strategy": "sitemap_feed"
         }
       ]
     },

@@ -109,6 +109,17 @@ jobs:
               )
               index_path.write_text(text, encoding="utf-8")
           PY
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          board = json.loads(Path("public/data/job-board-data.json").read_text(encoding="utf-8"))
+          expected = board["summary"]["generated_at"]
+          html = Path("public/index.html").read_text(encoding="utf-8")
+          if expected not in html:
+              raise SystemExit(f"public/index.html inline data is stale; missing {expected}")
+          print(f"Verified public/index.html contains inline data from {expected}")
+          PY
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

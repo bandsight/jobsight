@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T19:55:07Z",
+  "generated_at": "2026-06-20T19:44:49Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 6,
@@ -143,14 +143,14 @@
     },
     "native_council": {
       "accepted_count": 21,
-      "band_coverage": 0.8571,
+      "band_coverage": 0.8095,
       "candidate_count": 24,
       "chosen_strategies": {
         "json_ld": 2,
         "platform:native_council": 30
       },
       "degraded": 0,
-      "description_coverage": 1.0,
+      "description_coverage": 0.9524,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -163,14 +163,14 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 16,
-      "band_coverage": 0.75,
-      "candidate_count": 16,
+      "accepted_count": 15,
+      "band_coverage": 0.7333,
+      "candidate_count": 15,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.625,
+      "description_coverage": 0.6,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -223,21 +223,22 @@
       "status": "ok"
     },
     "pulse": {
-      "accepted_count": 34,
-      "band_coverage": 0.4412,
-      "candidate_count": 52,
+      "accepted_count": 32,
+      "band_coverage": 0.4688,
+      "candidate_count": 48,
       "chosen_strategies": {
-        "platform:pulse": 9
+        "discovered_endpoint": 1,
+        "platform:pulse": 8
       },
       "degraded": 0,
       "description_coverage": 1.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.3462,
+      "junk_rate": 0.3333,
       "ok": 9,
-      "quarantined_rows": 18,
-      "rejected_count": 18,
+      "quarantined_rows": 16,
+      "rejected_count": 16,
       "salary_coverage": 1.0,
       "sources": 9,
       "status": "ok"
@@ -323,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260619T195507Z",
+  "run_id": "20260620T194449Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -781,8 +782,8 @@
       ]
     },
     {
-      "accepted_count": 3,
-      "candidate_count": 3,
+      "accepted_count": 2,
+      "candidate_count": 2,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "BAYSIDE",
       "council_name": "Bayside City Council",
@@ -791,31 +792,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 3,
-        "band_count": 3,
-        "candidate_count": 3,
+        "accepted_count": 2,
+        "band_count": 1,
+        "candidate_count": 2,
         "closing_count": 0,
-        "description_count": 3,
+        "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 3,
-        "score": 249
+        "salary_count": 2,
+        "score": 148
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 249,
+      "score": 148,
       "source_id": "bayside-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 3,
-          "candidate_count": 3,
+          "accepted_count": 2,
+          "candidate_count": 2,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 249,
+          "score": 148,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -1586,9 +1587,9 @@
       ]
     },
     {
-      "accepted_count": 2,
-      "candidate_count": 4,
-      "chosen_strategy": "platform:pulse",
+      "accepted_count": 0,
+      "candidate_count": 0,
+      "chosen_strategy": "discovered_endpoint",
       "council_key": "EAST GIPPSLAND",
       "council_name": "East Gippsland Shire Council",
       "discovered_endpoints": [
@@ -1609,38 +1610,38 @@
       "fallback_used": false,
       "platform": "pulse",
       "quality": {
-        "accepted_count": 2,
+        "accepted_count": 0,
         "band_count": 0,
-        "candidate_count": 4,
-        "closing_count": 2,
-        "description_count": 2,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.5,
-        "rejected_count": 2,
-        "salary_count": 2,
-        "score": 50
+        "duplicate_rate": 0,
+        "junk_rate": 0,
+        "rejected_count": 0,
+        "salary_count": 0,
+        "score": 0
       },
-      "quarantined_rows": 2,
-      "rejected_count": 2,
-      "score": 50,
+      "quarantined_rows": 0,
+      "rejected_count": 0,
+      "score": 0,
       "source_id": "east-gippsland-pulse",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 2,
-          "candidate_count": 4,
-          "discovered_endpoint_count": 2,
+          "accepted_count": 1,
+          "candidate_count": 3,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 2,
-          "score": 50,
+          "score": -20,
           "status": "ok",
           "strategy": "platform:pulse"
         },
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 1,
+          "discovered_endpoint_count": 2,
           "message": "endpoint did not return JSON",
           "rejected_count": 0,
           "score": 0,
@@ -1786,7 +1787,7 @@
       "platform": "native_council_custom",
       "quality": {
         "accepted_count": 1,
-        "band_count": 0,
+        "band_count": 1,
         "candidate_count": 1,
         "closing_count": 0,
         "description_count": 1,
@@ -1795,11 +1796,11 @@
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 1,
-        "score": 65
+        "score": 83
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 65,
+      "score": 83,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -1809,7 +1810,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 65,
+          "score": 83,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -3423,20 +3424,20 @@
       "platform": "native_council",
       "quality": {
         "accepted_count": 7,
-        "band_count": 7,
+        "band_count": 6,
         "candidate_count": 7,
         "closing_count": 7,
-        "description_count": 7,
+        "description_count": 6,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 7,
-        "score": 616
+        "score": 590
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 616,
+      "score": 590,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
@@ -3446,7 +3447,7 @@
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 616,
+          "score": 590,
           "status": "ok",
           "strategy": "platform:native_council"
         },
@@ -3908,7 +3909,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Skip to main content Open Search Menu The Shire About our organisation Our organisational values Organisational structure and Executive team Organisational facts Child safety Claims About our Council Council meeti",
-          "id": "3ed424ba54260d1e",
+          "id": "5c63d32f722d28f6",
           "kind": "form_action",
           "url": "https://www.mornpen.vic.gov.au/The-Shire/Careers-and-volunteering/Current-vacancies"
         },
@@ -5537,7 +5538,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Skip to main content English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as your preferred language Chinese (Traditional) Selec",
-          "id": "f5bc9130d6478a6f",
+          "id": "55e883317f7e1cab",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },
@@ -5732,7 +5733,7 @@
     "failed": 0,
     "fallback_used": 0,
     "ok": 79,
-    "quarantined_rows": 22,
+    "quarantined_rows": 20,
     "sources": 79
   }
 }

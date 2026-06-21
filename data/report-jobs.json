@@ -2,19 +2,19 @@
   "schema_version": "jobsight.report.v1",
   "summary": {
     "schema_version": "jobsight.run_summary.v1",
-    "generated_at": "2026-06-20T19:49:17Z",
-    "latest_run_id": "20260620T194449Z",
+    "generated_at": "2026-06-21T19:56:53Z",
+    "latest_run_id": "20260621T195051Z",
     "sources_configured": 79,
-    "current_jobs": 133,
-    "report_jobs": 556,
+    "current_jobs": 114,
+    "report_jobs": 557,
     "all_jobs": 1675,
-    "observations": 9153,
-    "councils_with_current_jobs": 34,
+    "observations": 9268,
+    "councils_with_current_jobs": 32,
     "councils_with_report_jobs": 65,
     "classification_status_counts": {
-      "explicit_band": 301,
+      "explicit_band": 303,
       "salary_band_conflict": 3,
-      "salary_only": 252
+      "salary_only": 251
     },
     "source_platform_counts": {
       "adlogic_martianlogic": 12,
@@ -25,27 +25,27 @@
       "employmenthero": 3,
       "native_council": 141,
       "native_council_custom": 86,
-      "pageup": 76,
+      "pageup": 77,
       "pulse": 95,
       "recruitmenthub": 12,
       "smartrecruiters": 5,
       "successfactors": 24
     },
     "current_classification_status_counts": {
-      "explicit_band": 95,
+      "explicit_band": 78,
       "salary_band_conflict": 5,
-      "salary_only": 33
+      "salary_only": 31
     },
     "current_source_platform_counts": {
       "adlogic_martianlogic": 6,
       "applynow": 13,
-      "elmo_talent": 9,
+      "elmo_talent": 6,
       "employmenthero": 2,
       "native_council": 21,
-      "native_council_custom": 15,
-      "pageup": 24,
-      "pulse": 32,
-      "successfactors": 11
+      "native_council_custom": 14,
+      "pageup": 16,
+      "pulse": 26,
+      "successfactors": 10
     }
   },
   "jobs": [
@@ -78,9 +78,9 @@
         "title": "detail_html"
       },
       "job_id": "5d4610733b10ed7204df",
-      "observation_id": "1d5acce1eac6d0118502226e",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "dea56ed6037642fc8cd212a0",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Alpine",
       "source_id": "alpine-native-council",
@@ -90,8 +90,8 @@
       "title": "Civil Development Engineer",
       "url": "https://www.alpineshire.vic.gov.au/about-us/careers/current-vacancies/civil-development-engineer",
       "first_seen_at": "2026-05-27T07:02:39Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 33,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 34,
       "observed_status": "seen_latest_run"
     },
     {
@@ -121,9 +121,9 @@
         "title": "detail_html"
       },
       "job_id": "f30ed62a75457f9cddaa",
-      "observation_id": "d8b9db93711edef3cb35a087",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b2df05d4e3f0133e2e090a23",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Alpine",
       "source_id": "alpine-native-council",
@@ -133,8 +133,8 @@
       "title": "Immunisation Nurse",
       "url": "https://www.alpineshire.vic.gov.au/about-us/careers/current-vacancies/immunisation-nurse",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 32,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 33,
       "observed_status": "seen_latest_run"
     },
     {
@@ -211,9 +211,9 @@
         "title": "detail_html"
       },
       "job_id": "25fc357895fb75a03349",
-      "observation_id": "f804c62306bdad92737277ef",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "7f39b19baee1b20c21dff483",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Alpine",
       "source_id": "alpine-native-council",
@@ -223,8 +223,8 @@
       "title": "Project Manager Buildings",
       "url": "https://www.alpineshire.vic.gov.au/about-us/careers/current-vacancies/project-manager-buildings",
       "first_seen_at": "2026-05-29T07:23:34Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 30,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 31,
       "observed_status": "seen_latest_run"
     },
     {
@@ -256,9 +256,9 @@
         "title": "detail_html"
       },
       "job_id": "a5d2321b27b96176ca29",
-      "observation_id": "61669a4d7ee33d6375cc2699",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "216e1df394be1327ad10b511",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Alpine",
       "source_id": "alpine-native-council",
@@ -268,8 +268,8 @@
       "title": "Team Leader Maintenance Crew Mount Beauty 0",
       "url": "https://www.alpineshire.vic.gov.au/about-us/careers/current-vacancies/team-leader-maintenance-crew-mount-beauty-0",
       "first_seen_at": "2026-06-19T19:55:07Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 2,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 3,
       "observed_status": "seen_latest_run"
     },
     {
@@ -346,9 +346,9 @@
         "title": "detail_html"
       },
       "job_id": "78172d407487ca875dd3",
-      "observation_id": "6d859bfa21d37ff0c49cfbe2",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "2b22e5371a263f55f9b51dc8",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Alpine",
       "source_id": "alpine-native-council",
@@ -358,8 +358,8 @@
       "title": "Technical Inspector Operations",
       "url": "https://www.alpineshire.vic.gov.au/about-us/careers/current-vacancies/technical-inspector-operations",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -423,9 +423,9 @@
       },
       "job_id": "1afca32fd0e8deee5055",
       "location_text": "Animal Shelter",
-      "observation_id": "ca5075df414eb6ebfefb4d74",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "6ad32a656921c43dd031fabe",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Ballarat",
       "source_id": "ballarat-pulse",
@@ -436,8 +436,8 @@
       "url": "https://ballarat.pulsesoftware.com/Pulse/job/TuHlCU/Animal-Management-Officer?source=public",
       "work_type": "Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -571,7 +571,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 35.38,
@@ -731,9 +731,9 @@
       },
       "job_id": "832e60ba8a6fb25a639a",
       "location_text": "The Gordon",
-      "observation_id": "6a37f70058843388d518567c",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4b728cb9b5e861d9f33dd840",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Ballarat",
       "source_id": "ballarat-pulse",
@@ -744,8 +744,8 @@
       "url": "https://ballarat.pulsesoftware.com/Pulse/job/S11Q6p/Governance-Support-Officer?source=public",
       "work_type": "Part Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -776,9 +776,9 @@
       },
       "job_id": "7e9f178d433ed7a15d3b",
       "location_text": "Ballarat Aquatic & Lifestyle Centre",
-      "observation_id": "7757b9e309532c39f4442653",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "c3f3d77e9b131199a6f3339b",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Ballarat",
       "source_id": "ballarat-pulse",
@@ -789,8 +789,8 @@
       "url": "https://ballarat.pulsesoftware.com/Pulse/job/28PA4g/Health-Club-Officer-Casual?source=public",
       "work_type": "Casual",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 32,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 33,
       "observed_status": "seen_latest_run"
     },
     {
@@ -864,9 +864,9 @@
       },
       "job_id": "5be88c9c88811a8183bf",
       "location_text": "City Wide Services Depot",
-      "observation_id": "8e927960c43160a6edd58c02",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "f54179846694ad8fe499cd1f",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Ballarat",
       "source_id": "ballarat-pulse",
@@ -877,8 +877,8 @@
       "url": "https://ballarat.pulsesoftware.com/Pulse/job/uSytmj/Horticulture-Maintenance-Worker-City-Entrances?source=public",
       "work_type": "Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1027,9 +1027,9 @@
       },
       "job_id": "9cafaa28c57caf8628d1",
       "location_text": "The Gordon",
-      "observation_id": "c73260894e649b2f5c9a73db",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "0fcf095a66727b4aa899af06",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Ballarat",
       "source_id": "ballarat-pulse",
@@ -1040,8 +1040,8 @@
       "url": "https://ballarat.pulsesoftware.com/Pulse/job/ob6Z9p/Senior-Procurement-Business-Partner?source=public",
       "work_type": "Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1070,9 +1070,9 @@
       },
       "job_id": "d6bfc6b18007f609a961",
       "location_text": "The Gordon",
-      "observation_id": "38c904c390e0689275bdd60c",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "939107d2f6cf4ba3450ca77a",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Ballarat",
       "source_id": "ballarat-pulse",
@@ -1083,8 +1083,8 @@
       "url": "https://ballarat.pulsesoftware.com/Pulse/job/3NWRPD/Senior-Risk-Officer?source=public",
       "work_type": "Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1244,9 +1244,9 @@
       },
       "job_id": "d9eedd29958629a14abc",
       "location_text": "1 Flintoff Street, Greensborough",
-      "observation_id": "19cb77d0de2228ebbf8bbc14",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "aba89c08c2ab472c1ebabea0",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1257,8 +1257,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/M7P6Mz/Assistant-Building-Surveyor?source=public",
       "work_type": "Permanent Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1327,9 +1327,9 @@
       },
       "job_id": "1a2d28ae28c117829f40",
       "location_text": "1 Flintoff Street, Greensborough",
-      "observation_id": "03feba66532558f63fc6c447",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "71db4feecd8db0e12c6c00e6",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1340,8 +1340,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/jDOUgU/Business-Support-Officer?source=public",
       "work_type": "Fixed Term Contract",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1370,9 +1370,9 @@
       },
       "job_id": "c4d79b7ce55b18db9b44",
       "location_text": "Audrey Brooks Memorial Pre-School, 15 Daphne Cres Bellfield",
-      "observation_id": "f0b57c9d3de1f89a79b162e9",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "641839e02312fa55ddcd7e4f",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1383,8 +1383,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/BOZBRn/Early-Childhood-Educator-9852702?source=public",
       "work_type": "Permanent Part Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1456,9 +1456,9 @@
       },
       "job_id": "cdc841d6935193cb5cf5",
       "location_text": "1 Flintoff Street, Greensborough",
-      "observation_id": "5d081063f23d7c8d2a4a3e56",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "05f2a584771b8c099a77f5b8",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1469,8 +1469,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/eOkl33/Events-Communications-Officer?source=public",
       "work_type": "Permanent Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1499,9 +1499,9 @@
       },
       "job_id": "4b3c1e19791fa8e742b1",
       "location_text": "1 Flintoff Street, Greensborough",
-      "observation_id": "47de3e6e78b525e3927df6af",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "aad34ab64614099a11272103",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1512,8 +1512,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/ouDln9/First-Nations-Employment-Pathways-Lead?source=public",
       "work_type": "Permanent Part Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1542,9 +1542,9 @@
       },
       "job_id": "265206bc9f1ad441adff",
       "location_text": "Operations Depot, 307-325 Waterdale Road, Bellfield",
-      "observation_id": "effbe671b666c62e50835523",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "91245d73b8dc6509dc4e8a35",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1555,8 +1555,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/xfRVig/Fleet-Workshop-Support-Officer?source=public",
       "work_type": "Fixed Term Contract",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1628,9 +1628,9 @@
       },
       "job_id": "205f87952a10d3c00c1c",
       "location_text": "1 Flintoff Street, Greensborough",
-      "observation_id": "70ce47996eddc2b750c1e089",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "f62dbc4024fcb20254aae0b2",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1641,8 +1641,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/3TwHDA/People-Culture-Business-Partner?source=public",
       "work_type": "Permanent Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1754,9 +1754,9 @@
       },
       "job_id": "fade54d60a431779153a",
       "location_text": "1 Flintoff Street, Greensborough",
-      "observation_id": "4973eab07eee1cce94b41c5a",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "0be69488e560be856f937f18",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Banyule",
       "source_id": "banyule-pulse",
@@ -1767,8 +1767,8 @@
       "url": "https://banyule.pulsesoftware.com/Pulse/job/x8sEJL/Website-Content-Advisor?source=public",
       "work_type": "Permanent Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1907,7 +1907,7 @@
       "description_status": "fetched",
       "evidence": {
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1139/applicationForm/TransferFile.ashx?sData=UFUtVjMt_L1uG2rG9XVO2FEUSmHaIgEQjrEdBEgyQK5Wmc20utigk-OumvacV6Gr8JLXsgy7gVWp-LFk7vlIsMrrMgRtyK8b3AtLpFe8-X5N1TdxTENXdspSe5UbGGnQcdHq2q_gdLmG5j1gk97o3CeEdwz2BMU2PiYIEgrXdjA1Ev5_vqo~"
+          "https://secure.dc2.pageuppeople.com/apply/1139/applicationForm/TransferFile.ashx?sData=UFUtVjMtkQHDW6zaMJ4Yc-3jfafTo_nCr_Hz5lIYZuXnZ9ocoxWTELKvifFgD_GIlglxSSsuNPRgo2_DASeOBeLBpQMdAUuYrKF557kZ6PwgC7mtCct-7TX6cHbQjxt2L8co5ixMCRsNB8mLyfRb4Krb8ZIVMiuljyAzMjJJWSz-J4nfOjo~"
         ],
         "salary_text": "$124,882.07"
       },
@@ -1920,9 +1920,9 @@
         "title": "detail_html"
       },
       "job_id": "c03af34566bc9139071d",
-      "observation_id": "f265802332911cd8aa84c498",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "d9a1d98ecc91d64204f7e6fe",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Bayside",
       "source_id": "bayside-native-council-custom",
@@ -1932,8 +1932,8 @@
       "title": "Coordinator Maternal and Child Health and Immunisation",
       "url": "https://careers.bayside.vic.gov.au/jobs/coordinator-maternal-and-child-health-and-immunisation-bayside-vic-australia",
       "first_seen_at": "2026-06-20T19:44:49Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 1,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 2,
       "observed_status": "seen_latest_run"
     },
     {
@@ -1951,7 +1951,7 @@
       "evidence": {
         "band_text": "Band 6",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1139/applicationForm/TransferFile.ashx?sData=UFUtVjMtf0cn-j7wAnqgFRSo053zsxIgMYepaDLwNQBArekANj5LteHSGLTDHhuKwqxXkB04eS4cSfTgHoObUXNSzaI2HJiu-QSGtPdtdysiFKBFBsrVB7STsnDWxX9D7o_9PLWNLYwJwOk_bEeafNgDxh6ewPJW9sj2MmXijno90wbe74o~"
+          "https://secure.dc2.pageuppeople.com/apply/1139/applicationForm/TransferFile.ashx?sData=UFUtVjMtLYON49NebxzbaqI4v54yfMKxAUFiK2Jr4LTdkgz4-SnMVX64jopUQub83tSJ42AlfrN_NUhik9zrmrSLEUyFUOBdhgmfUn1YsAvAabEBomUrlEa_7A-6qQdZ0hS1cgousw7dH3vylzlyDGRzJjLjGvETtzAwn3YOt0rRAUVXEJk~"
         ],
         "salary_text": "$101,833.74 to $111,108.57"
       },
@@ -1964,9 +1964,9 @@
         "title": "detail_html"
       },
       "job_id": "6fc2bcb4b0448c881f22",
-      "observation_id": "b0faca6c72e332e24bd88915",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "69f093209075795e2d2e09b6",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Bayside",
       "source_id": "bayside-native-council-custom",
@@ -1976,8 +1976,8 @@
       "title": "Freedom of Information Foi Officer",
       "url": "https://careers.bayside.vic.gov.au/jobs/freedom-of-information-foi-officer-bayside-vic-australia",
       "first_seen_at": "2026-06-20T19:44:49Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 1,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 2,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2461,9 +2461,9 @@
         "title": "detail_html"
       },
       "job_id": "767276766d59471bfbcc",
-      "observation_id": "f0e44b37cdc5f13d59d45afb",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "349e280c950e05483ba24b3c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2473,8 +2473,8 @@
       "title": "Become School Crossing Supervisor",
       "url": "https://www.boroondara.vic.gov.au/your-council/jobs-and-careers-boroondara/become-school-crossing-supervisor",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 32,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 33,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2507,9 +2507,9 @@
         "title": "detail_html"
       },
       "job_id": "5ac621dd1615e317fe06",
-      "observation_id": "f386df6d2327aa779f2b5677",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "dffd4ae7da14c96bc2d76c8a",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2519,8 +2519,8 @@
       "title": "Branch Lead Fantastic opportunity to take on a leadership role",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15122&company=cityofboroP",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2595,9 +2595,9 @@
         "title": "detail_html"
       },
       "job_id": "d4338ad2720313bf2ac9",
-      "observation_id": "afa6c49c85dbde69d8815509",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "f1653ab4d6ab7ab827d86101",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2607,8 +2607,8 @@
       "title": "Casual Maternal & Child Health (MCH) Nurse",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=9733&company=cityofboroP",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 31,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 32,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2720,9 +2720,9 @@
         "title": "detail_html"
       },
       "job_id": "06f00d44b6050ea515c1",
-      "observation_id": "5b7c53630d8f734b322ce030",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "e05c85292902148a7c43ff17",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2732,8 +2732,8 @@
       "title": "Early Years Planning and Development Officer",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15101&company=cityofboroP",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2766,9 +2766,9 @@
         "title": "detail_html"
       },
       "job_id": "30630ebf2d07b889246e",
-      "observation_id": "4ccd53412b581f0d9c52c52c",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "d03c187f2b01070643168752",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2778,8 +2778,8 @@
       "title": "Full time role, to lead and organise Tree Crew operations, located in Kew",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15022&company=cityofboroP",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2904,9 +2904,9 @@
         "title": "detail_html"
       },
       "job_id": "ad4cdec99f33d909f6b3",
-      "observation_id": "60fc7532bb313f3c4916908b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "25c6c156c69a501683b2eaa9",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2916,8 +2916,8 @@
       "title": "Local Laws Officer",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15080&company=cityofboroP",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 28,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 29,
       "observed_status": "seen_latest_run"
     },
     {
@@ -2949,9 +2949,9 @@
         "title": "detail_html"
       },
       "job_id": "468e4c2694a0d8572de9",
-      "observation_id": "52be6af7995e700ef1a813f3",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "f5e63c388fbae57962af4528",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -2961,8 +2961,8 @@
       "title": "Parking Officer",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15053&company=cityofboroP",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -3055,7 +3055,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 42.11,
@@ -3085,9 +3085,9 @@
         "title": "detail_html"
       },
       "job_id": "6e529135e212684a8201",
-      "observation_id": "f2ca9867b39c24c10693964b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "70870e6d7c48512b3e923ab9",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -3097,8 +3097,8 @@
       "title": "School Crossing Supervisor",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15046&company=cityofboroP",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 31,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 32,
       "observed_status": "seen_latest_run"
     },
     {
@@ -3345,9 +3345,9 @@
         "title": "detail_html"
       },
       "job_id": "0171aee273090e4ebae9",
-      "observation_id": "a0a82eb174170cb660dca8b2",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "ab3eeae5963cb1df1da16c18",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -3357,8 +3357,8 @@
       "title": "Transfer Station - driver attendant operator",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15134&company=cityofboroP",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -3391,9 +3391,9 @@
         "title": "detail_html"
       },
       "job_id": "d0b559877fc8de6e077d",
-      "observation_id": "f9d354d72a599d96c02429e8",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "bb04b9234cd463727c214785",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Boroondara",
       "source_id": "boroondara-successfactors",
@@ -3403,8 +3403,8 @@
       "title": "Turf Maintenance Officer (2 positions)",
       "url": "https://career10.successfactors.com/sfcareer/jobreqcareer?jobId=15113&company=cityofboroP",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -3524,9 +3524,9 @@
       },
       "job_id": "42aa2f01a13a76f64a25",
       "location_text": "Brimbank Community & Civic Centre",
-      "observation_id": "f3cbad765b68c6f0d9c3412e",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "acd085d5859aa8673c0b8d31",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Brimbank",
       "source_id": "brimbank-pulse",
@@ -3537,8 +3537,8 @@
       "url": "https://brimbank.pulsesoftware.com/Pulse/job/aCIsg8/Casual-Relief-School-Crossing-Supervisor?source=public",
       "work_type": "Casual",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 32,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 33,
       "observed_status": "seen_latest_run"
     },
     {
@@ -3656,9 +3656,9 @@
       },
       "job_id": "3e8c939c7db535b4430c",
       "location_text": "Brimbank Community & Civic Centre",
-      "observation_id": "daf9e14c5d93d5034dcc47e0",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b0a30ea0c8bbc61ba9a7c5c3",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Brimbank",
       "source_id": "brimbank-pulse",
@@ -3669,8 +3669,8 @@
       "url": "https://brimbank.pulsesoftware.com/Pulse/job/7SBYWC/Community-Grants-Support-Officer?source=public",
       "work_type": "Permanent Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4013,9 +4013,9 @@
       },
       "job_id": "788f2749a6b4029911a0",
       "location_text": "Brimbank Community & Civic Centre",
-      "observation_id": "e2bae7ef677826b1f791a471",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b7aa519a245b8d6fa111b9a6",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Brimbank",
       "source_id": "brimbank-pulse",
@@ -4026,8 +4026,8 @@
       "url": "https://brimbank.pulsesoftware.com/Pulse/job/7lZ00C/Social-Inclusion-Team-Leader?source=public",
       "work_type": "Temporary Part Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4228,7 +4228,7 @@
       "first_seen_at": "2026-05-27T07:02:39Z",
       "last_seen_at": "2026-05-27T07:02:39Z",
       "sighting_count": 1,
-      "observed_status": "source_unavailable_latest_run",
+      "observed_status": "not_seen_latest_run",
       "field_evidence": {
         "title": "detail_html",
         "salary": "detail_html",
@@ -4311,9 +4311,9 @@
         "title": "detail_html"
       },
       "job_id": "4b649e7e084e6b204072",
-      "observation_id": "e0b09496a4fc651c91e28502",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4f826400aef4e13a431925ee",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Cardinia",
       "source_id": "cardinia-adlogic-martianlogic",
@@ -4323,8 +4323,8 @@
       "title": "Building Maintenance Officer",
       "url": "https://careers.cardinia.vic.gov.au/job-details/query/Building+Maintenance+Officer/in/Australia/9763477",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4356,9 +4356,9 @@
         "title": "detail_html"
       },
       "job_id": "c8c8292b862166e7bb5c",
-      "observation_id": "7c961314928d9677e4921808",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "7a107fd7a47be91e17390d65",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Cardinia",
       "source_id": "cardinia-adlogic-martianlogic",
@@ -4368,8 +4368,8 @@
       "title": "Casual Youth Services Officer",
       "url": "https://careers.cardinia.vic.gov.au/job-details/query/Casual+Youth+Services+Officer/in/Australia/9757426",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4400,9 +4400,9 @@
         "title": "detail_html"
       },
       "job_id": "b4b5a64ce1e7de6941d5",
-      "observation_id": "ba4740e3be469a2dc1cc8e66",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4c2450c5f7aa54caa60cbd70",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Cardinia",
       "source_id": "cardinia-adlogic-martianlogic",
@@ -4412,8 +4412,8 @@
       "title": "Civil Maintenance Officer",
       "url": "https://careers.cardinia.vic.gov.au/job-details/query/Civil+Maintenance+Officer/in/Australia/9733556",
       "first_seen_at": "2026-05-27T07:02:39Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 39,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 40,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4445,9 +4445,9 @@
         "title": "detail_html"
       },
       "job_id": "9e5d5c8692e48a10c1a1",
-      "observation_id": "396b9f29493491878d4ffc6e",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "fbb1a873d43586bd4fb9e0f1",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Cardinia",
       "source_id": "cardinia-adlogic-martianlogic",
@@ -4457,8 +4457,8 @@
       "title": "Climate Resilience Officer",
       "url": "https://careers.cardinia.vic.gov.au/job-details/query/Climate+Resilience+Officer/in/Australia/9761357",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4490,9 +4490,9 @@
         "title": "detail_html"
       },
       "job_id": "5681dd29e87634f19479",
-      "observation_id": "48d34688db9878ded0e89c33",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "0c280b4eec39f360ccb904c7",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Cardinia",
       "source_id": "cardinia-adlogic-martianlogic",
@@ -4502,8 +4502,8 @@
       "title": "Council Property Officer",
       "url": "https://careers.cardinia.vic.gov.au/job-details/query/Council+Property+Officer/in/Australia/9760853",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -4692,9 +4692,9 @@
         "title": "detail_html"
       },
       "job_id": "516d20186f3709f1447e",
-      "observation_id": "6de9bd20f412fc3e16808988",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "27a5a5076d88c9ad83b3be9a",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Cardinia",
       "source_id": "cardinia-adlogic-martianlogic",
@@ -4704,8 +4704,8 @@
       "title": "Surveillance Officer – Civil and Landscape",
       "url": "https://careers.cardinia.vic.gov.au/job-details/query/Surveillance+Officer+%E2%80%93+Civil+and+Landscape/in/Australia/9757754",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -5991,7 +5991,7 @@
       "evidence": {
         "band_text": "Band 2",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMt_uRtyNlKx0G6Heo9HCsVdGnahEkEpks0o0tgpTUTm8iHTmaomdL02zpsjOZGC7TeGxnoB1afQSA3S2bxVw33I9z09nsDrNEJOmZ0h3Q_veBjwBpgbiztLaftqK6oIljJwft7c3jw0FSkKl7lHqA0LKMJweSNh_3wg3KYska5g3I~"
+          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtsaH9CjJr4kx1_jYMQPToJvyVkFRvVNOkvXwHO04lybGG2btOs_DT5sTcePEb9OFFiO7PD12jOrW2_EtXy4F35A_Be45UA8xDyceQTqG9xHeJUNjku-4zD0WDajoJ-Txsr4MlxC44xGs5TyU8lE1i9YSqmVilhwjyAoRKFMU-Pao~"
         ],
         "salary_text": "$33.85"
       },
@@ -6004,9 +6004,9 @@
         "title": "detail_html"
       },
       "job_id": "599a60a1e47ac6c06107",
-      "observation_id": "7e000357ace9b4852746b872",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b73e2eb71ea97f5399550707",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Frankston",
       "source_id": "frankston-native-council-custom",
@@ -6016,8 +6016,8 @@
       "title": "Kitchen Assistant",
       "url": "https://careers.frankston.vic.gov.au/jobs/kitchen-assistant-frankston-vic-australia",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -6037,7 +6037,7 @@
       "evidence": {
         "band_text": "Band 4",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtbY-6Wqpz0LU2aNUVHNCuHkwDL868DiqmXJe60L6TCif5mdpXAzt0p_pX4fV0dQ8PWMslAsCySOuzwlM2cNoe5gpAke3PEAsilsYVvNNZRzxjKJgUnpBZeo-MTyeU0ID5N0FCXirj3ClEitSUG4nHvTESaHqwoQxj5qrPpQUdlqY~"
+          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtBim_xU38kmc8r81xajgwQ1jmpNiKSGtE6pG0QMxREGqjCAwIbprVPNi4SV6j6OF748Y4huRLtdGNH2BewFrv6gi4eKFKQnfixcRdfSY2fF7xZWhvXCVIUiiB7cUGS2NWeU_wupL0I5n7aJvl2FLPB4S_R9lF4W7_NHve79l4rn0~"
         ],
         "salary_text": "$37.72"
       },
@@ -6050,9 +6050,9 @@
         "title": "detail_html"
       },
       "job_id": "afb7d199e13dc0f92c66",
-      "observation_id": "9c5773a40da0b6a2ba28d65f",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "c7c63e87a137f1e22cde5b05",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Frankston",
       "source_id": "frankston-native-council-custom",
@@ -6062,8 +6062,8 @@
       "title": "Meals on Wheels Support Officer",
       "url": "https://careers.frankston.vic.gov.au/jobs/meals-on-wheels-support-officer-frankston-vic-australia-87aeda34-7200-472d-941a-a88d509c62d8",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -6161,7 +6161,7 @@
       "evidence": {
         "band_text": "Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMt4a62TSPBvjjoCAzilgrv4yQ7dziqo3BmNKUesh8G51ZOzKEQGZBwJ9dSeQlznXzKB0oFtYSCbiU9_lzU9cNemA3Y68ikpd-8qG5PKzvffaEtjfEN5dqttVgY-nts0ZW8Lajfk6-FjNn3aLD9_getE7I5Kj0op2K3uaF30uq2lN4~"
+          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtGpktOFdQMZCiUHHcZ1gXwOdA08LQhYGYfREiCs8UaWU6pvwURh569M4Ru7ttnIgQIWp3QQJmvkVJxKaCCPDf-8efdHEVNwxUEkXWR3u9QxuW-otyVMn2aTqwNuJe8jOekqhUzartYJLxst2kfVXxG2nYzE0EJP-KStGnGQ4R3wc~"
         ],
         "salary_text": "$69,665.28"
       },
@@ -6174,9 +6174,9 @@
         "title": "detail_html"
       },
       "job_id": "2417877fdec7a3a61b75",
-      "observation_id": "0ec12dca618e0901fbab954c",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "be6009835836c02f2a9f2841",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Frankston",
       "source_id": "frankston-native-council-custom",
@@ -6186,8 +6186,8 @@
       "title": "Road Drainage Maintenance Officer Seaford",
       "url": "https://careers.frankston.vic.gov.au/jobs/road-drainage-maintenance-officer-seaford-vic-australia",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -6360,7 +6360,7 @@
       "evidence": {
         "band_text": "Band 6",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtKiACHg4vW1ZxkhE1aK74yBHDvCdNmijfXt9FdczeTSDMXZ6CJes2HUE4X0chP5X1qV2eMUJcLmOThOEhVgWLVcIcxZ_Sdkol6QPTvPTSoSJmCkpfYjEUzKbdPfgX89zyxd7GKQxyOSEpKnb_pvPuW1PG8Ddo36I-UBtIZM8mf7Q~"
+          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMthcrJmf7fqGZjtReDJjlPyYWkdlj0BaGWVMcENTWDt1LNV-qkvyFkznZwa6XkzKdY6W9a4oJssUVajrZ3jPAuTFL0W_7Bs9WETPfImmU-px9pLM4JvHR5moePiPr_m2KGjCwCJtxyvtUBB-t4jv8GBFqIKrg04CkxQ6rCtlZtqUE~"
         ],
         "salary_text": "$100,338.66 to $108,694.26"
       },
@@ -6373,9 +6373,9 @@
         "title": "detail_html"
       },
       "job_id": "2833395eef3ea3fafa3b",
-      "observation_id": "9948f95d620e966b29ae6c23",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "462da6bdf1aa1749b6572e1a",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Frankston",
       "source_id": "frankston-native-council-custom",
@@ -6385,8 +6385,8 @@
       "title": "Senior Safer Communities Officer Community Laws",
       "url": "https://careers.frankston.vic.gov.au/jobs/senior-safer-communities-officer-community-laws-frankston-vic-australia",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -6406,7 +6406,7 @@
       "evidence": {
         "band_text": "Salary Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtylAQfgpMFNjX_N8UIGOtAB4VVNAmyudzjOL_qrEtebhZ1QwrA1L57ynRj9MO69qe8RvFzQHNhl8SIsW5arWToXYtQdr_2kYTF52pl97Kis4N4qGdaVC_GtS7iz-X9vmbuRw9ClsoHOZfiyzM-Swcx9vqQAbasJvLO1IjPHC_bCE~"
+          "https://secure.dc2.pageuppeople.com/apply/1065/applicationForm/TransferFile.ashx?sData=UFUtVjMtYQeLBm-BcsRBQ2MRWzf2AGlql4RY1D1J809_YkAFRKLpc13OWOAaUS9BY5HikdOEcZynlD0Ah1QKousVsD51aga-X61K9KL66aM4xIEd_mj1UKcPena8fActIXhdZIA8LlFoYxWBqAGI6Z-EkKvB-iqGpcUXSpYmNDvQ-NM2YtM~"
         ],
         "salary_text": "$69,665.28"
       },
@@ -6419,9 +6419,9 @@
         "title": "detail_html"
       },
       "job_id": "08a8cb6ccebed924f517",
-      "observation_id": "66c3ab13b1b05046d94cca32",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "46cebcddf829628d3792b3f4",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Frankston",
       "source_id": "frankston-native-council-custom",
@@ -6431,8 +6431,8 @@
       "title": "Turf Management Officer",
       "url": "https://careers.frankston.vic.gov.au/jobs/turf-management-officer-frankston-vic-australia",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -6924,7 +6924,7 @@
       "first_seen_at": "2026-06-20T19:44:49Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 1,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 35.7,
@@ -7218,7 +7218,7 @@
       "evidence": {
         "band_text": "Band 6",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3142/1702/Economic-Growth-Project-Officer-626-PD.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194506Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6727783ef4b8ea97adf4dd5e0461091949d3101723b712bb44d61162f8f21337"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3142/1702/Economic-Growth-Project-Officer-626-PD.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a25ba2580ebc60e8220127753a9026896aa055506104d3c8fd81863af294bbab"
         ],
         "salary_text": "$94,713"
       },
@@ -7231,9 +7231,9 @@
         "title": "detail_html"
       },
       "job_id": "a3ef83b8e87fefd53ccc",
-      "observation_id": "3c15d82d89d6ba639e105c57",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "0bb0868ab07ca7a672280b7f",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Bendigo",
       "source_id": "greater-bendigo-applynow",
@@ -7243,8 +7243,8 @@
       "title": "Economic Growth Project Officer",
       "url": "https://city-of-bendigo.applynow.net.au/jobs/6260626-economic-growth-project-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -7263,7 +7263,7 @@
       "evidence": {
         "band_text": "Band 4",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3150/6147/Events-Administration-Officer-646-PD.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194508Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d67684e2acbb7e5853f66299b45647aaae55992b451d5d5445edcf3a3fb28cc7"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3150/6147/Events-Administration-Officer-646-PD.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195109Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8ff9eaf2e58cf93868f58a270792c4b7b75125b33cd62ea62d54c3d00d5381d1"
         ],
         "salary_text": "$72,038"
       },
@@ -7276,9 +7276,9 @@
         "title": "detail_html"
       },
       "job_id": "0de5353f780744c95a87",
-      "observation_id": "8ecce8aa475e3387b9891912",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "c5982588063bb73ebde7cd2f",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Bendigo",
       "source_id": "greater-bendigo-applynow",
@@ -7288,8 +7288,8 @@
       "title": "Events Administration Officer",
       "url": "https://city-of-bendigo.applynow.net.au/jobs/6460626-events-administration-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -7480,7 +7480,7 @@
       "evidence": {
         "band_text": "Band 7",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3151/2937/Senior-Injury---Wellbeing-Advisor-1206-PD.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194511Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4a065aa4f5e275f954e9a0d96737d6ba73e410016b82cf76a9a8242ca92adf8e"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3151/2937/Senior-Injury---Wellbeing-Advisor-1206-PD.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195110Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=13eef8fc7f063aedd10406e35e4e434bd71725084e3fa18237053533ee001a0d"
         ],
         "salary_text": "$106,343"
       },
@@ -7493,9 +7493,9 @@
         "title": "detail_html"
       },
       "job_id": "ab9637fe842160773390",
-      "observation_id": "9f0139052e32418d01577734",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "03f2de8b01743e1969610330",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Bendigo",
       "source_id": "greater-bendigo-applynow",
@@ -7505,8 +7505,8 @@
       "title": "Senior Injury and Wellbeing Advisor",
       "url": "https://city-of-bendigo.applynow.net.au/jobs/12060626-senior-injury-and-wellbeing-advisor",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -7570,9 +7570,9 @@
         "title": "detail_html"
       },
       "job_id": "f9030f337c4afca7298b",
-      "observation_id": "434832517bb45cc6ce6e187f",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "7b0d038c6ad2cc6995423ef1",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Dandenong",
       "source_id": "greater-dandenong-native-council-custom",
@@ -7582,8 +7582,8 @@
       "title": "Business Analyst Special Projects",
       "url": "https://jobs.greaterdandenong.vic.gov.au/jobs/business-analyst-special-projects",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -7929,9 +7929,9 @@
         "title": "detail_html"
       },
       "job_id": "25ce7e0711aad00314ea",
-      "observation_id": "734d34217bd4f9d59a9c53ad",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "9bda507f6d01ec8d381ad462",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Dandenong",
       "source_id": "greater-dandenong-native-council-custom",
@@ -7941,8 +7941,8 @@
       "title": "Immunisation Nurse Casual",
       "url": "https://jobs.greaterdandenong.vic.gov.au/jobs/immunisation-nurse-casual",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 32,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 33,
       "observed_status": "seen_latest_run"
     },
     {
@@ -7970,9 +7970,9 @@
         "title": "detail_html"
       },
       "job_id": "9eaf399388f19378f4c3",
-      "observation_id": "b582e6610795aafc4184e211",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "63b83e299b0a2d6f405baf9b",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Dandenong",
       "source_id": "greater-dandenong-native-council-custom",
@@ -7982,8 +7982,8 @@
       "title": "Integration Specialist Core Systems Replacement Csr",
       "url": "https://jobs.greaterdandenong.vic.gov.au/jobs/integration-specialist-core-systems-replacement-csr",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8045,9 +8045,9 @@
         "title": "detail_html"
       },
       "job_id": "094fc29337b86f02881e",
-      "observation_id": "a1074e8dad6ef9fd480727f0",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "79905a5d87d4d31457ef5562",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Dandenong",
       "source_id": "greater-dandenong-native-council-custom",
@@ -8057,8 +8057,8 @@
       "title": "Maternal and Child Health Nurse X 5",
       "url": "https://jobs.greaterdandenong.vic.gov.au/jobs/maternal-and-child-health-nurse-x-5",
       "first_seen_at": "2026-05-28T07:07:46Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 36,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 37,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8086,9 +8086,9 @@
         "title": "detail_html"
       },
       "job_id": "d6aded4c9285524e2b0a",
-      "observation_id": "f0f9bac2597ced095dec3d44",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "de977d175e4820dc0d29a4b1",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Dandenong",
       "source_id": "greater-dandenong-native-council-custom",
@@ -8098,8 +8098,8 @@
       "title": "Plant Operator Open Space Mowing",
       "url": "https://jobs.greaterdandenong.vic.gov.au/jobs/plant-operator-open-space-mowing",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8407,9 +8407,9 @@
         "title": "detail_html"
       },
       "job_id": "66dea70fe982c471a463",
-      "observation_id": "a1b15db3c01fcca703a4d59a",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "24e2d919a80463df9bf75223",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Dandenong",
       "source_id": "greater-dandenong-native-council-custom",
@@ -8419,8 +8419,8 @@
       "title": "Technical Production and Operations Officer",
       "url": "https://jobs.greaterdandenong.vic.gov.au/jobs/technical-production-and-operations-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8760,7 +8760,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 81005.0,
@@ -8814,7 +8814,7 @@
       "evidence": {
         "band_text": "Band 4",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtGV2oF_6T1DzSj7AJr3p2cdNwBbxqWyRMrBrxTwGfYZZU29lvsgcaROZUWa8uRgnp7tmZOr714mVOgjQLxkjlFWmXW6R-T8xhcNXQs_ZjKFpfuf4x40rQFSfexd59EnB2LtjNrxdi9EdArO9aBS-WzhrX9T3hf8kV2jTJi0XHOG4~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtPpz-jkKPsccA4A-ocKAsI4AOX_-PxQyTTbIGApNhuKZ46_PYyLj5RyKZG01let2Nqsl3MAcdX7eOUYCbTjJ2JygnfBJiM-wkhIbAB4FDurGLnQKdP2_-bAPpNO-oAs5zgomJDIc_8PDANy0yYNql35Q2x_ZEl6bqNzyALf67Tpo~"
         ],
         "salary_text": "$76,010.65"
       },
@@ -8827,9 +8827,9 @@
         "title": "detail_html"
       },
       "job_id": "b7d31dfad41748c42276",
-      "observation_id": "eb540cdd5286ca986d95c656",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "34b5bbdc8d703142261f8355",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -8839,8 +8839,8 @@
       "title": "Cadet Building Surveyor",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500614/cadet-building-surveyor",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8859,7 +8859,7 @@
       "evidence": {
         "band_text": "Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtFVRU43tMGE7hF4IhApqSCh5DKC8Vf6F0Ykm-4bsrbAgvjsHga5HP9hNCLkkfpO80o3-S65zbqikKO09FmzVnnAmZNcoFCpEj7ITRcG0nI6km2bC9359xdaDSfBI8DXKyCZI9iexaervubHjcBUFHliLAFaDCvZ51TF9Awia1rXQ~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtjDj_K4-PwwkkiSL4JnavUF8kbpbfDrQ0JRxleYG474iML14XnA-hN-RP2mPb8TF11_ORDeFmOEpBIN2L2ypujuhcso5Swa1KCtSBC3VYCNXHWPoeS_xGl7Sg-8hOJBU9BGDqkeqXOIHbCuBnr9BE_twkmugo0xGAI5_wdKU1nzU~"
         ],
         "salary_text": "$35.84"
       },
@@ -8872,9 +8872,9 @@
         "title": "detail_html"
       },
       "job_id": "067a6f5395e4eff8f3b3",
-      "observation_id": "2cf0053a9fea252db6cc1123",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "6f040bb32f9b8407b5d1eec2",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -8884,8 +8884,8 @@
       "title": "Carousel Operator",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500535/carousel-operator",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8940,7 +8940,7 @@
       "evidence": {
         "band_text": " Band 7",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtEsYg6jhnfqTWorni_b2KjcH6C1KdDcdS0hXf-Stgz0W4R0-Kk3dnrnCOMSjB37R496o6tbt3hXrPQkRKaUDzVuRzAU_6nt32ctiqtcuKgvdELYP9VGmxRIVqeQshbDrpXCqf8kx-msCGey-Lt-iO9j0Og4Vs0Yyo9c-ifsOoU5w~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMt10ehc4DnVBiUZ-ihPX5fLetKovhzTmDCAU5UWihWTgkxxw_QIwz06dOhRb9DqnyZBKwWsAnq1MttN1Z2EYv1o9P1jlzGIEZv7-rtfz98h6eL6qSSQhy6YxwumD3HJpqzE4AWBnGBsTvyM7G-NpVQExTbOonrClETph2-o0QhqWo~"
         ],
         "salary_text": "$109,342.91"
       },
@@ -8953,9 +8953,9 @@
         "title": "detail_html"
       },
       "job_id": "4ab88af7e125550ca25f",
-      "observation_id": "668ce228179ca2261ac013b1",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "1ca2ab8993936d72bf7fbc85",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -8965,8 +8965,8 @@
       "title": "Centre Manager Splashdown",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500621/centre-manager-splashdown",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -8985,7 +8985,7 @@
       "evidence": {
         "band_text": "Band 7",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMt24cwzPc4R6fSpgirTcGKYEVFgagWVK_vQUAqnslHubiZWtwyzq6rY1_czwTSdRX4gYEQAZ6bxg__zjNaZ7uiWuLCn9v9Pg8zIEG7t_lR-UL8FODRKiGqOH3rUh8LWDf7AF6d08r-b5lwfEMqb5VgYJL0QNKFjoySPK2UuP7lA3g~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtipfc5NpasGyq-Wu6g_wmFj0X7d7MiWRMoHJ8rSCFCnuL8vIPa_hVlx8w8iALCCrIBTVhComuuTMriDYmezUaBwYDTOIcg9DBQpXAT2YZqbDAa2RruewBVh5VBzLXDoDaimU9RwhtlEQwCFXMJfvFt3BoMVZYOwHdaMQBzmaqvnk~"
         ],
         "salary_text": "$109,342.91"
       },
@@ -8998,9 +8998,9 @@
         "title": "detail_html"
       },
       "job_id": "12711b2dc1ab3d4bf620",
-      "observation_id": "cd5739b9a2eb955cb5627a7d",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "979bf83e4d5009c0c8ed5942",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -9010,19 +9010,19 @@
       "title": "Centre Manager – North Bellarine Aquatic Centre",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500504/centre-manager-north-bellarine-aquatic-centre",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
       "advertised_salary_max": 25.0,
       "advertised_salary_min": 15.0,
       "advertised_salary_period": "week",
-      "advertised_salary_text": "Work type: Permanent Part-Time (15 - 25hrs per week) Classification: Band 2 $33.72 per hour + super Key responsibilities include:",
+      "advertised_salary_text": "15 - 25hrs per week) Classification: Band 2 $34.73 per hour + super Key responsibilities include:",
       "band": 2,
       "classification_status": "explicit_band",
-      "closing_date": "2026-06-30",
-      "closing_text": "Applications close: 30 Jun 2026 11:55 PM AUS Eastern Standard Time Back to search results Apply now Refer a friend Whatsapp Facebook Linke",
+      "closing_date": "2026-09-30",
+      "closing_text": "Applications close: 30 Sep 2026 11:55 PM AUS Eastern Standard Time Back to search results Apply now Refer a friend Whatsapp Facebook Linke",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
       "description_excerpt": "POSITION TITLE: Community Care Worker POSITION NUMBER: 0025, 1046, 1047, 1048, 1050, 1471, 2092 DIVISION: Community Services DEPARTMENT: Community Care CLASSIFICATION: Band 2 REPORTS TO: Community Care Team Leader DIRECTLY MANAGES: N/A INTERNAL LIAISONS: Community Care staff EXTERNAL LIAISONS...",
@@ -9030,7 +9030,7 @@
       "evidence": {
         "band_text": "Band 2",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtP9JXjQ5tI2YAsdG9UMvkmeKpxg6W3UvFlQjg3REbrHx-cXjnQTPPraHrEagz2g3Xsnk4c6IoCd_PKJwp2UJOQjJq2DJGl24-uGX_c_j9MnvyqanUsiNTr3Iz0qPjmomRJj6Vy2atzbmAk5fovWbPuw~~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtLpyYzR3lN5wNZ0o23DaMEhNtiiuu385xBNWOGQaPu4H9mgLfjSh6lEjFs8SLrmoq5ftzOXlbeES6wZxKp83lBsexlLF6w1xt30Do9qNrY0NrJ7vDD5wQQQfH7M4RUqEhzEpsc3b494Zweqxkag_Z5w~~"
         ],
         "salary_text": "15 - 25"
       },
@@ -9043,9 +9043,9 @@
         "title": "detail_html"
       },
       "job_id": "6fe524049a693d70846a",
-      "observation_id": "1b371122930cabec983eb02b",
-      "observed_at": "2026-06-01T21:18:16Z",
-      "run_id": "20260601T211816Z",
+      "observation_id": "60999e44eb8fb1b5d35f40ce",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -9055,9 +9055,51 @@
       "title": "Community Care Worker",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500277/community-care-worker",
       "first_seen_at": "2026-05-27T07:02:39Z",
-      "last_seen_at": "2026-06-01T21:18:16Z",
-      "sighting_count": 33,
-      "observed_status": "not_seen_latest_run"
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 34,
+      "observed_status": "seen_latest_run"
+    },
+    {
+      "advertised_salary_max": 66631.0,
+      "advertised_salary_min": 66631.0,
+      "advertised_salary_period": "year",
+      "advertised_salary_text": "$66,631 - $66,631 a year",
+      "band": 2,
+      "classification_status": "explicit_band",
+      "closing_date": "2026-06-30",
+      "closing_text": "30 Jun 2026 11:55 PM",
+      "council_key": "GREATER GEELONG",
+      "council_name": "Greater Geelong City Council",
+      "description_excerpt": "New to you Community Care Worker Community Care Worker City of Greater Geelong 3.5 Geelong VIC $66,631 - $66,631 a year Part time Provide personal care, housework, meal prep for clients Require Certificate III in Individual Support (Aged) or equivalent Must have First Aid Level 2, driver's...",
+      "description_hash": "e827db1c2d846e1903af8f8950925d6a",
+      "description_status": "excerpt",
+      "evidence": {
+        "band_text": "Level 2",
+        "salary_text": "$66,631 - $66,631"
+      },
+      "job_id": "f8d8bac38150734fb8d3",
+      "location_text": "Geelong VIC",
+      "observed_at": "2026-05-27T07:02:39Z",
+      "run_id": "seed-20260527",
+      "short_name": "Greater Geelong",
+      "source_id": "greater-geelong-pageup",
+      "source_platform": "pageup",
+      "source_url": "https://careers.pageuppeople.com/887/cw/en/listing/",
+      "title": "Community Care Worker",
+      "url": "https://au.jora.com/job/Community-Care-Worker-47cbf831a181b319f2d29985b44c2366",
+      "first_seen_at": "2026-05-27T07:02:39Z",
+      "last_seen_at": "2026-05-27T07:02:39Z",
+      "sighting_count": 1,
+      "observed_status": "not_seen_latest_run",
+      "field_evidence": {
+        "title": "detail_html",
+        "salary": "detail_html",
+        "band": "detail_html",
+        "closing_date": "detail_html",
+        "description": "detail_html",
+        "strategy": "historical:platform:pageup"
+      },
+      "source_strategy": "historical:platform:pageup"
     },
     {
       "advertised_salary_max": 46.67,
@@ -9197,7 +9239,7 @@
       "evidence": {
         "band_text": " Band 4",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtzd_7ORG7tAdorQYkIIbH_sHWPoHxZob7z5qFtnF1lB85CMKz21BFKrBetIfFoC9KukOLDDlAmRWFcsYkUSigp-ZE6XlGeR875JlaqbRQwzGqF4hKGihslaPcJU3Dp8u33uGBvTrvxGodUekR9BsomeQQllJa1qSevmyQt63K_ng~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtSFdM476y6BHp8NLonpUKU3bSStFXMD392ksdZX1iqVwxL_Z4u0BQ0ajcMQrFUnLo5-QUj8Yw9Vjysd8i2Gc5GmK7zjswpC4Mkm7Ruh0-bc5qogcgtT3LozvdUSpyU-_psfsg-bDxGc3KsjWxGu0_5kPvAzezP_8iOuE3iqJJjC4~"
         ],
         "salary_text": "$76,010.65"
       },
@@ -9210,9 +9252,9 @@
         "title": "detail_html"
       },
       "job_id": "e32df27a4fafd513be13",
-      "observation_id": "fb5edc4c1cfec60033275994",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "859af1a43277cb1931156359",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -9222,8 +9264,8 @@
       "title": "Family Service Support Officer",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500445/family-service-support-officer",
       "first_seen_at": "2026-06-19T19:55:07Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 2,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 3,
       "observed_status": "seen_latest_run"
     },
     {
@@ -9242,7 +9284,7 @@
       "evidence": {
         "band_text": "Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtbEqFBPpCye-wypvUL7JYM0UHTELg7bylfu6kmi5UYpGQ4AemMhP_Tbfd2pfAKaHo5Gkt-Hqo3ZyWIu6iMu-HsB_HjkBr1w6VHBh60m5hANfu9_KlsTaukfpnyzHzaTdFoG0I5LMFn5sRj0SGmgyuJ5zy0p0Ao87rolHaJGP_kpI~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtFvDt4yKtgT0YbrYxdXGjAXJz2khE3pQZRLq2zPe4SxbEcMuhzc0C90f2rQJTzZxgFg0TDJl4R1NBY1nklc9KfytoffS2z9okNIHFhTmKNwIAGM9WauMoIMhs5hoL6ofATVMcfoYSP2RY-UErhwbQb0NgOKVcI2ffxCcBPPw-BUs~"
         ],
         "salary_text": "$35.84"
       },
@@ -9255,9 +9297,9 @@
         "title": "detail_html"
       },
       "job_id": "d29307741ceab794935f",
-      "observation_id": "174da48e572a2aa5be89c0d5",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "ad4167a98dc31bb9dd8fac5c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -9267,8 +9309,8 @@
       "title": "Front of House Officer (Bellarine Arts Centre) multiple casual positions",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500618/front-of-house-officer-bellarine-arts-centre-multiple-casual-positions",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -9618,7 +9660,7 @@
       "first_seen_at": "2026-05-27T07:02:39Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 39,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 81005.0,
@@ -9771,7 +9813,7 @@
       "evidence": {
         "band_text": "Band 7",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMt6T8M1-2BVcfdGg3t6RWDOKrOgifca9qk8ox-tW-PuAQuDb-hEN2YLx7gRpkMswpwgwaDWmxD-ahh0RCtyJ9IjBowq4TJQwGwZVq3tQV1wBWxVpn9QjWQd4M_Ln497KXR4xfkgFGbuHRUCt1PvWe3rE9Z0u0RksHiQL0uevDJE74~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtpMyUvJ2rlBq9Y_Yb1t_LkpODVwm2gRG-vWht4Y0JlGTTiGH61J4TNjAffOia08SVq9jaIs3M1PTCOYw2X6C1lmGmu2bXnozTTQ2bEGzhqYMU-19ElwY4gvAOeg_kF3eUuuQZCwELQOgxk5rcM2-Uj9rE8p6tc5Ua0ODH9SNtao0~"
         ],
         "salary_text": "$109,342.91"
       },
@@ -9784,9 +9826,9 @@
         "title": "detail_html"
       },
       "job_id": "d146a0aa19d102201e37",
-      "observation_id": "2bbf5762f838c3abd4a1539b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "270ef2a84c20faeddbe08660",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -9796,8 +9838,8 @@
       "title": "Senior Management Accountant",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500540/senior-management-accountant",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -9963,8 +10005,8 @@
       "advertised_salary_text": "$70,838 pa plus super Key responsibilities include: Lead a crew to undertake inspections & works,",
       "band": 3,
       "classification_status": "explicit_band",
-      "closing_date": "2026-06-21",
-      "closing_text": "Applications close: 21 Jun 2026 11:55 PM AUS Eastern Standard Time Back to search results Apply now Refer a friend Whatsapp Facebook Linke",
+      "closing_date": "2026-06-17",
+      "closing_text": "Applications close: 17 Jun 2026 11:55 PM AUS Eastern Standard Time Back to search results Apply now Refer a friend Whatsapp Facebook Linke",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
       "description_excerpt": "Position Description",
@@ -9972,7 +10014,7 @@
       "evidence": {
         "band_text": "Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtdWY0EFSg1xGqZoMj16omPtBe797jX4X0J5ZZN4qqAHP79DsuByEtTglXrgGFB-r-7t_ifseoIiFE45XqlSHubHTJV2iy4yy6UgzQlfEYICYEcBe8K8fjS0k5w957HuXCh9J7R7Hq8x1MPYsJsn_Wy7Y6ftH-ddTIs7iCyiTMlJ4~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtu1IfuVE8ymasbRXaZtXMSZJcnZN2a9stl3QVUnF-arSVbcQqoiYvfAEvz8lnIiRIoNIJn2AA-sT4KLx690_SFAIZReHYrP7NGyQ8kzgnjHNNZevf3S7pIbKG1UIuLfXOffbCRrfl2lai5kM3t4AGk9RCWU1b9tS499RI2mpafK4~"
         ],
         "salary_text": "$70,838"
       },
@@ -9984,10 +10026,10 @@
         "strategy": "platform:pageup",
         "title": "detail_html"
       },
-      "job_id": "413a538aee7e9dc6d213",
-      "observation_id": "2300e124f7b376a8d4ae0fe1",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "job_id": "da2c9ca262dfefe80c9f",
+      "observation_id": "d241ed26a90b93cc4e1bd408",
+      "observed_at": "2026-06-03T08:55:45Z",
+      "run_id": "20260603T085545Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -9995,11 +10037,11 @@
       "source_strategy": "platform:pageup",
       "source_url": "https://careers.pageuppeople.com/887/cw/en/listing/",
       "title": "Team Leader Parks Maintenance",
-      "url": "https://careers.pageuppeople.com/887/cw/en/job/500546/team-leader-parks-maintenance",
+      "url": "https://careers.pageuppeople.com/887/cw/en/job/500574/team-leader-parks-maintenance",
       "first_seen_at": "2026-06-03T08:55:45Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 5,
-      "observed_status": "seen_latest_run"
+      "last_seen_at": "2026-06-03T08:55:45Z",
+      "sighting_count": 1,
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 44.81,
@@ -10017,7 +10059,7 @@
       "evidence": {
         "band_text": "Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMt1ThCpclQ1KQaAjw4zspZt7HKEQeuymyF8wRE_tbt4K4jP81KUjNYb-4mwf02yC3x3MOubcWFq0ykiNXJAazfa1MZjGD_QU6-u6xwvpIaZqvI_N0KIcZGsyxr4a4RxXfta_vRGBpRoEugO5r2NffQ3Qy_mZtsbu_v7O0aBJD-BoY~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMt3FpsZFOgTxH-tAogOvkLC3--KHz9QyPrULuL_eXs6OFCVOtMT0KwbytTbLOwoRyAqbgNVXDa4Og4B7kexgrMGdlgcMGXIgTgS567aGESZZ_VgQUmcXOuxRS6o8E3G3fAOO-cDVA3-nfcu91NO99uLC1dvNep83utgTdpU_T4D-o~"
         ],
         "salary_text": "$44.81"
       },
@@ -10030,9 +10072,9 @@
         "title": "detail_html"
       },
       "job_id": "505f51807a286a6ef83e",
-      "observation_id": "f0943f38789995af98c72c3c",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b5179791bbe9d26642d613a2",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -10042,8 +10084,8 @@
       "title": "Technical Support Officer (casual)",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500615/technical-support-officer-casual",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -10062,7 +10104,7 @@
       "evidence": {
         "band_text": "Band 3",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtUaTvP7xiN1MKroYURCH86zv7-6Pg_PdOjSWRZVdzIYSP4HILwnZAIzO065bm_sYqgMGEDIcHtp6I0MxX3lmVImqXblxJSFZ_MDeAwXtvE1cN4vLjQDbeO7sb4vbXtW_DdnkIu5vz_LVU4D9lSvTZWJLg7Eh2CaiN706EBrZTy_c~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMt0WclwMqwmuNfXnNXKXkPGHpmbSTvHCbtlY-Cp_ObmRoJp6rzdG2NMhiKxo8jY9wfD1xhxf-ZIMJiEpeAR3wW-2qyv0MuiBErXWMH9FtY9YeOeJMaKN0wxGepC10NDHXB4LGuRfWfQHIvQHOMNg8vML3KdCOoIqKXXgu6YwJIcaQ~"
         ],
         "salary_text": "$44.81"
       },
@@ -10075,9 +10117,9 @@
         "title": "detail_html"
       },
       "job_id": "61c01a1d0fe259e62dd2",
-      "observation_id": "25e49f557a24f4a70831948b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "21f945d74e328cfef5d69278",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -10087,8 +10129,8 @@
       "title": "Visitor Services Officer",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500575/visitor-services-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -10188,7 +10230,7 @@
       "evidence": {
         "band_text": "Band 5",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtMfCZDW1-LLuAYndyAYZSE43nXSCq0r610dxrMfHzejhDcfn7xfMh0NB4SMQ6GZonGt-0gPFtOsz1vrWxg21e_edXxg_eemwtPDkTUJDOu5QSiSU7Kuy4G-ltEG_oaOayoJVdykeAx0A5oQlg51gD8HHz8M-jyF_b430AAhuqEn0~"
+          "https://secure.dc2.pageuppeople.com/apply/887/applicationForm/TransferFile.ashx?sData=UFUtVjMtwOw_Jub8eHTi6eeAEhQr1KINJ5q5gBZHlMVFuVS4CKinAjxNBJymBTCRbHLbTA144BGaMRIXRfIQAbYMD6PHFFRsbJ97zxOuVthBgBRiTv0_F_P2u55xFfQoaG87H5Porx1k9O8ZjPxli1raOG4hSo4UO-vgodNN9xciP2qtMg0~"
         ],
         "salary_text": "$83,436.03"
       },
@@ -10201,9 +10243,9 @@
         "title": "detail_html"
       },
       "job_id": "8949c7a2d1944bb0b48e",
-      "observation_id": "a653432aa394f4599f6df5f5",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "9fe261d8510909eadfb5f6aa",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Greater Geelong",
       "source_id": "greater-geelong-pageup",
@@ -10213,8 +10255,8 @@
       "title": "Youth Engagement & Connections Officer",
       "url": "https://careers.pageuppeople.com/887/cw/en/job/500620/youth-engagement-connections-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -10581,9 +10623,9 @@
         "title": "detail_html"
       },
       "job_id": "61d6b9f05d34030c146a",
-      "observation_id": "8741b7efb3b580a7b1374dec",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b3baa252623ea57cc03a124c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Hindmarsh",
       "source_id": "hindmarsh-native-council",
@@ -10593,8 +10635,8 @@
       "title": "2026 013 Plant Operator Labourer East (Jeparit)",
       "url": "https://www.hindmarsh.vic.gov.au/Council/Working-With-Us/Work-In-Council/2026-013-Plant-Operator-Labourer-East-Jeparit",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -11168,9 +11210,9 @@
       },
       "job_id": "83a985a1fa283dd46bca",
       "location_text": "Beechworth - The Pines Offices (2 Kurrajong Way, Beechworth)",
-      "observation_id": "5eab76a49ea8ba1a4c6f45ab",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "8665b1f7123eafcbc212c15c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Indigo",
       "source_id": "indigo-pulse",
@@ -11181,8 +11223,8 @@
       "url": "https://indigo.pulsesoftware.com/Pulse/job/YBwQGk/Risk-and-Safety-Advisor?source=public",
       "work_type": "Permanent Full Time",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -11823,7 +11865,7 @@
       "evidence": {
         "band_text": "Classification Band 5",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMt85xTJuP_XobGzEWQvSMEUHl_Z0NvHXY27GFGoGVw083973n57kSm0IHCdDnDUjOUg6od6EWwgQtnCpHYm-YFgzqkHuqgq8QYWu1x5yhiI9IXUr2QGqtVP6WhHPc4XyjNtFlndc4Uaz6oSxfJcybzU5bVHE1zqjZ4bUAbvZ2a0UM~"
+          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMta0YLQyNly-y7Pm97cdcxVq_nat2lJtvD7S3r3Ll-hZZw66inGCGU8jiUtjrcjX2TNTWkpxFvxCyAb1a0qURcE4wywb2VctL3t-kG9NgG5I5nbkQm_U4agk1VymyyY-jzealZEvXnIeBr3JBSEjbxxMbfuZ6rPbi2p6EKSet2Lew~"
         ],
         "salary_text": "$80,377.95 to $ 93,517.76"
       },
@@ -11836,9 +11878,9 @@
         "title": "detail_html"
       },
       "job_id": "9d940432caf681e42caa",
-      "observation_id": "15d84d745b035022d70db40d",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "e61a58e6af7c0039dba4d938",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Knox",
       "source_id": "knox-pageup",
@@ -11848,8 +11890,8 @@
       "title": "Civic Events Officer",
       "url": "https://careers.pageuppeople.com/1000/cw/en/job/496475/civic-events-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -11940,7 +11982,7 @@
       "evidence": {
         "band_text": "Classification Band 4",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMtSzWPc7-02a4w90e1KKGjtLxCesa_Y_nKZR2tYBcPHXhGqmUU1uKtc3NwyR0SajS4iJIJOIpx-yB3Hppp3XenR--NLmRJBSuOtreEf5zfgPzKUXYH6LsCEjgj1v6HW2ByZmn2heE4ckAgD49AA01Clrp1JeHeelJs1yt45woqIoM~"
+          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMtbc8CV2Eo7iQrodUEuBdBbrSni5AzQpfEJX3jpbRwXqCbufDrE5V9UO4GvPlRll9pOpZ0fjL45tjYQ6VqgTHkGHEbr0ZNX4xtLQh1uqdqElYBv5162_BMSuZ_2JDSJXG6hkGpAmU7CreWVers9pGqHMUm102wNxh3ZWVNoTrt49s~"
         ],
         "salary_text": "$73,349.33 to 78,124.95"
       },
@@ -11953,9 +11995,9 @@
         "title": "detail_html"
       },
       "job_id": "f954ebf5f67f995b6e52",
-      "observation_id": "133d277f3d64d08d519ac26f",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "9a4e082163ff044c5f1c1793",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Knox",
       "source_id": "knox-pageup",
@@ -11965,8 +12007,8 @@
       "title": "Early Childhood Educator Diploma",
       "url": "https://careers.pageuppeople.com/1000/cw/en/job/496488/early-childhood-educator-diploma",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -12028,7 +12070,7 @@
       "description_status": "document",
       "evidence": {
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMtWI6S4ga6CyUFWSJRFhqxAwDvMaAkao3jEUEv9Jg035i02gqksDSEVj-rUu60eVCKg6_UbqbAoLVIQ6TjLMICx-nX9jc8mYBmLSAStzq2dL8JMXMYvz1w_HqjGCAJz1Vvnv2YvXWdkWX2pLzjrS56AOzo3VMWRUrsLsO-Wvt9cB0~"
+          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMtZ8g6mU6qNubnoJsjgrcl3IcvNiPlqjRIrgc6GrTbLriDRJSQpuWb3dHjK5XpbIejPOQYltbI6w9pb7QuyWMfk168p2-p8XYV-GoWvhtWD1bEDs5j7tiIZ4-EirnALTemIzDYHi30k21RxV3-xlAOpvA7b737H_KiirvpfMPEbtU~"
         ],
         "salary_text": "$117,158.99- $123,934.08"
       },
@@ -12041,9 +12083,9 @@
         "title": "detail_html"
       },
       "job_id": "dc837bc5aa402cdb294a",
-      "observation_id": "a328f5a1d2d82f9788a940b4",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "84cb71f13e1b52f320ad0a3d",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Knox",
       "source_id": "knox-pageup",
@@ -12053,8 +12095,8 @@
       "title": "Maternal and Child Health Nurse",
       "url": "https://careers.pageuppeople.com/1000/cw/en/job/496471/maternal-and-child-health-nurse",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -12100,7 +12142,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 72630.73,
@@ -12289,7 +12331,7 @@
       "evidence": {
         "band_text": "Classification Band 6",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMtVYkTbklJdYv3bIwW2NIjXprn8xt5l1BXycFHi3Z9sPM9-9jXl7vl6S3XvwQOQprOPPgxASbMBTPU0qfJNfQEAkBTJkCEXY1jXGimC4NZtNA3lUMmAkd0PGbllUBxfKW_JqtUaiEUAVgAwPk8rw5PP5-M4Io2jd654650TgL5Xxw~"
+          "https://secure.dc2.pageuppeople.com/apply/1000/applicationForm/TransferFile.ashx?sData=UFUtVjMttpH1Ylu0054QgeQdQXLwhxVUKmRPIT-lDDVf3WbxXLYFTFaOg3CgWF0eFWmL8iK0RdJLzUhB5nbtCMSEOeJL7n9e2qKJJ5TVfZKrz6pFCzALfJrweHSBFr4U-1WSp1oYICpMiiBJbZnQUnKH5H6HvQGRBL4Orh2XEvxi4_a4jfQ~"
         ],
         "salary_text": "$98,353.35 to $107,416.64"
       },
@@ -12302,9 +12344,9 @@
         "title": "detail_html"
       },
       "job_id": "00378389ff29beff7fe5",
-      "observation_id": "38156d3b726c38f20cec37ad",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "060cb5912a4986543623d13c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Knox",
       "source_id": "knox-pageup",
@@ -12314,8 +12356,8 @@
       "title": "Team Leader Early Years Hub",
       "url": "https://careers.pageuppeople.com/1000/cw/en/job/496473/team-leader-early-years-hub",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -12406,7 +12448,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 139573.61,
@@ -12436,9 +12478,9 @@
       },
       "job_id": "4052f395227ab641052f",
       "location_text": "Morwell",
-      "observation_id": "03bfd825ce20077b30d0f32b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "86bede799e7a5103345e8fb6",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Latrobe",
       "source_id": "latrobe-pulse",
@@ -12449,8 +12491,8 @@
       "url": "https://latrobe.pulsesoftware.com/Pulse/job/RhV79c/Coordinator-Early-Learning-and-Care?source=public",
       "work_type": "Full Time Employee",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -12565,9 +12607,9 @@
       },
       "job_id": "ccd1d9080de5da992f55",
       "location_text": "Morwell",
-      "observation_id": "2ee558544350a8704d8dfde4",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "f410d25c7c7c8a7b40212b98",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Latrobe",
       "source_id": "latrobe-pulse",
@@ -12578,8 +12620,8 @@
       "url": "https://latrobe.pulsesoftware.com/Pulse/job/sB6KRM/Duty-Manager-Customer-Service-Officer-Qualified-Leisure-Facilities?source=public",
       "work_type": "Casual Employee",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -12698,9 +12740,9 @@
       },
       "job_id": "da3d6cfb0dab7b16b2f3",
       "location_text": "Morwell",
-      "observation_id": "2636e864982bf3ec2d0fa8e3",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "d3677fc8759da9453ef99344",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Latrobe",
       "source_id": "latrobe-pulse",
@@ -12711,8 +12753,8 @@
       "url": "https://latrobe.pulsesoftware.com/Pulse/job/3Us3n4/HIPPY-Program-Coordinator?source=public",
       "work_type": "Part Time - Temporary",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13045,9 +13087,9 @@
       },
       "job_id": "6f8d0cfb2bfbdba24a7c",
       "location_text": "Morwell Depot",
-      "observation_id": "2184352b0d78258be69c7ed7",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b0ac952ed0a71136ffe54095",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Latrobe",
       "source_id": "latrobe-pulse",
@@ -13058,8 +13100,8 @@
       "url": "https://latrobe.pulsesoftware.com/Pulse/job/v5OUAA/Sports-Turf-Maintenance-Officer?source=public",
       "work_type": "Full Time Employee",
       "first_seen_at": "2026-05-29T04:51:29Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 22,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 23,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13090,9 +13132,9 @@
       },
       "job_id": "85369d42dc29aa9d5e9e",
       "location_text": "Morwell",
-      "observation_id": "01fb7c4770d5bbb5e91a1f55",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "0ef1c5ea6a7bf2b988660830",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Latrobe",
       "source_id": "latrobe-pulse",
@@ -13103,8 +13145,8 @@
       "url": "https://latrobe.pulsesoftware.com/Pulse/job/NHvDZg/Student-Planner?source=public",
       "work_type": "Full Time - Temporary",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13135,9 +13177,9 @@
       },
       "job_id": "cfb76461850016b6955c",
       "location_text": "Traralgon Early Learning Centre",
-      "observation_id": "f795c74a5a1bd12c2a21d099",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b8b8c3a3a0dab927a99f8e6e",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Latrobe",
       "source_id": "latrobe-pulse",
@@ -13148,8 +13190,8 @@
       "url": "https://latrobe.pulsesoftware.com/Pulse/job/kNUylN/Team-Leader-Early-Learning-Care-TELC?source=public",
       "work_type": "Full Time - Temporary",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13309,9 +13351,9 @@
       },
       "job_id": "fbd1de976b74a8f61e41",
       "location_text": "Loddon Visitor Information Centre",
-      "observation_id": "7d17ae8f36d6da77bca7f6c7",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "e8c6938780f59adee2adeee2",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Loddon",
       "source_id": "loddon-pulse",
@@ -13322,8 +13364,8 @@
       "url": "https://loddon.pulsesoftware.com/Pulse/job/Oa8Yof/Visitor-Experience-Officer?source=public",
       "work_type": "Part Time",
       "first_seen_at": "2026-06-03T08:55:45Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 5,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 6,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13387,7 +13429,7 @@
       "evidence": {
         "band_text": "Classification Band 4",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3148/3205/Position-Description---Business-Support-Officer---Parks--Civil-Services-and-Resource-Recovery---2026-March.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194656Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c09958f0cb8f04b6f7daf51aa5e5eaf9b9f477d5054b5e3bb62446a162c9e998"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3148/3205/Position-Description---Business-Support-Officer---Parks--Civil-Services-and-Resource-Recovery---2026-March.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195242Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ebf26efd0a12b030b919f4fdc7de917dd2c7a5e2bfcffc88ec05639d67727f61"
         ],
         "salary_text": "$73,199 - $76,928"
       },
@@ -13400,9 +13442,9 @@
         "title": "detail_html"
       },
       "job_id": "2ee1a1fbadfebe209985",
-      "observation_id": "a4cae8a15bc389e309d34cdb",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "5089c399ffd4e418833730b2",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Macedon Ranges",
       "source_id": "macedon-ranges-applynow",
@@ -13412,8 +13454,8 @@
       "title": "Business Support Officer",
       "url": "https://macedon-ranges-ext-shire-portal.applynow.net.au/jobs/MRSC09234-business-support-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13477,7 +13519,7 @@
       "evidence": {
         "band_text": "Classification Band 8",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3154/2493/SAFER-COMMUNITIES---Position-Description-9018-LOCAL-LAWS-COORDINATOR-.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194708Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2e002181a0e5cab6148dbc8a5a8d9102910cc852b08ada779978b2d0bd4b1c59"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3154/2493/SAFER-COMMUNITIES---Position-Description-9018-LOCAL-LAWS-COORDINATOR-.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195251Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=26d4b99e1f0dda77e7b6ce08af7ede2d60ef9e8bd01de59410efcd1b94beab7e"
         ],
         "salary_text": "$126,100 - $141,218"
       },
@@ -13490,9 +13532,9 @@
         "title": "detail_html"
       },
       "job_id": "bdbf431406f4cf8922b6",
-      "observation_id": "c48eae0cdcfa0ed356f7c5ac",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "6ee514cebe274407626dfd23",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Macedon Ranges",
       "source_id": "macedon-ranges-applynow",
@@ -13502,8 +13544,8 @@
       "title": "Coordinator Local Laws",
       "url": "https://macedon-ranges-ext-shire-portal.applynow.net.au/jobs/MRSC9018-coordinator-local-laws",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -13657,7 +13699,7 @@
       "evidence": {
         "band_text": "Classification Band 5",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3148/3464/Postion-Description---various---Statutory-Planning-Officer---Statutory-Planning---2025-April.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194724Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=127d51092be791f348694913a85018d739e3b5eb5ad6a615d73299acc9ac3bfc"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3148/3464/Postion-Description---various---Statutory-Planning-Officer---Statutory-Planning---2025-April.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195306Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c8e9c1df938d9cfee603972cd7ec05c88a971b9f1672109cf2b1e846cdd5a4f3"
         ],
         "salary_text": "$79,021 - $91,021"
       },
@@ -13670,9 +13712,9 @@
         "title": "detail_html"
       },
       "job_id": "3c764b9181872eeb35e6",
-      "observation_id": "6c26be00b652b8d4a2c513b5",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "90c5bc0b8c1f215d68a76819",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Macedon Ranges",
       "source_id": "macedon-ranges-applynow",
@@ -13682,8 +13724,8 @@
       "title": "Statutory Planning Officer",
       "url": "https://macedon-ranges-ext-shire-portal.applynow.net.au/jobs/MRSC08086-statutory-planning-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -14322,9 +14364,9 @@
         "title": "detail_html"
       },
       "job_id": "6fb22262ae584adb404d",
-      "observation_id": "8fa47d702ef69f59b95a43f3",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "48d24ff9dd7b51bd2a612ca1",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Mansfield",
       "source_id": "mansfield-native-council",
@@ -14334,8 +14376,8 @@
       "title": "Youth and Events Officer",
       "url": "https://www.mansfield.vic.gov.au/Council/Work-With-Us/Career-Job-Opportunities/Youth-and-Events-Officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -14748,9 +14790,9 @@
         "title": "detail_html"
       },
       "job_id": "17bfcf46dcf236648c6b",
-      "observation_id": "3e3e7426ebea498a17b3ea70",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "88e77e635574e9f8a3aac501",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Melton",
       "source_id": "melton-applynow",
@@ -14760,8 +14802,8 @@
       "title": "Accounts Receivable Officer",
       "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1719-accounts-receivable-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15020,9 +15062,9 @@
         "title": "detail_html"
       },
       "job_id": "dcf1ee4cb91bebacf4ef",
-      "observation_id": "ff49c731646a4b241471a8e8",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4c72db9f63f4c196da215571",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Melton",
       "source_id": "melton-applynow",
@@ -15032,8 +15074,8 @@
       "title": "Coordinator Strategic Planning",
       "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1805-coordinator-strategic-planning",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15136,9 +15178,9 @@
         "title": "detail_html"
       },
       "job_id": "1982ab106391aec3f443",
-      "observation_id": "8586622d4ef595154700b8c9",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "455efbb26a08b1f867a92912",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Melton",
       "source_id": "melton-applynow",
@@ -15148,8 +15190,8 @@
       "title": "Immunisation Nurse",
       "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1803-immunisation-nurse",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15177,9 +15219,9 @@
         "title": "detail_html"
       },
       "job_id": "82b39fb6075d4a763405",
-      "observation_id": "59c2aacf912938348a76f519",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "8c68caf06dba2d2c3726b402",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Melton",
       "source_id": "melton-applynow",
@@ -15189,8 +15231,8 @@
       "title": "Infrastructure Planning Lead",
       "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1799-infrastructure-planning-lead",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15380,9 +15422,9 @@
         "title": "detail_html"
       },
       "job_id": "a419075671301176d7d8",
-      "observation_id": "2589a0027461b830382d74ea",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "efa503ab463e5932b28ea11c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Melton",
       "source_id": "melton-applynow",
@@ -15392,8 +15434,8 @@
       "title": "Team Leader Talent Acquisition",
       "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1804-team-leader-talent-acquisition",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15412,7 +15454,7 @@
       "evidence": {
         "band_text": "Band 5",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3153/3833/Position-Description---Adult-Information-Services-Librarian---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194617Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=da043361a05be60c65120a14389230674cbfbb1216bc5b49d8b171e763460570"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3153/3833/Position-Description---Adult-Information-Services-Librarian---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195205Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=66b523bf94dd4afb931cdde414c4fadf1c770ea15cf66419978934a0b926cc1c"
         ],
         "salary_text": "$86k - $97k"
       },
@@ -15425,9 +15467,9 @@
         "title": "detail_html"
       },
       "job_id": "a4856c9eaf0cd680df92",
-      "observation_id": "745d11095959d19609996cfb",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "1e7c765552a637584eec4b82",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -15437,8 +15479,8 @@
       "title": "Adult / Information Services Librarian (First Peoples Identified)",
       "url": "https://applynow.net.au/jobs/MER597-adult-information-services-librarian-first-peoples-identified",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15536,27 +15578,33 @@
       "advertised_salary_min": 86000.0,
       "advertised_salary_period": "year",
       "advertised_salary_text": "$86k - $97k per annum + Super Ability to transfer or take LSL (Long Service Leave) within Local Gover",
-      "classification_status": "salary_only",
+      "band": 5,
+      "classification_status": "explicit_band",
       "closing_date": "2026-07-15",
       "closing_text": "Closing Date: 15 Jul 2026 AEST Full-time permanent role (based on 35 hours per week) Fortnightly RDO Exciting change agenda and",
       "council_key": "MERRI BEK",
       "council_name": "Merri-bek City Council",
-      "description_status": "sparse",
+      "description_excerpt": "1 Date Created: 12 March 2026 Date Modified: Date Approved: 23 March 2026 Date Printed: Position number: 0180 Classification: Band 5 EA: Moreland City Council Enterprise Agreement Directorate: Community Branch: Cultural Development Unit: Library Services Reports to: Service Point Team Leaders...",
+      "description_status": "document",
       "evidence": {
+        "band_text": "Band 5",
+        "document_urls": [
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3153/4694/Position-Description---Children-s-and-Youth-Services-Librarian---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195209Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b29793f3b1c7015615b0796c1bb7274a71a48af2209ba1b8df0d16ab3c548a3a"
+        ],
         "salary_text": "$86k - $97k"
       },
       "field_evidence": {
-        "band": "detail_html",
-        "closing_date": "detail_html",
-        "description": "detail_html",
-        "salary": "detail_html",
+        "band": "pdf_or_docx",
+        "closing_date": "pdf_or_docx",
+        "description": "pdf_or_docx",
+        "salary": "pdf_or_docx",
         "strategy": "platform:native_council",
         "title": "detail_html"
       },
       "job_id": "b9cc4974bfbf426fc2c6",
-      "observation_id": "c4be5123c726d57618a93ba6",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "c9e45a925d6cd44006ff4cac",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -15566,8 +15614,8 @@
       "title": "Children's and Youth Services Librarian (First Peoples Identified)",
       "url": "https://applynow.net.au/jobs/MER598-children-s-and-youth-services-librarian-first-peoples-identified",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15586,7 +15634,7 @@
       "evidence": {
         "band_text": "Band 6",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3147/6819/Position-Description---Clinical-Assessment-Officer---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194556Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=74fc204e7362d2e188629f87fadff868b52ba89650916b558efb1a19c83cb5a0"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3147/6819/Position-Description---Clinical-Assessment-Officer---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195146Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fc43c58e4d0c99e7d8375221466e70c917ef89dc923efe71541fba6a78e8dd94"
         ],
         "salary_text": "$99 - $108k"
       },
@@ -15599,9 +15647,9 @@
         "title": "detail_html"
       },
       "job_id": "e7a08c5a6045838e878f",
-      "observation_id": "f01450a37c84044ba4a22b9c",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "ab85f6ae2ebb78a306fad308",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -15611,8 +15659,8 @@
       "title": "Clinical Assessment Officer",
       "url": "https://applynow.net.au/jobs/MER593-clinical-assessment-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15667,7 +15715,7 @@
       "evidence": {
         "band_text": "Band 6",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3147/6564/Position-Description---Community-Wellbeing-Lead---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194605Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=dde31c59ef1873235790e579dba9fb569c4ab7b0208709990073d0f560a951d7"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3147/6564/Position-Description---Community-Wellbeing-Lead---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195155Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fe432d4ebd854bd4b9e22fb59edf080f2688be1a61739acaca3a3c5a771b0cab"
         ],
         "salary_text": "$102k – $111k"
       },
@@ -15680,9 +15728,9 @@
         "title": "detail_html"
       },
       "job_id": "522dbf55a62b8eda4276",
-      "observation_id": "014ab258cfd2d3e0dea9317f",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4a35442f95f5a637f05be9c9",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -15692,8 +15740,8 @@
       "title": "Community Wellbeing Lead",
       "url": "https://applynow.net.au/jobs/MER592-community-wellbeing-lead",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15802,7 +15850,7 @@
       "evidence": {
         "band_text": "Band 7",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3153/5054/Position-Description---Human-Resources-Business-Partner---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194613Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=424aa255c9ed927681e9b3e20e504f8f457ee96f04be2c5483202847e31656b5"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3153/5054/Position-Description---Human-Resources-Business-Partner---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195201Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2d79fbd30493648ab187dcad4ed6a68e26fa7f29a8600d2c67df0f874601e70d"
         ],
         "salary_text": "$114k – 128k"
       },
@@ -15815,9 +15863,9 @@
         "title": "detail_html"
       },
       "job_id": "405025f8cdb1c97ef0bf",
-      "observation_id": "385b1029dd444b483620b30f",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "796389dada17d85f68e8af37",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -15827,8 +15875,8 @@
       "title": "Human Resources Business Partner",
       "url": "https://applynow.net.au/jobs/MER599-human-resources-business-partner",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -15962,7 +16010,7 @@
       "evidence": {
         "band_text": "Band 7",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3141/2409/Position-Description---Senior-Asset-System-Lead---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194550Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=124cae6d9a918895de0950359d9191dd0ad75f7b01a7bc46bc3e38c0d1ec8c1c"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3141/2409/Position-Description---Senior-Asset-System-Lead---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195141Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5ef8000d6dd00d07a8e23122e8d1847bd84e602cfcfd36baf6d915a37a53d570"
         ],
         "salary_text": "$114k - $128k"
       },
@@ -15975,9 +16023,9 @@
         "title": "detail_html"
       },
       "job_id": "6d003eaeba931dcfed34",
-      "observation_id": "5f631f578663d3aa0535f187",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "f495288628b4607c043b9db0",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -15987,8 +16035,8 @@
       "title": "Senior Asset System Lead",
       "url": "https://applynow.net.au/jobs/MER588-senior-asset-system-lead",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -16079,7 +16127,7 @@
       "evidence": {
         "band_text": "Band 6",
         "document_urls": [
-          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3151/7086/Position-Description---Transport-and-Development-Advice-Engineer---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260620%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260620T194601Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1e4042126dc20ff4d8404fae133b16546b1c4362c91b0f3bda6961bb6b97ec20"
+          "https://candidate-office-paperclip-production.s3.ap-southeast-1.amazonaws.com/files/attachments/3151/7086/Position-Description---Transport-and-Development-Advice-Engineer---June-2026.pdf?response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJCZ6JWCHVDSOUUWA%2F20260621%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260621T195152Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=122168c32e259d623f55f845ec5c8cbfc45f1af2e398d38a5b739ed2d5f68795"
         ],
         "salary_text": "$102k to $111k"
       },
@@ -16092,9 +16140,9 @@
         "title": "detail_html"
       },
       "job_id": "9fa879cec6775bd7ebd0",
-      "observation_id": "78340a74b5fa4043a6b202ae",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "c7ef96d905d3f5fb4188a821",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Merri-bek",
       "source_id": "merri-bek-native-council",
@@ -16104,8 +16152,8 @@
       "title": "Transport and Development Advice Engineer",
       "url": "https://applynow.net.au/jobs/MER595-transport-and-development-advice-engineer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -16526,9 +16574,9 @@
         "title": "detail_html"
       },
       "job_id": "ccac8b47c44604ae05dd",
-      "observation_id": "fc651a7fe980c5f097ec9133",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "8ad0e44c95d5c4a473613f48",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Mildura",
       "source_id": "mildura-native-council",
@@ -16538,8 +16586,8 @@
       "title": "Team Leader Opportunities – Engineering Development & Delivery",
       "url": "https://www.mildura.vic.gov.au/Jobs-Listing/Team-Leader-Opportunities-%E2%80%93-Engineering-Development-Delivery-R2756",
       "first_seen_at": "2026-06-03T08:55:45Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 5,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 6,
       "observed_status": "seen_latest_run"
     },
     {
@@ -16908,7 +16956,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "band": 4,
@@ -16935,9 +16983,9 @@
         "title": "detail_html"
       },
       "job_id": "d37b74ff57d576781fe1",
-      "observation_id": "6a75acf9e23a980b20feb384",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "d8f811a27e69445a280f1f1b",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Moira",
       "source_id": "moira-elmo-talent",
@@ -16947,8 +16995,8 @@
       "title": "Multi Plant Operator - Waste",
       "url": "https://moira.elmotalent.com.au/careers/Moira/job/view/307",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -16995,7 +17043,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 87346.0,
@@ -17261,7 +17309,7 @@
       "first_seen_at": "2026-05-29T04:51:29Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 32,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 73465.0,
@@ -17360,7 +17408,7 @@
       "evidence": {
         "band_text": " Band 5",
         "document_urls": [
-          "https://secure.dc2.pageuppeople.com/apply/904/applicationForm/TransferFile.ashx?sData=UFUtVjMt22Sa7aUe8H-xaKPmzewK74i-ADPpweYj_vLbtl3ZF5U_fHHqmWTcyk3xNJahTIEUEQwG1u_rf_WKvwYmQ9LvnDtvv4GiXYy3clQ1xvnIQW4MiTnqFLwkdlrtbuKcXeFi0kJilmzWulwzMq0pmazHRun24_QA2jlhwgzMt_VCfco~"
+          "https://secure.dc2.pageuppeople.com/apply/904/applicationForm/TransferFile.ashx?sData=UFUtVjMth32VPYnCWpiMregufIC8oajEFcrbVY4-pUZOz-OmyeFvBS-LqP9W7gek6sFqTxl0lz1DUDoP4SKaQ22s7UfjKi8wDlF0FRaLZzmxAyjcuY0f8fkWyt49n_H39MeUlYhoY5YNHkNW-Yl_qRzMGwt_KQq0XJ1oamqaUhIvKHq6BEw~"
         ],
         "salary_text": "$81,501"
       },
@@ -17373,9 +17421,9 @@
         "title": "detail_html"
       },
       "job_id": "4e40fe6de2812a78ea19",
-      "observation_id": "8c7f4c8631e1f900b6cc6c63",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "7adaff69a753df0090659938",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Monash",
       "source_id": "monash-pageup",
@@ -17385,8 +17433,8 @@
       "title": "Exhibitions Operations Coordinator",
       "url": "https://careers.pageuppeople.com/904/cw/en/job/496105/exhibitions-operations-coordinator",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -17432,7 +17480,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 73465.0,
@@ -17522,7 +17570,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 69684.0,
@@ -17603,7 +17651,7 @@
       "first_seen_at": "2026-05-29T04:51:29Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 32,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 165000.0,
@@ -17826,7 +17874,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 81501.0,
@@ -18437,9 +18485,9 @@
         "title": "detail_html"
       },
       "job_id": "16ea3663aba6b1dbc902",
-      "observation_id": "087e4c92ecf186772b44dcf7",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "71ef9491123defff061f3b6b",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Mount Alexander",
       "source_id": "mount-alexander-native-council",
@@ -18449,8 +18497,8 @@
       "title": "Direct Care Worker",
       "url": "https://www.mountalexander.vic.gov.au/Council/Work-with-us/Current-vacancies/Direct-Care-Worker",
       "first_seen_at": "2026-05-27T07:02:39Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 39,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 40,
       "observed_status": "seen_latest_run"
     },
     {
@@ -18643,9 +18691,9 @@
         "title": "detail_html"
       },
       "job_id": "2449841d5bbf7b359d82",
-      "observation_id": "8dcb076ecb41f19a4017d70b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "a69282bdd72c28212c23146d",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Mount Alexander",
       "source_id": "mount-alexander-native-council",
@@ -18655,8 +18703,8 @@
       "title": "Road Worker - Plant Operator",
       "url": "https://www.mountalexander.vic.gov.au/Council/Work-with-us/Current-vacancies/Road-Worker-Plant-Operator-8",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -18887,9 +18935,9 @@
         "title": "detail_html"
       },
       "job_id": "6d76f44fb38555f4da6e",
-      "observation_id": "cf386a5c3150880c50bb8018",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b4a9b097cdc836f6e8c66dad",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Moyne",
       "source_id": "moyne-native-council",
@@ -18899,8 +18947,8 @@
       "title": "Manager Assets and Property",
       "url": "https://www.moyne.vic.gov.au/Employment/28-2026-Manager-Assets-and-Property",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -19063,9 +19111,9 @@
         "title": "detail_html"
       },
       "job_id": "6f2936364fa2f3384237",
-      "observation_id": "0ffed876bf0d700b4739b06b",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "0c9a1051ba604e786ecd39ac",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Murrindindi",
       "source_id": "murrindindi-native-council",
@@ -19075,8 +19123,8 @@
       "title": "Administration Officer People Culture",
       "url": "https://www.murrindindi.vic.gov.au/Council/Jobs-and-Tenders/Vacant-Positions/Administration-Officer-People-Culture-June-2026",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -19789,9 +19837,9 @@
         "title": "detail_html"
       },
       "job_id": "d565f4b0010f496d5df3",
-      "observation_id": "9dad9569154ee334637f71e9",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "9c0dbe9edf9563caf9c4bf1d",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "South Gippsland",
       "source_id": "south-gippsland-applynow",
@@ -19801,8 +19849,8 @@
       "title": "Coordinator Communications and Engagement",
       "url": "https://applynow.net.au/jobs/ni/SGSC884-coordinator-communications-and-engagement",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -19953,9 +20001,9 @@
         "title": "detail_html"
       },
       "job_id": "92f85feb89add1379416",
-      "observation_id": "2af631327d4fb71625348bfa",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "d42a931cdea5a014388d1f3c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "South Gippsland",
       "source_id": "south-gippsland-applynow",
@@ -19965,8 +20013,8 @@
       "title": "Regional Partnerships Marketing Officer",
       "url": "https://applynow.net.au/jobs/ni/SGSC860-regional-partnerships-marketing-officer",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -20264,7 +20312,7 @@
       "first_seen_at": "2026-06-19T06:20:30Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 4,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 41.0,
@@ -20337,9 +20385,9 @@
         "title": "detail_html"
       },
       "job_id": "78834e7c2fde65f2fbff",
-      "observation_id": "a5a56dd8a874f7e06cb15ec9",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4e0508e8e1f482a2301f9df9",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Stonnington",
       "source_id": "stonnington-elmo-talent",
@@ -20349,8 +20397,8 @@
       "title": "Learning & Development Advisor",
       "url": "https://cos.elmotalent.com.au/careers/cosjobs/job/view/1464",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -20505,9 +20553,9 @@
         "title": "detail_html"
       },
       "job_id": "3a3df1c3992152ef9573",
-      "observation_id": "7c7c43d1259ea6c122396f97",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "b0c3dd79492d29b7be47f7f6",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Stonnington",
       "source_id": "stonnington-elmo-talent",
@@ -20517,8 +20565,8 @@
       "title": "Skilled Driver Labourer",
       "url": "https://cos.elmotalent.com.au/careers/cosjobs/job/view/1461",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -20552,9 +20600,9 @@
         "title": "detail_html"
       },
       "job_id": "54869515289beade0de9",
-      "observation_id": "8a5adf64303a68d0d0f3421a",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "6b56f97acfb2f0c4531756f7",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Stonnington",
       "source_id": "stonnington-elmo-talent",
@@ -20564,8 +20612,8 @@
       "title": "Strategic Planner",
       "url": "https://cos.elmotalent.com.au/careers/cosjobs/job/view/1462",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -20639,9 +20687,9 @@
         "title": "detail_html"
       },
       "job_id": "d0cc7d8423a834297117",
-      "observation_id": "1f89f2028252348662aa0906",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "dba1d45fd70dbec42b03af09",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Stonnington",
       "source_id": "stonnington-elmo-talent",
@@ -20651,8 +20699,8 @@
       "title": "Transport Safety Operations Officer",
       "url": "https://cos.elmotalent.com.au/careers/cosjobs/job/view/1463",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -20849,9 +20897,9 @@
         "title": "detail_html"
       },
       "job_id": "6d75f59318b62439d3ec",
-      "observation_id": "c480f5251f4b853466ada781",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4bd64ba18cc5ebc561bcd7a6",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Strathbogie",
       "source_id": "strathbogie-native-council",
@@ -20861,8 +20909,8 @@
       "title": "Maternal & Child Health Nurse",
       "url": "https://www.strathbogie.vic.gov.au/job/maternal-child-health-nurse-2",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -20894,9 +20942,9 @@
         "title": "detail_html"
       },
       "job_id": "50356eb032b4254ae82b",
-      "observation_id": "e1b152820b471af61a3611c9",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "c6142030ab4a09c46235f7f9",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Strathbogie",
       "source_id": "strathbogie-native-council",
@@ -20906,8 +20954,8 @@
       "title": "Rates & Revenue Officer",
       "url": "https://www.strathbogie.vic.gov.au/job/rates-revenue-officer-2",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -21020,9 +21068,9 @@
         "title": "detail_html"
       },
       "job_id": "312bdc3ad5c0a9db1678",
-      "observation_id": "2f4875e3826f90e417b1f3b3",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "bd596dc2a505bc1939e26f4a",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Surf Coast",
       "source_id": "surf-coast-elmo-talent",
@@ -21032,8 +21080,8 @@
       "title": "Digital Transformation Program Manager",
       "url": "https://surfcoast.elmotalent.com.au/careers/surfcoast/job/view/144",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -21106,9 +21154,9 @@
       },
       "job_id": "bf8749b4e96c69eb06c1",
       "location_text": "Swan Hill Pioneer Settlement",
-      "observation_id": "7f5b5818cae364142c8b5b45",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "5ce6f63ddd8550516a780c5c",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Swan Hill",
       "source_id": "swan-hill-pulse",
@@ -21119,8 +21167,8 @@
       "url": "https://swanhill.pulsesoftware.com/Pulse/job/40TGaC/Activation-and-Building-Maintenance-Officer?source=public",
       "work_type": "Permanent Full Time Position",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -21148,9 +21196,9 @@
         "title": "detail_html"
       },
       "job_id": "f8a5f33f118ee944c5f6",
-      "observation_id": "eec7818f6910047825ee9038",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "4e44ebbb8f957ff8fbdcbb1e",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Towong",
       "source_id": "towong-employmenthero",
@@ -21160,8 +21208,8 @@
       "title": "Customer Service Officer",
       "url": "https://employmenthero.com/jobs/position/towong-shire-council-customer-service-officer-yrm5g",
       "first_seen_at": "2026-06-19T06:20:30Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 4,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 5,
       "observed_status": "seen_latest_run"
     },
     {
@@ -21189,9 +21237,9 @@
         "title": "detail_html"
       },
       "job_id": "07c12b9dc206786ae3c6",
-      "observation_id": "ccc8fac4490bffa66926f9a5",
-      "observed_at": "2026-06-20T19:44:49Z",
-      "run_id": "20260620T194449Z",
+      "observation_id": "aeb0861f00b8c4892cb43f77",
+      "observed_at": "2026-06-21T19:50:51Z",
+      "run_id": "20260621T195051Z",
       "schema_version": "jobsight.observation.v1",
       "short_name": "Towong",
       "source_id": "towong-employmenthero",
@@ -21201,8 +21249,8 @@
       "title": "People and Safety Administrator",
       "url": "https://employmenthero.com/jobs/position/towong-shire-council-people-and-safety-administrator-1uzan",
       "first_seen_at": "2026-05-28T07:07:46Z",
-      "last_seen_at": "2026-06-20T19:44:49Z",
-      "sighting_count": 38,
+      "last_seen_at": "2026-06-21T19:50:51Z",
+      "sighting_count": 39,
       "observed_status": "seen_latest_run"
     },
     {
@@ -21604,7 +21652,7 @@
       "first_seen_at": "2026-05-29T04:51:29Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 32,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 100655.0,
@@ -21694,7 +21742,7 @@
       "first_seen_at": "2026-06-01T21:18:16Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 7,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 79121.0,
@@ -21739,7 +21787,7 @@
       "first_seen_at": "2026-05-29T04:51:29Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 32,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 115972.0,
@@ -21870,7 +21918,7 @@
       "first_seen_at": "2026-05-29T04:51:29Z",
       "last_seen_at": "2026-06-20T19:44:49Z",
       "sighting_count": 32,
-      "observed_status": "seen_latest_run"
+      "observed_status": "not_seen_latest_run"
     },
     {
       "advertised_salary_max": 135062.2,

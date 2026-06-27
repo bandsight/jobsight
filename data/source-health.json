@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-26T19:57:35Z",
+  "generated_at": "2026-06-27T19:36:25Z",
   "platforms": {
     "adlogic_martianlogic": {
-      "accepted_count": 4,
-      "band_coverage": 1.0,
-      "candidate_count": 4,
+      "accepted_count": 0,
+      "band_coverage": 0.0,
+      "candidate_count": 0,
       "chosen_strategies": {
         "platform:adlogic_martianlogic": 1
       },
       "degraded": 0,
-      "description_coverage": 1.0,
+      "description_coverage": 0.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -17,7 +17,7 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 1.0,
+      "salary_coverage": 0.0,
       "sources": 1,
       "status": "ok"
     },
@@ -143,14 +143,14 @@
     },
     "native_council": {
       "accepted_count": 30,
-      "band_coverage": 0.8667,
+      "band_coverage": 0.8333,
       "candidate_count": 31,
       "chosen_strategies": {
         "json_ld": 1,
         "platform:native_council": 31
       },
       "degraded": 0,
-      "description_coverage": 1.0,
+      "description_coverage": 0.9667,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -163,14 +163,14 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 17,
-      "band_coverage": 0.8824,
-      "candidate_count": 17,
+      "accepted_count": 15,
+      "band_coverage": 0.8667,
+      "candidate_count": 15,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.4706,
+      "description_coverage": 0.4667,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -203,9 +203,9 @@
       "status": "ok"
     },
     "pageup": {
-      "accepted_count": 18,
-      "band_coverage": 0.9444,
-      "candidate_count": 18,
+      "accepted_count": 19,
+      "band_coverage": 0.9474,
+      "candidate_count": 19,
       "chosen_strategies": {
         "platform:pageup": 4
       },
@@ -324,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260626T195735Z",
+  "run_id": "20260627T193625Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -782,8 +782,8 @@
       ]
     },
     {
-      "accepted_count": 2,
-      "candidate_count": 2,
+      "accepted_count": 1,
+      "candidate_count": 1,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "BAYSIDE",
       "council_name": "Bayside City Council",
@@ -792,31 +792,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 2,
-        "band_count": 2,
-        "candidate_count": 2,
+        "accepted_count": 1,
+        "band_count": 1,
+        "candidate_count": 1,
         "closing_count": 1,
-        "description_count": 2,
+        "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 2,
-        "score": 171
+        "salary_count": 1,
+        "score": 88
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 171,
+      "score": 88,
       "source_id": "bayside-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 2,
-          "candidate_count": 2,
+          "accepted_count": 1,
+          "candidate_count": 1,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 171,
+          "score": 88,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -1216,60 +1216,43 @@
       ]
     },
     {
-      "accepted_count": 4,
-      "candidate_count": 4,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:adlogic_martianlogic",
       "council_key": "CARDINIA",
       "council_name": "Cardinia Shire Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "Trades & Services Trades & Services Jobs",
-          "id": "87ceb5d47ea236bf",
-          "kind": "feed_or_link",
-          "url": "https://careers.cardinia.vic.gov.au/our-jobs/query/Industry/Trades+andamp%3B+Services/54251/"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "adlogic_martianlogic",
       "quality": {
-        "accepted_count": 4,
-        "band_count": 4,
-        "candidate_count": 4,
-        "closing_count": 4,
-        "description_count": 4,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 4,
-        "score": 352
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 352,
+      "score": 0,
       "source_id": "cardinia-adlogic-martianlogic",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 4,
-          "candidate_count": 4,
-          "discovered_endpoint_count": 1,
-          "message": "",
-          "rejected_count": 0,
-          "score": 352,
-          "status": "ok",
-          "strategy": "platform:adlogic_martianlogic"
-        },
-        {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 1,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
-          "strategy": "json_ld"
+          "strategy": "platform:adlogic_martianlogic"
         }
       ]
     },
@@ -1813,8 +1796,8 @@
       ]
     },
     {
-      "accepted_count": 1,
-      "candidate_count": 1,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GLEN EIRA",
       "council_name": "Glen Eira City Council",
@@ -1823,31 +1806,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
-        "candidate_count": 1,
-        "closing_count": 1,
-        "description_count": 1,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 1,
-        "score": 88
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 88,
+      "score": 0,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
-          "candidate_count": 1,
+          "accepted_count": 0,
+          "candidate_count": 0,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 88,
+          "score": 0,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -2044,17 +2027,17 @@
         "band_count": 7,
         "candidate_count": 9,
         "closing_count": 8,
-        "description_count": 0,
+        "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 9,
-        "score": 679
+        "score": 687
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 679,
+      "score": 687,
       "source_id": "greater-dandenong-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -2064,7 +2047,7 @@
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 679,
+          "score": 687,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         },
@@ -2081,8 +2064,8 @@
       ]
     },
     {
-      "accepted_count": 12,
-      "candidate_count": 12,
+      "accepted_count": 13,
+      "candidate_count": 13,
       "chosen_strategy": "platform:pageup",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
@@ -2101,7 +2084,7 @@
         },
         {
           "evidence": "Send me jobs like these We will email you new jobs that match this search. Great, we can send you jobs like this, if this is your first time signing up, please check your inbox to confirm your subscription. The email address was invalid, pl",
-          "id": "716c49f39a485369",
+          "id": "50e27c5999acb51f",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/887/cw/en/search/"
         }
@@ -2110,31 +2093,31 @@
       "fallback_used": false,
       "platform": "pageup",
       "quality": {
-        "accepted_count": 12,
-        "band_count": 12,
-        "candidate_count": 12,
-        "closing_count": 12,
-        "description_count": 12,
+        "accepted_count": 13,
+        "band_count": 13,
+        "candidate_count": 13,
+        "closing_count": 13,
+        "description_count": 13,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 12,
-        "score": 1056
+        "salary_count": 13,
+        "score": 1144
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 1056,
+      "score": 1144,
       "source_id": "greater-geelong-pageup",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 12,
-          "candidate_count": 12,
+          "accepted_count": 13,
+          "candidate_count": 13,
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 1056,
+          "score": 1144,
           "status": "ok",
           "strategy": "platform:pageup"
         },
@@ -2244,20 +2227,7 @@
       "chosen_strategy": "platform:t1cloud",
       "council_key": "HEPBURN",
       "council_name": "Hepburn Shire Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "\"/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/\"",
-          "id": "a948d4cc9c0bb0b7",
-          "kind": "inline_script",
-          "url": "https://hepburn.t1cloud.com/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/"
-        },
-        {
-          "evidence": "\"/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/Index/\"",
-          "id": "db97d3f33f7df0fd",
-          "kind": "inline_script",
-          "url": "https://hepburn.t1cloud.com/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/Index/"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "t1cloud",
@@ -2283,42 +2253,12 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 2,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
           "strategy": "platform:t1cloud"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "endpoint did not return JSON",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "skipped",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "endpoint did not return JSON",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "skipped",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 2,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
         }
       ]
     },
@@ -2519,8 +2459,8 @@
       "council_name": "Hume City Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Sunbury Resource Recovery Centre and resale shop closed 27 June 2026 The Sunbury Resource Recovery Centre and resale shop will be closed 27 June 2026 due to a planned power outage. Visit our resource recovery cent",
-          "id": "25d60e3a4a1d3417",
+          "evidence": "opens in new tab or window Skip to main content English (Australia) Select this as your preferred language Arabic Select this as your preferred language Bengali Select this as your preferred language Chinese (Simplified) Select this as your",
+          "id": "ef956654f548cb72",
           "kind": "form_action",
           "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities"
         },
@@ -3451,20 +3391,20 @@
       "platform": "native_council",
       "quality": {
         "accepted_count": 16,
-        "band_count": 15,
+        "band_count": 14,
         "candidate_count": 16,
         "closing_count": 16,
-        "description_count": 16,
+        "description_count": 15,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 16,
-        "score": 1390
+        "score": 1364
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 1390,
+      "score": 1364,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
@@ -3474,7 +3414,7 @@
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 1390,
+          "score": 1364,
           "status": "ok",
           "strategy": "platform:native_council"
         },

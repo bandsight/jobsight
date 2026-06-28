@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-27T19:36:25Z",
+  "generated_at": "2026-06-28T19:37:30Z",
   "platforms": {
     "adlogic_martianlogic": {
-      "accepted_count": 0,
-      "band_coverage": 0.0,
-      "candidate_count": 0,
+      "accepted_count": 4,
+      "band_coverage": 1.0,
+      "candidate_count": 4,
       "chosen_strategies": {
         "platform:adlogic_martianlogic": 1
       },
       "degraded": 0,
-      "description_coverage": 0.0,
+      "description_coverage": 1.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -17,7 +17,7 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.0,
+      "salary_coverage": 1.0,
       "sources": 1,
       "status": "ok"
     },
@@ -143,14 +143,14 @@
     },
     "native_council": {
       "accepted_count": 30,
-      "band_coverage": 0.8333,
+      "band_coverage": 0.8667,
       "candidate_count": 31,
       "chosen_strategies": {
         "json_ld": 1,
         "platform:native_council": 31
       },
       "degraded": 0,
-      "description_coverage": 0.9667,
+      "description_coverage": 1.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -163,14 +163,14 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 15,
-      "band_coverage": 0.8667,
-      "candidate_count": 15,
+      "accepted_count": 13,
+      "band_coverage": 0.8462,
+      "candidate_count": 13,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.4667,
+      "description_coverage": 0.4615,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -203,9 +203,9 @@
       "status": "ok"
     },
     "pageup": {
-      "accepted_count": 19,
-      "band_coverage": 0.9474,
-      "candidate_count": 19,
+      "accepted_count": 15,
+      "band_coverage": 0.9333,
+      "candidate_count": 15,
       "chosen_strategies": {
         "platform:pageup": 4
       },
@@ -284,9 +284,9 @@
       "status": "ok"
     },
     "successfactors": {
-      "accepted_count": 12,
-      "band_coverage": 0.8333,
-      "candidate_count": 12,
+      "accepted_count": 10,
+      "band_coverage": 0.9,
+      "candidate_count": 10,
       "chosen_strategies": {
         "platform:successfactors": 1
       },
@@ -299,7 +299,7 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.9167,
+      "salary_coverage": 0.9,
       "sources": 1,
       "status": "ok"
     },
@@ -324,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260627T193625Z",
+  "run_id": "20260628T193730Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -864,8 +864,8 @@
       ]
     },
     {
-      "accepted_count": 12,
-      "candidate_count": 12,
+      "accepted_count": 10,
+      "candidate_count": 10,
       "chosen_strategy": "platform:successfactors",
       "council_key": "BOROONDARA",
       "council_name": "Boroondara City Council",
@@ -893,31 +893,31 @@
       "fallback_used": false,
       "platform": "successfactors",
       "quality": {
-        "accepted_count": 12,
-        "band_count": 10,
-        "candidate_count": 12,
-        "closing_count": 9,
-        "description_count": 12,
+        "accepted_count": 10,
+        "band_count": 9,
+        "candidate_count": 10,
+        "closing_count": 7,
+        "description_count": 10,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 11,
-        "score": 993
+        "salary_count": 9,
+        "score": 835
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 993,
+      "score": 835,
       "source_id": "boroondara-successfactors",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 12,
-          "candidate_count": 12,
+          "accepted_count": 10,
+          "candidate_count": 10,
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 993,
+          "score": 835,
           "status": "ok",
           "strategy": "platform:successfactors"
         },
@@ -1063,20 +1063,7 @@
       "chosen_strategy": "platform:native_council",
       "council_key": "BULOKE",
       "council_name": "Buloke Shire Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "Search SKIP TO CONTENT TOURISM SITE MAKE A PAYMENT FACEBOOK TWITTER Home About Council Your Council Council Meetings News and Consultation Have Your Say Employment What's On In Buloke Governance Publications Rates Local Laws Australia Day A",
-          "id": "45e662b1142b23d6",
-          "kind": "form_action",
-          "url": "https://www.buloke.vic.gov.au/employment"
-        },
-        {
-          "evidence": "SITEMAP",
-          "id": "f07d41240a4fc686",
-          "kind": "feed_or_link",
-          "url": "https://www.buloke.vic.gov.au/site-map/default.aspx"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "native_council",
@@ -1102,32 +1089,12 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 2,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
           "strategy": "platform:native_council"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 2,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 3,
-          "discovered_endpoint_count": 0,
-          "message": "",
-          "rejected_count": 3,
-          "score": -135,
-          "status": "ok",
-          "strategy": "sitemap_feed"
         }
       ]
     },
@@ -1216,43 +1183,60 @@
       ]
     },
     {
-      "accepted_count": 0,
-      "candidate_count": 0,
+      "accepted_count": 4,
+      "candidate_count": 4,
       "chosen_strategy": "platform:adlogic_martianlogic",
       "council_key": "CARDINIA",
       "council_name": "Cardinia Shire Council",
-      "discovered_endpoints": [],
+      "discovered_endpoints": [
+        {
+          "evidence": "Trades & Services Trades & Services Jobs",
+          "id": "87ceb5d47ea236bf",
+          "kind": "feed_or_link",
+          "url": "https://careers.cardinia.vic.gov.au/our-jobs/query/Industry/Trades+andamp%3B+Services/54251/"
+        }
+      ],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "adlogic_martianlogic",
       "quality": {
-        "accepted_count": 0,
-        "band_count": 0,
-        "candidate_count": 0,
-        "closing_count": 0,
-        "description_count": 0,
+        "accepted_count": 4,
+        "band_count": 4,
+        "candidate_count": 4,
+        "closing_count": 4,
+        "description_count": 4,
         "duplicate_count": 0,
-        "duplicate_rate": 0,
-        "junk_rate": 0,
+        "duplicate_rate": 0.0,
+        "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 0,
-        "score": 0
+        "salary_count": 4,
+        "score": 352
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 0,
+      "score": 352,
       "source_id": "cardinia-adlogic-martianlogic",
       "status": "ok",
       "strategy_results": [
         {
+          "accepted_count": 4,
+          "candidate_count": 4,
+          "discovered_endpoint_count": 1,
+          "message": "",
+          "rejected_count": 0,
+          "score": 352,
+          "status": "ok",
+          "strategy": "platform:adlogic_martianlogic"
+        },
+        {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 0,
+          "discovered_endpoint_count": 1,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
-          "strategy": "platform:adlogic_martianlogic"
+          "strategy": "json_ld"
         }
       ]
     },
@@ -1691,43 +1675,120 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 5,
+      "accepted_count": 4,
+      "candidate_count": 4,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "FRANKSTON",
       "council_name": "Frankston City Council",
-      "discovered_endpoints": [],
+      "discovered_endpoints": [
+        {
+          "evidence": "modulepreload",
+          "id": "e6c2949cb7ffa775",
+          "kind": "feed_or_link",
+          "url": "https://careers.frankston.vic.gov.au/assets/@googlemaps--js-api-loader-e02339eb.js"
+        },
+        {
+          "evidence": "Skip to jobs search results Clear Filters Search by job title, location, department, category, etc. Search Jobs near me -Categories- -Categories- Services (4) -Employment Types- -Employment Types- Casual (1) Full Time (3) -Cities- -Cities- ",
+          "id": "11bb780e23f3da6e",
+          "kind": "form_action",
+          "url": "https://careers.frankston.vic.gov.au/jobs/search"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/blocks/job_search_form_controller-953c5072.js\"",
+          "id": "0f8b9a574c6cf4e3",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/blocks/job_search_form_controller-953c5072.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/blocks/jobs_controller-046289f4.js\"",
+          "id": "5d5ec1ae0ba12255",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/blocks/jobs_controller-046289f4.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/blocks/recruitment_event_controller-443ef7c6.js\"",
+          "id": "81e67885411fb474",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/blocks/recruitment_event_controller-443ef7c6.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/call_to_action/job_alert_field_controller-a7b55ca2.js\"",
+          "id": "117c60b626e77ef6",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/call_to_action/job_alert_field_controller-a7b55ca2.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/call_to_action/job_conditional_question_controller-3c2263fa.js\"",
+          "id": "3a90c9401be77b76",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/call_to_action/job_conditional_question_controller-3c2263fa.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/call_to_action/job_questions_controller-06c32d9e.js\"",
+          "id": "3fd585613ea60698",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/call_to_action/job_questions_controller-06c32d9e.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/jobs/filter_controller-e66637dc.js\"",
+          "id": "daf8a73c709e108c",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/jobs/filter_controller-e66637dc.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/jobs/search_controller-4c2dd4e5.js\"",
+          "id": "9cf9359fdf2d9bff",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/jobs/search_controller-4c2dd4e5.js"
+        },
+        {
+          "evidence": "\"/assets/sites/controllers/jobs/table_results_controller-ee718736.js\"",
+          "id": "1525f284b45a85e4",
+          "kind": "inline_script",
+          "url": "https://careers.frankston.vic.gov.au/assets/sites/controllers/jobs/table_results_controller-ee718736.js"
+        }
+      ],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 5,
-        "band_count": 5,
-        "candidate_count": 5,
-        "closing_count": 4,
-        "description_count": 5,
+        "accepted_count": 4,
+        "band_count": 4,
+        "candidate_count": 4,
+        "closing_count": 3,
+        "description_count": 4,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 5,
-        "score": 435
+        "salary_count": 4,
+        "score": 347
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 435,
+      "score": 347,
       "source_id": "frankston-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 5,
-          "discovered_endpoint_count": 0,
+          "accepted_count": 4,
+          "candidate_count": 4,
+          "discovered_endpoint_count": 11,
           "message": "",
           "rejected_count": 0,
-          "score": 435,
+          "score": 347,
           "status": "ok",
           "strategy": "platform:native_council_custom"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 11,
+          "message": "",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "ok",
+          "strategy": "json_ld"
         }
       ]
     },
@@ -1994,8 +2055,8 @@
       ]
     },
     {
-      "accepted_count": 9,
-      "candidate_count": 9,
+      "accepted_count": 8,
+      "candidate_count": 8,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GREATER DANDENONG",
       "council_name": "Greater Dandenong City Council",
@@ -2023,31 +2084,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 9,
-        "band_count": 7,
-        "candidate_count": 9,
-        "closing_count": 8,
+        "accepted_count": 8,
+        "band_count": 6,
+        "candidate_count": 8,
+        "closing_count": 7,
         "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 9,
-        "score": 687
+        "salary_count": 8,
+        "score": 607
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 687,
+      "score": 607,
       "source_id": "greater-dandenong-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 9,
-          "candidate_count": 9,
+          "accepted_count": 8,
+          "candidate_count": 8,
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 687,
+          "score": 607,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         },
@@ -2064,18 +2125,12 @@
       ]
     },
     {
-      "accepted_count": 13,
-      "candidate_count": 13,
+      "accepted_count": 9,
+      "candidate_count": 9,
       "chosen_strategy": "platform:pageup",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
       "discovered_endpoints": [
-        {
-          "evidence": "Family Service Support Officer",
-          "id": "316ce08979a424dc",
-          "kind": "feed_or_link",
-          "url": "https://careers.pageuppeople.com/887/cw/en/job/500445/family-service-support-officer"
-        },
         {
           "evidence": "Visitor Services Officer",
           "id": "28e93bdbdddc92f3",
@@ -2084,7 +2139,7 @@
         },
         {
           "evidence": "Send me jobs like these We will email you new jobs that match this search. Great, we can send you jobs like this, if this is your first time signing up, please check your inbox to confirm your subscription. The email address was invalid, pl",
-          "id": "50e27c5999acb51f",
+          "id": "4692ff92e1fecfd2",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/887/cw/en/search/"
         }
@@ -2093,31 +2148,31 @@
       "fallback_used": false,
       "platform": "pageup",
       "quality": {
-        "accepted_count": 13,
-        "band_count": 13,
-        "candidate_count": 13,
-        "closing_count": 13,
-        "description_count": 13,
+        "accepted_count": 9,
+        "band_count": 9,
+        "candidate_count": 9,
+        "closing_count": 9,
+        "description_count": 9,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 13,
-        "score": 1144
+        "salary_count": 9,
+        "score": 792
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 1144,
+      "score": 792,
       "source_id": "greater-geelong-pageup",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 13,
-          "candidate_count": 13,
-          "discovered_endpoint_count": 3,
+          "accepted_count": 9,
+          "candidate_count": 9,
+          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 1144,
+          "score": 792,
           "status": "ok",
           "strategy": "platform:pageup"
         },
@@ -2144,17 +2199,7 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "endpoint did not return JSON",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "skipped",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 3,
+          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
           "score": 0,
@@ -2227,7 +2272,20 @@
       "chosen_strategy": "platform:t1cloud",
       "council_key": "HEPBURN",
       "council_name": "Hepburn Shire Council",
-      "discovered_endpoints": [],
+      "discovered_endpoints": [
+        {
+          "evidence": "\"/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/\"",
+          "id": "a948d4cc9c0bb0b7",
+          "kind": "inline_script",
+          "url": "https://hepburn.t1cloud.com/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/"
+        },
+        {
+          "evidence": "\"/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/Index/\"",
+          "id": "db97d3f33f7df0fd",
+          "kind": "inline_script",
+          "url": "https://hepburn.t1cloud.com/T1Default/CiAnywhere/Web/HEPBURN/OrganisationManagement/JobBoardEnquiry/Index/"
+        }
+      ],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "t1cloud",
@@ -2253,12 +2311,42 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 0,
+          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
           "strategy": "platform:t1cloud"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 1,
+          "message": "endpoint did not return JSON",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "skipped",
+          "strategy": "discovered_endpoint"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 1,
+          "message": "endpoint did not return JSON",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "skipped",
+          "strategy": "discovered_endpoint"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 2,
+          "message": "",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "ok",
+          "strategy": "json_ld"
         }
       ]
     },
@@ -2350,8 +2438,8 @@
       "council_name": "Hobsons Bay City Council",
       "discovered_endpoints": [
         {
-          "evidence": "Position No Job Title Work Type Closing Date 846978 Building Inspector Permanent - Full Time 28/06/2026 847052 Team Leader Enhanced Maternal and Child Health Permanent - Full Time 02/07/2026 849141 Senior Strategic Planner Permanent - Full ",
-          "id": "f39a9dab37ed64fc",
+          "evidence": "Position No Job Title Work Type Closing Date 847052 Team Leader Enhanced Maternal and Child Health Permanent - Full Time 02/07/2026 849141 Senior Strategic Planner Permanent - Full Time 06/07/2026 849284 Reconciliation Action Plan Project O",
+          "id": "3513a6917063d66a",
           "kind": "form_action",
           "url": "https://hobsonsbay.bigredsky.com/page.php?pageID=106"
         }
@@ -2683,7 +2771,7 @@
       "discovered_endpoints": [
         {
           "evidence": "Advertised positions Come and be part of the Knox team! Check out our currently advertised positions below. Applicant Login Create Alert All Work types Permanent Full-time Permanent Part-time Temporary Full-time Temporary Part-time All Loca",
-          "id": "9aeac93ccadb8675",
+          "id": "9f181abfe57ad108",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/1000/cw/en/search/"
         }
@@ -3162,44 +3250,7 @@
       "chosen_strategy": "platform:native_council",
       "council_key": "MAROONDAH",
       "council_name": "Maroondah City Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "opens in new tab or window Skip to main content Quick Links Contact Us Email us Print this page Book hard waste English (Australia) Select this as your preferred language မြန်မာ (ဗမာ) - (Myanmar - Burmese) Select this as your preferred lang",
-          "id": "8ebd76233d128e9a",
-          "kind": "form_action",
-          "url": "https://www.maroondah.vic.gov.au/About-Council/CareersMaroondah"
-        },
-        {
-          "evidence": "Capital Funding for Community Groups",
-          "id": "9e68e2b71d021d9d",
-          "kind": "feed_or_link",
-          "url": "https://www.maroondah.vic.gov.au/Community-support-business/Funding-grants-for-the-community/Capital-Funding-for-Community-Groups"
-        },
-        {
-          "evidence": "Feedback, compliments and complaints",
-          "id": "9705dcb8e340c3cc",
-          "kind": "feed_or_link",
-          "url": "https://www.maroondah.vic.gov.au/Customer-service/Feedback-compliments-and-complaints"
-        },
-        {
-          "evidence": "Feedback, complaints and escalating an issue",
-          "id": "37be65df9d623e98",
-          "kind": "feed_or_link",
-          "url": "https://www.maroondah.vic.gov.au/Customer-service/Issues-and-requests/Feedback-complaints-and-escalating-an-issue"
-        },
-        {
-          "evidence": "Sitemap",
-          "id": "b5183c7cc149428d",
-          "kind": "feed_or_link",
-          "url": "https://www.maroondah.vic.gov.au/Site-Footer/Site-map"
-        },
-        {
-          "evidence": "\"/$B53F4CEC-7F6E-42F4-9C7E-8C87B4AC4847$/About-Council/CareersMaroondah\"",
-          "id": "4c395e0f4a601696",
-          "kind": "linked_script",
-          "url": "https://www.maroondah.vic.gov.au/$B53F4CEC-7F6E-42F4-9C7E-8C87B4AC4847$/About-Council/CareersMaroondah"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "native_council",
@@ -3225,32 +3276,12 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 6,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
           "strategy": "platform:native_council"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 6,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 18,
-          "discovered_endpoint_count": 0,
-          "message": "",
-          "rejected_count": 18,
-          "score": -810,
-          "status": "ok",
-          "strategy": "sitemap_feed"
         }
       ]
     },
@@ -3391,20 +3422,20 @@
       "platform": "native_council",
       "quality": {
         "accepted_count": 16,
-        "band_count": 14,
+        "band_count": 15,
         "candidate_count": 16,
         "closing_count": 16,
-        "description_count": 15,
+        "description_count": 16,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 16,
-        "score": 1364
+        "score": 1390
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 1364,
+      "score": 1390,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
@@ -3414,7 +3445,7 @@
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 1364,
+          "score": 1390,
           "status": "ok",
           "strategy": "platform:native_council"
         },
@@ -4329,32 +4360,7 @@
       "chosen_strategy": "platform:native_council",
       "council_key": "PORT PHILLIP",
       "council_name": "Port Phillip City Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "Rapid Response and joint patrols",
-          "id": "af4fb94fc85a5d42",
-          "kind": "feed_or_link",
-          "url": "https://www.portphillip.vic.gov.au/people-and-community/community-safety/rapid-response-and-joint-patrols/"
-        },
-        {
-          "evidence": "\"/umbraco/api/search/autocomplete\"",
-          "id": "e9c68293ba061d88",
-          "kind": "inline_script",
-          "url": "https://www.portphillip.vic.gov.au/umbraco/api/search/autocomplete"
-        },
-        {
-          "evidence": "\"/about-the-council/careers-at-the-city-of-port-phillip/\"",
-          "id": "19693920dd995f75",
-          "kind": "inline_script",
-          "url": "https://www.portphillip.vic.gov.au/about-the-council/careers-at-the-city-of-port-phillip/"
-        },
-        {
-          "evidence": "\"/umbraco/api/search/results\"",
-          "id": "85c94a95e557a981",
-          "kind": "linked_script",
-          "url": "https://www.portphillip.vic.gov.au/umbraco/api/search/results"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "native_council",
@@ -4380,22 +4386,12 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 4,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
           "strategy": "platform:native_council"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 4,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
         }
       ]
     },
@@ -5472,8 +5468,8 @@
       "council_name": "Yarra Ranges Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Temporary Closure – Lilydale Community Link Our Community Link at the Civic Centre in Lilydale will close early, at 3pm on Friday, 26 June and remain closed for minor works to the Front of House area, reopening at",
-          "id": "c4096e3daff9f7b9",
+          "evidence": "opens in new tab or window Skip to main content English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as your preferred language Chinese (Traditional) Selec",
+          "id": "b8146d5e654e2bcb",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },

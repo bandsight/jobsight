@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T19:36:44Z",
+  "generated_at": "2026-07-04T19:21:40Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 6,
@@ -150,7 +150,7 @@
         "platform:native_council": 30
       },
       "degraded": 0,
-      "description_coverage": 0.9643,
+      "description_coverage": 1.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -163,18 +163,18 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 18,
-      "band_coverage": 0.8889,
-      "candidate_count": 19,
+      "accepted_count": 17,
+      "band_coverage": 0.8824,
+      "candidate_count": 18,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.3889,
+      "description_coverage": 0.3529,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.0526,
+      "junk_rate": 0.0556,
       "ok": 6,
       "quarantined_rows": 1,
       "rejected_count": 1,
@@ -325,7 +325,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260703T193644Z",
+  "run_id": "20260704T192140Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -1054,11 +1054,11 @@
         },
         {
           "accepted_count": 1,
-          "candidate_count": 16,
+          "candidate_count": 14,
           "discovered_endpoint_count": 0,
           "message": "",
-          "rejected_count": 15,
-          "score": -599,
+          "rejected_count": 13,
+          "score": -509,
           "status": "ok",
           "strategy": "sitemap_feed"
         }
@@ -3650,17 +3650,17 @@
         "band_count": 12,
         "candidate_count": 13,
         "closing_count": 13,
-        "description_count": 12,
+        "description_count": 13,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 13,
-        "score": 1118
+        "score": 1126
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 1118,
+      "score": 1126,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
@@ -3670,7 +3670,7 @@
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 1118,
+          "score": 1126,
           "status": "ok",
           "strategy": "platform:native_council"
         },
@@ -3795,8 +3795,8 @@
       ]
     },
     {
-      "accepted_count": 1,
-      "candidate_count": 1,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "MITCHELL",
       "council_name": "Mitchell Shire Council",
@@ -3805,31 +3805,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
-        "candidate_count": 1,
-        "closing_count": 1,
-        "description_count": 1,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 1,
-        "score": 88
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 88,
+      "score": 0,
       "source_id": "mitchell-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
-          "candidate_count": 1,
+          "accepted_count": 0,
+          "candidate_count": 0,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 88,
+          "score": 0,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -4511,8 +4511,8 @@
       "council_name": "Northern Grampians Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Skip to main content Quick Links Contact Us Facebook LinkedIn YouTube Instagram English (Australia) Select this as your preferred language Chinese (Simplified) Select this as your preferred language Tagalog (Filip",
-          "id": "54ef551f6a9296d6",
+          "evidence": "opens in new tab or window NAIDOC Week 2026 NAIDOC Week is an annual recognition held across Australia during the first week of July running from Sunday to Sunday. It provides an opportunity for all Australians to learn more about First Nat",
+          "id": "33a172225b98011e",
           "kind": "form_action",
           "url": "https://www.ngshire.vic.gov.au/Careers"
         },

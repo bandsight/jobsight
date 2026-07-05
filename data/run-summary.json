@@ -1,16 +1,16 @@
 {
   "schema_version": "jobsight.run_summary.v1",
-  "generated_at": "2026-07-04T19:26:44Z",
-  "latest_run_id": "20260704T192140Z",
+  "generated_at": "2026-07-05T19:30:03Z",
+  "latest_run_id": "20260705T192512Z",
   "sources_configured": 79,
-  "current_jobs": 144,
-  "report_jobs": 676,
-  "all_jobs": 1801,
-  "observations": 10949,
-  "councils_with_current_jobs": 32,
+  "current_jobs": 134,
+  "report_jobs": 678,
+  "all_jobs": 1803,
+  "observations": 11084,
+  "councils_with_current_jobs": 31,
   "councils_with_report_jobs": 65,
   "classification_status_counts": {
-    "explicit_band": 403,
+    "explicit_band": 405,
     "salary_band_conflict": 5,
     "salary_only": 268
   },
@@ -19,7 +19,7 @@
     "applynow": 82,
     "aurion_selfservice": 5,
     "bigredsky": 9,
-    "elmo_talent": 34,
+    "elmo_talent": 36,
     "employmenthero": 3,
     "native_council": 162,
     "native_council_custom": 105,
@@ -30,18 +30,17 @@
     "successfactors": 28
   },
   "current_classification_status_counts": {
-    "explicit_band": 113,
-    "salary_band_conflict": 1,
-    "salary_only": 30
+    "explicit_band": 109,
+    "salary_only": 25
   },
   "current_source_platform_counts": {
     "adlogic_martianlogic": 6,
     "applynow": 23,
-    "elmo_talent": 14,
+    "elmo_talent": 12,
     "native_council": 28,
-    "native_council_custom": 16,
-    "pageup": 24,
-    "pulse": 26,
-    "successfactors": 7
+    "native_council_custom": 14,
+    "pageup": 23,
+    "pulse": 22,
+    "successfactors": 6
   }
 }

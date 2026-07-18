@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T19:17:42Z",
+  "generated_at": "2026-07-18T19:11:33Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 7,
@@ -163,21 +163,21 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 15,
-      "band_coverage": 0.8667,
-      "candidate_count": 15,
+      "accepted_count": 13,
+      "band_coverage": 0.8462,
+      "candidate_count": 14,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.5333,
+      "description_coverage": 0.4615,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.0,
+      "junk_rate": 0.0714,
       "ok": 6,
-      "quarantined_rows": 0,
-      "rejected_count": 0,
+      "quarantined_rows": 1,
+      "rejected_count": 1,
       "salary_coverage": 1.0,
       "sources": 6,
       "status": "ok"
@@ -325,7 +325,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260717T191742Z",
+  "run_id": "20260718T191133Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -807,7 +807,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Parking Infringement Refund Scheme Baw Baw Shire Council has launched a Parking Infringement Refund Scheme after identifying an administrative issue that has resulted in an over-collection of parking infringement ",
-          "id": "bae74591fef193b3",
+          "id": "446945ebbcd011cd",
           "kind": "form_action",
           "url": "https://www.bawbawshire.vic.gov.au/About-Council/Our-Organisation/Join-us-and-lets-grow-together"
         },
@@ -879,8 +879,8 @@
       ]
     },
     {
-      "accepted_count": 3,
-      "candidate_count": 3,
+      "accepted_count": 2,
+      "candidate_count": 2,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "BAYSIDE",
       "council_name": "Bayside City Council",
@@ -889,31 +889,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 3,
-        "band_count": 3,
-        "candidate_count": 3,
+        "accepted_count": 2,
+        "band_count": 2,
+        "candidate_count": 2,
         "closing_count": 0,
-        "description_count": 3,
+        "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 3,
-        "score": 249
+        "salary_count": 2,
+        "score": 166
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 249,
+      "score": 166,
       "source_id": "bayside-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 3,
-          "candidate_count": 3,
+          "accepted_count": 2,
+          "candidate_count": 2,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 249,
+          "score": 166,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -1792,7 +1792,7 @@
         },
         {
           "evidence": "Skip to jobs search results Clear Filters Search by job title, location, department, category, etc. Search Jobs near me -Categories- -Categories- Services (2) -Employment Types- -Employment Types- Casual (1) Full Time (1) -Cities- -Cities- ",
-          "id": "ac3ed6d919becdc7",
+          "id": "0f7a73f400a105a7",
           "kind": "form_action",
           "url": "https://careers.frankston.vic.gov.au/jobs/search"
         },
@@ -1960,7 +1960,7 @@
       ]
     },
     {
-      "accepted_count": 1,
+      "accepted_count": 0,
       "candidate_count": 1,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GLEN EIRA",
@@ -1970,31 +1970,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
+        "accepted_count": 0,
+        "band_count": 0,
         "candidate_count": 1,
         "closing_count": 0,
-        "description_count": 1,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
-        "rejected_count": 0,
-        "salary_count": 1,
-        "score": 83
+        "duplicate_rate": 0,
+        "junk_rate": 1.0,
+        "rejected_count": 1,
+        "salary_count": 0,
+        "score": -45
       },
-      "quarantined_rows": 0,
-      "rejected_count": 0,
-      "score": 83,
+      "quarantined_rows": 1,
+      "rejected_count": 1,
+      "score": -45,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
+          "accepted_count": 0,
           "candidate_count": 1,
           "discovered_endpoint_count": 0,
           "message": "",
-          "rejected_count": 0,
-          "score": 83,
+          "rejected_count": 1,
+          "score": -45,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -5633,8 +5633,8 @@
       "council_name": "Yarra Ranges Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window We're experiencing a high volume of calls We're currently experiencing higher call volumes than usual. Thank you for your patience while our team works to respond to everyone as quickly as possible. Skip to main c",
-          "id": "ceebea0da21b770d",
+          "evidence": "opens in new tab or window Skip to main content English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as your preferred language Chinese (Traditional) Selec",
+          "id": "c52b7a687c65f2f6",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },
@@ -5829,7 +5829,7 @@
     "failed": 0,
     "fallback_used": 1,
     "ok": 78,
-    "quarantined_rows": 22,
+    "quarantined_rows": 23,
     "sources": 79
   }
 }

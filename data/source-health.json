@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T19:36:08Z",
+  "generated_at": "2026-07-25T19:15:09Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 4,
@@ -163,21 +163,21 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 13,
-      "band_coverage": 0.8462,
+      "accepted_count": 12,
+      "band_coverage": 0.8333,
       "candidate_count": 13,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.6154,
+      "description_coverage": 0.5833,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.0,
+      "junk_rate": 0.0769,
       "ok": 6,
-      "quarantined_rows": 0,
-      "rejected_count": 0,
+      "quarantined_rows": 1,
+      "rejected_count": 1,
       "salary_coverage": 1.0,
       "sources": 6,
       "status": "ok"
@@ -325,7 +325,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260724T193608Z",
+  "run_id": "20260725T191509Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -897,7 +897,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window AusAlert test On Monday 27 July 2026 at 2pm AEST, a test Critical Alert will be sent to all compatible mobile devices in Australia. The alert will override 'silent' and 'do not disturb' device settings. It will ap",
-          "id": "6de9507a4341f0f9",
+          "id": "76ed68da72b5925c",
           "kind": "form_action",
           "url": "https://www.bawbawshire.vic.gov.au/About-Council/Our-Organisation/Join-us-and-lets-grow-together"
         },
@@ -1881,18 +1881,18 @@
         "accepted_count": 4,
         "band_count": 4,
         "candidate_count": 4,
-        "closing_count": 4,
+        "closing_count": 3,
         "description_count": 4,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 4,
-        "score": 352
+        "score": 347
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 352,
+      "score": 347,
       "source_id": "frankston-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -1902,7 +1902,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 352,
+          "score": 347,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -1973,7 +1973,7 @@
       ]
     },
     {
-      "accepted_count": 1,
+      "accepted_count": 0,
       "candidate_count": 1,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GLEN EIRA",
@@ -1983,31 +1983,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
+        "accepted_count": 0,
+        "band_count": 0,
         "candidate_count": 1,
         "closing_count": 0,
-        "description_count": 1,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
-        "rejected_count": 0,
-        "salary_count": 1,
-        "score": 83
+        "duplicate_rate": 0,
+        "junk_rate": 1.0,
+        "rejected_count": 1,
+        "salary_count": 0,
+        "score": -45
       },
-      "quarantined_rows": 0,
-      "rejected_count": 0,
-      "score": 83,
+      "quarantined_rows": 1,
+      "rejected_count": 1,
+      "score": -45,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
+          "accepted_count": 0,
           "candidate_count": 1,
           "discovered_endpoint_count": 0,
           "message": "",
-          "rejected_count": 0,
-          "score": 83,
+          "rejected_count": 1,
+          "score": -45,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -5770,7 +5770,7 @@
     "failed": 0,
     "fallback_used": 2,
     "ok": 77,
-    "quarantined_rows": 22,
+    "quarantined_rows": 23,
     "sources": 79
   }
 }

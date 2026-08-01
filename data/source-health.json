@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T19:41:11Z",
+  "generated_at": "2026-08-01T19:15:55Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 2,
@@ -142,9 +142,9 @@
       "status": "ok"
     },
     "native_council": {
-      "accepted_count": 28,
-      "band_coverage": 0.8571,
-      "candidate_count": 29,
+      "accepted_count": 24,
+      "band_coverage": 0.8333,
+      "candidate_count": 25,
       "chosen_strategies": {
         "json_ld": 2,
         "platform:native_council": 30
@@ -154,11 +154,11 @@
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.0345,
+      "junk_rate": 0.04,
       "ok": 32,
       "quarantined_rows": 1,
       "rejected_count": 1,
-      "salary_coverage": 0.7857,
+      "salary_coverage": 0.75,
       "sources": 32,
       "status": "ok"
     },
@@ -324,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260731T194111Z",
+  "run_id": "20260801T191555Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -1799,18 +1799,18 @@
         "accepted_count": 1,
         "band_count": 1,
         "candidate_count": 1,
-        "closing_count": 0,
+        "closing_count": 1,
         "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 1,
-        "score": 83
+        "score": 88
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 83,
+      "score": 88,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -1820,7 +1820,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 83,
+          "score": 88,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -3407,106 +3407,43 @@
       ]
     },
     {
-      "accepted_count": 4,
-      "candidate_count": 4,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:native_council",
       "council_key": "MERRI BEK",
       "council_name": "Merri-bek City Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "Give our staff a compliment",
-          "id": "be210e3a6f97fa27",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/contact/give-positive-feedback/"
-        },
-        {
-          "evidence": "Council to implement community feedback in transition to fortnightly waste collection",
-          "id": "89b9c856a1377b0a",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/news-and-publications/news/council-to-implement-community-feedback-in-transition-to-fortnightly-waste-collection/"
-        },
-        {
-          "evidence": "Coburg is here: Merri-bek City Council releases central Coburg concept for community feedback",
-          "id": "cf5b9dee176e0708",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/news-and-publications/news/coburg-is-here-merri-bek-city-council-releases-central-coburg-concept-for-community-feedback2/"
-        },
-        {
-          "evidence": "Distribution of free rapid antigen tests to end",
-          "id": "f55e88e119eb3cfb",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/news-and-publications/news/distribution-of-free-rapid-antigen-tests-to-end/"
-        },
-        {
-          "evidence": "Learn about our biggest Capital Works Program ever!",
-          "id": "b47b2d291972c4ba",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/news-and-publications/news/learn-about-our-biggest-capital-works-program-ever/"
-        },
-        {
-          "evidence": "Moving Around Merri-bek Discussion Paper launches for community feedback",
-          "id": "282f0f5e0dd7d9ad",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/news-and-publications/news/moving-around-merri-bek-discussion-paper-launches-for-community-feedback/"
-        },
-        {
-          "evidence": "Council’s Proposed Budget 2023-27 delivers on roads and footpaths, major capital works and parks and open spaces for our community",
-          "id": "3392d50f063026b7",
-          "kind": "feed_or_link",
-          "url": "https://www.merri-bek.vic.gov.au/my-council/news-and-publications/news/councils-proposed-budget-2023-27-delivers-on-roads-and-footpaths-major-capital-works-and-parks-and-open-spaces-for-our-community/"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "native_council",
       "quality": {
-        "accepted_count": 4,
-        "band_count": 4,
-        "candidate_count": 4,
-        "closing_count": 4,
-        "description_count": 4,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 4,
-        "score": 352
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 352,
+      "score": 0,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 4,
-          "candidate_count": 4,
-          "discovered_endpoint_count": 7,
-          "message": "",
-          "rejected_count": 0,
-          "score": 352,
-          "status": "ok",
-          "strategy": "platform:native_council"
-        },
-        {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 7,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
-          "strategy": "json_ld"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 26,
-          "discovered_endpoint_count": 0,
-          "message": "",
-          "rejected_count": 26,
-          "score": -1170,
-          "status": "ok",
-          "strategy": "sitemap_feed"
+          "strategy": "platform:native_council"
         }
       ]
     },

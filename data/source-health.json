@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:03:32Z",
+  "generated_at": "2026-08-08T18:44:00Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 2,
@@ -22,14 +22,14 @@
       "status": "ok"
     },
     "applynow": {
-      "accepted_count": 22,
-      "band_coverage": 0.9545,
-      "candidate_count": 22,
+      "accepted_count": 21,
+      "band_coverage": 0.9048,
+      "candidate_count": 21,
       "chosen_strategies": {
         "platform:applynow": 6
       },
       "degraded": 0,
-      "description_coverage": 0.5455,
+      "description_coverage": 0.5238,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -163,14 +163,14 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 12,
-      "band_coverage": 0.8333,
-      "candidate_count": 12,
+      "accepted_count": 11,
+      "band_coverage": 0.8182,
+      "candidate_count": 11,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.5,
+      "description_coverage": 0.3636,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -285,7 +285,7 @@
     },
     "successfactors": {
       "accepted_count": 10,
-      "band_coverage": 0.9,
+      "band_coverage": 0.1,
       "candidate_count": 10,
       "chosen_strategies": {
         "platform:successfactors": 1
@@ -324,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260807T190332Z",
+  "run_id": "20260808T184400Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -900,7 +900,7 @@
       "platform": "successfactors",
       "quality": {
         "accepted_count": 10,
-        "band_count": 9,
+        "band_count": 1,
         "candidate_count": 10,
         "closing_count": 6,
         "description_count": 10,
@@ -909,11 +909,11 @@
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 9,
-        "score": 830
+        "score": 686
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 830,
+      "score": 686,
       "source_id": "boroondara-successfactors",
       "status": "ok",
       "strategy_results": [
@@ -923,7 +923,7 @@
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 830,
+          "score": 686,
           "status": "ok",
           "strategy": "platform:successfactors"
         },
@@ -1869,8 +1869,8 @@
       ]
     },
     {
-      "accepted_count": 1,
-      "candidate_count": 1,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GLEN EIRA",
       "council_name": "Glen Eira City Council",
@@ -1879,31 +1879,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
-        "candidate_count": 1,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
         "closing_count": 0,
-        "description_count": 1,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 1,
-        "score": 83
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 83,
+      "score": 0,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
-          "candidate_count": 1,
+          "accepted_count": 0,
+          "candidate_count": 0,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 83,
+          "score": 0,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -2121,17 +2121,17 @@
         "band_count": 5,
         "candidate_count": 7,
         "closing_count": 6,
-        "description_count": 1,
+        "description_count": 0,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 7,
-        "score": 527
+        "score": 519
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 527,
+      "score": 519,
       "source_id": "greater-dandenong-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -2141,7 +2141,7 @@
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 527,
+          "score": 519,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         },
@@ -3059,20 +3059,20 @@
       "platform": "applynow",
       "quality": {
         "accepted_count": 2,
-        "band_count": 1,
+        "band_count": 0,
         "candidate_count": 2,
         "closing_count": 2,
-        "description_count": 2,
+        "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 2,
-        "score": 158
+        "score": 132
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 158,
+      "score": 132,
       "source_id": "macedon-ranges-applynow",
       "status": "ok",
       "strategy_results": [
@@ -3082,7 +3082,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 158,
+          "score": 132,
           "status": "ok",
           "strategy": "platform:applynow"
         }
@@ -4136,8 +4136,8 @@
       "council_name": "Moyne Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window IT Systems update Council is currently upgrading its internal IT systems. This may lead to delays in responding to requests for service. Our team will aim to keep delays to a minimum and we appreciate your patienc",
-          "id": "f7197f46744c33d2",
+          "evidence": "opens in new tab or window H5 Bird Flu H5 Bird Flu has been detected in Victoria and a housing requierment has been put in place for poultry flocks of 50 or more. Visit Agriculture Victoria for more information. More information Skip to mai",
+          "id": "2ec4cb56d6a6b544",
           "kind": "form_action",
           "url": "https://www.moyne.vic.gov.au/Employment"
         },
@@ -4681,8 +4681,8 @@
       ]
     },
     {
-      "accepted_count": 1,
-      "candidate_count": 1,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:applynow",
       "council_key": "SOUTH GIPPSLAND",
       "council_name": "South Gippsland Shire Council",
@@ -4691,31 +4691,31 @@
       "fallback_used": false,
       "platform": "applynow",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
-        "candidate_count": 1,
-        "closing_count": 1,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
         "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 1,
-        "score": 80
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 80,
+      "score": 0,
       "source_id": "south-gippsland-applynow",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
-          "candidate_count": 1,
+          "accepted_count": 0,
+          "candidate_count": 0,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 80,
+          "score": 0,
           "status": "ok",
           "strategy": "platform:applynow"
         }
@@ -5688,8 +5688,8 @@
       "council_name": "Yarra Ranges Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Yarra Junction Community link The temporary Yarra Junction Community Link located at the Yarra Junction Library, will be closed as of Friday 7th August and will be moving back to its home at the Upper Yarra Family",
-          "id": "aecbef6397b5f4d7",
+          "evidence": "opens in new tab or window Yarra Junction Community Link closed due to burst water main Unfortunately our Yarra Junction Community Link experienced significant water damage due to a burst water main and will be closed until further notice w",
+          "id": "43b20d8ded31f557",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },

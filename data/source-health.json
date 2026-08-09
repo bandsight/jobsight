@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:44:00Z",
+  "generated_at": "2026-08-09T18:48:26Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 2,
@@ -23,13 +23,13 @@
     },
     "applynow": {
       "accepted_count": 21,
-      "band_coverage": 0.9048,
+      "band_coverage": 0.9524,
       "candidate_count": 21,
       "chosen_strategies": {
         "platform:applynow": 6
       },
       "degraded": 0,
-      "description_coverage": 0.5238,
+      "description_coverage": 0.5714,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -102,9 +102,9 @@
       "status": "ok"
     },
     "elmo_talent": {
-      "accepted_count": 11,
-      "band_coverage": 0.5455,
-      "candidate_count": 11,
+      "accepted_count": 10,
+      "band_coverage": 0.5,
+      "candidate_count": 10,
       "chosen_strategies": {
         "platform:elmo_talent": 4
       },
@@ -170,7 +170,7 @@
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.3636,
+      "description_coverage": 0.5455,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -223,25 +223,27 @@
       "status": "ok"
     },
     "pulse": {
-      "accepted_count": 29,
-      "band_coverage": 0.3448,
-      "candidate_count": 44,
+      "accepted_count": 24,
+      "band_coverage": 0.2917,
+      "candidate_count": 39,
       "chosen_strategies": {
         "discovered_endpoint": 1,
         "platform:pulse": 8
       },
-      "degraded": 0,
+      "degraded": 1,
       "description_coverage": 1.0,
-      "drift_flags": {},
+      "drift_flags": {
+        "junk_inflation": 1
+      },
       "failed": 0,
-      "fallback_used": 0,
-      "junk_rate": 0.3409,
-      "ok": 9,
+      "fallback_used": 1,
+      "junk_rate": 0.3846,
+      "ok": 8,
       "quarantined_rows": 15,
       "rejected_count": 15,
       "salary_coverage": 1.0,
       "sources": 9,
-      "status": "ok"
+      "status": "degraded"
     },
     "recruitmenthub": {
       "accepted_count": 0,
@@ -284,9 +286,9 @@
       "status": "ok"
     },
     "successfactors": {
-      "accepted_count": 10,
-      "band_coverage": 0.1,
-      "candidate_count": 10,
+      "accepted_count": 9,
+      "band_coverage": 0.8889,
+      "candidate_count": 9,
       "chosen_strategies": {
         "platform:successfactors": 1
       },
@@ -299,7 +301,7 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.9,
+      "salary_coverage": 0.8889,
       "sources": 1,
       "status": "ok"
     },
@@ -324,9 +326,99 @@
       "status": "ok"
     }
   },
-  "run_id": "20260808T184400Z",
+  "run_id": "20260809T184826Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
+    {
+      "accepted_count": 0,
+      "candidate_count": 11,
+      "chosen_strategy": "platform:pulse",
+      "council_key": "BALLARAT",
+      "council_name": "Ballarat City Council",
+      "discovered_endpoints": [
+        {
+          "evidence": "{1} ##LOC[OK]## {1} ##LOC[OK]## ##LOC[Cancel]## {1} ##LOC[OK]## ##LOC[Cancel]## Logout",
+          "id": "e978150809096885",
+          "kind": "form_action",
+          "url": "https://ballarat.pulsesoftware.com/Pulse/jobs"
+        },
+        {
+          "evidence": "'/RCM/Jobs/Jobs?internalOnly='",
+          "id": "e10e6ea707a62269",
+          "kind": "inline_script",
+          "url": "https://ballarat.pulsesoftware.com/RCM/Jobs/Jobs?internalOnly="
+        }
+      ],
+      "drift_flags": [
+        {
+          "code": "junk_inflation",
+          "message": "junk rate 0.6364",
+          "severity": "severe"
+        }
+      ],
+      "fallback_used": true,
+      "platform": "pulse",
+      "quality": {
+        "accepted_count": 4,
+        "band_count": 3,
+        "candidate_count": 11,
+        "closing_count": 4,
+        "description_count": 4,
+        "duplicate_count": 0,
+        "duplicate_rate": 0.0,
+        "junk_rate": 0.6364,
+        "rejected_count": 7,
+        "salary_count": 4,
+        "score": 19
+      },
+      "quarantined_rows": 7,
+      "rejected_count": 7,
+      "score": 19,
+      "source_id": "ballarat-pulse",
+      "status": "degraded",
+      "strategy_results": [
+        {
+          "accepted_count": 4,
+          "candidate_count": 11,
+          "discovered_endpoint_count": 2,
+          "message": "",
+          "rejected_count": 7,
+          "score": 19,
+          "status": "ok",
+          "strategy": "platform:pulse"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 1,
+          "message": "endpoint did not return JSON",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "skipped",
+          "strategy": "discovered_endpoint"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 1,
+          "message": "HTTP 404",
+          "rejected_count": 0,
+          "score": -100,
+          "status": "failed",
+          "strategy": "discovered_endpoint"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 2,
+          "message": "",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "ok",
+          "strategy": "json_ld"
+        }
+      ]
+    },
     {
       "accepted_count": 8,
       "candidate_count": 9,
@@ -447,90 +539,6 @@
           "accepted_count": 0,
           "candidate_count": 0,
           "discovered_endpoint_count": 1,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
-        }
-      ]
-    },
-    {
-      "accepted_count": 7,
-      "candidate_count": 14,
-      "chosen_strategy": "platform:pulse",
-      "council_key": "BALLARAT",
-      "council_name": "Ballarat City Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "{1} ##LOC[OK]## {1} ##LOC[OK]## ##LOC[Cancel]## {1} ##LOC[OK]## ##LOC[Cancel]## Logout",
-          "id": "e978150809096885",
-          "kind": "form_action",
-          "url": "https://ballarat.pulsesoftware.com/Pulse/jobs"
-        },
-        {
-          "evidence": "'/RCM/Jobs/Jobs?internalOnly='",
-          "id": "e10e6ea707a62269",
-          "kind": "inline_script",
-          "url": "https://ballarat.pulsesoftware.com/RCM/Jobs/Jobs?internalOnly="
-        }
-      ],
-      "drift_flags": [],
-      "fallback_used": false,
-      "platform": "pulse",
-      "quality": {
-        "accepted_count": 7,
-        "band_count": 6,
-        "candidate_count": 14,
-        "closing_count": 7,
-        "description_count": 7,
-        "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.5,
-        "rejected_count": 7,
-        "salary_count": 7,
-        "score": 283
-      },
-      "quarantined_rows": 7,
-      "rejected_count": 7,
-      "score": 283,
-      "source_id": "ballarat-pulse",
-      "status": "ok",
-      "strategy_results": [
-        {
-          "accepted_count": 7,
-          "candidate_count": 14,
-          "discovered_endpoint_count": 2,
-          "message": "",
-          "rejected_count": 7,
-          "score": 283,
-          "status": "ok",
-          "strategy": "platform:pulse"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "endpoint did not return JSON",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "skipped",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "HTTP 404",
-          "rejected_count": 0,
-          "score": -100,
-          "status": "failed",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
           "score": 0,
@@ -870,8 +878,8 @@
       ]
     },
     {
-      "accepted_count": 10,
-      "candidate_count": 10,
+      "accepted_count": 9,
+      "candidate_count": 9,
       "chosen_strategy": "platform:successfactors",
       "council_key": "BOROONDARA",
       "council_name": "Boroondara City Council",
@@ -899,31 +907,31 @@
       "fallback_used": false,
       "platform": "successfactors",
       "quality": {
-        "accepted_count": 10,
-        "band_count": 1,
-        "candidate_count": 10,
-        "closing_count": 6,
-        "description_count": 10,
+        "accepted_count": 9,
+        "band_count": 8,
+        "candidate_count": 9,
+        "closing_count": 5,
+        "description_count": 9,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 9,
-        "score": 686
+        "salary_count": 8,
+        "score": 742
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 686,
+      "score": 742,
       "source_id": "boroondara-successfactors",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 10,
-          "candidate_count": 10,
+          "accepted_count": 9,
+          "candidate_count": 9,
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 686,
+          "score": 742,
           "status": "ok",
           "strategy": "platform:successfactors"
         },
@@ -1869,8 +1877,8 @@
       ]
     },
     {
-      "accepted_count": 0,
-      "candidate_count": 0,
+      "accepted_count": 1,
+      "candidate_count": 1,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GLEN EIRA",
       "council_name": "Glen Eira City Council",
@@ -1879,31 +1887,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 0,
-        "band_count": 0,
-        "candidate_count": 0,
+        "accepted_count": 1,
+        "band_count": 1,
+        "candidate_count": 1,
         "closing_count": 0,
-        "description_count": 0,
+        "description_count": 1,
         "duplicate_count": 0,
-        "duplicate_rate": 0,
-        "junk_rate": 0,
+        "duplicate_rate": 0.0,
+        "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 0,
-        "score": 0
+        "salary_count": 1,
+        "score": 83
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 0,
+      "score": 83,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 0,
-          "candidate_count": 0,
+          "accepted_count": 1,
+          "candidate_count": 1,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 0,
+          "score": 83,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -2094,8 +2102,8 @@
       ]
     },
     {
-      "accepted_count": 7,
-      "candidate_count": 7,
+      "accepted_count": 6,
+      "candidate_count": 6,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GREATER DANDENONG",
       "council_name": "Greater Dandenong City Council",
@@ -2117,31 +2125,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 7,
-        "band_count": 5,
-        "candidate_count": 7,
-        "closing_count": 6,
-        "description_count": 0,
+        "accepted_count": 6,
+        "band_count": 4,
+        "candidate_count": 6,
+        "closing_count": 5,
+        "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 7,
-        "score": 519
+        "salary_count": 6,
+        "score": 447
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 519,
+      "score": 447,
       "source_id": "greater-dandenong-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 7,
-          "candidate_count": 7,
+          "accepted_count": 6,
+          "candidate_count": 6,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 519,
+          "score": 447,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         },
@@ -2472,7 +2480,7 @@
       "discovered_endpoints": [
         {
           "evidence": "Position No Job Title Work Type Closing Date 844158 Sports Team Member Permanent - Full Time 11/08/2026 851762 Sports Projects Officer Permanent - Full Time 10/08/2026 852085 Facility Renewal Planner Permanent - Full Time 12/08/2026 852091 ",
-          "id": "8277bc69cfed919a",
+          "id": "c9ba1a9d8e34ddc9",
           "kind": "form_action",
           "url": "https://hobsonsbay.bigredsky.com/page.php?pageID=106"
         }
@@ -2671,8 +2679,8 @@
       ]
     },
     {
-      "accepted_count": 4,
-      "candidate_count": 6,
+      "accepted_count": 3,
+      "candidate_count": 5,
       "chosen_strategy": "platform:pulse",
       "council_key": "INDIGO",
       "council_name": "Indigo Shire Council",
@@ -2694,31 +2702,31 @@
       "fallback_used": false,
       "platform": "pulse",
       "quality": {
-        "accepted_count": 4,
+        "accepted_count": 3,
         "band_count": 0,
-        "candidate_count": 6,
-        "closing_count": 4,
-        "description_count": 4,
+        "candidate_count": 5,
+        "closing_count": 3,
+        "description_count": 3,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
-        "junk_rate": 0.3333,
+        "junk_rate": 0.4,
         "rejected_count": 2,
-        "salary_count": 4,
-        "score": 190
+        "salary_count": 3,
+        "score": 120
       },
       "quarantined_rows": 2,
       "rejected_count": 2,
-      "score": 190,
+      "score": 120,
       "source_id": "indigo-pulse",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 4,
-          "candidate_count": 6,
+          "accepted_count": 3,
+          "candidate_count": 5,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 2,
-          "score": 190,
+          "score": 120,
           "status": "ok",
           "strategy": "platform:pulse"
         },
@@ -3059,20 +3067,20 @@
       "platform": "applynow",
       "quality": {
         "accepted_count": 2,
-        "band_count": 0,
+        "band_count": 1,
         "candidate_count": 2,
         "closing_count": 2,
-        "description_count": 1,
+        "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 2,
-        "score": 132
+        "score": 158
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 132,
+      "score": 158,
       "source_id": "macedon-ranges-applynow",
       "status": "ok",
       "strategy_results": [
@@ -3082,7 +3090,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 132,
+          "score": 158,
           "status": "ok",
           "strategy": "platform:applynow"
         }
@@ -4802,8 +4810,8 @@
       ]
     },
     {
-      "accepted_count": 4,
-      "candidate_count": 4,
+      "accepted_count": 3,
+      "candidate_count": 3,
       "chosen_strategy": "platform:elmo_talent",
       "council_key": "STONNINGTON",
       "council_name": "Stonnington City Council",
@@ -4819,31 +4827,31 @@
       "fallback_used": false,
       "platform": "elmo_talent",
       "quality": {
-        "accepted_count": 4,
-        "band_count": 3,
-        "candidate_count": 4,
-        "closing_count": 4,
-        "description_count": 4,
+        "accepted_count": 3,
+        "band_count": 2,
+        "candidate_count": 3,
+        "closing_count": 3,
+        "description_count": 3,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 4,
-        "score": 334
+        "salary_count": 3,
+        "score": 246
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 334,
+      "score": 246,
       "source_id": "stonnington-elmo-talent",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 4,
-          "candidate_count": 4,
+          "accepted_count": 3,
+          "candidate_count": 3,
           "discovered_endpoint_count": 1,
           "message": "",
           "rejected_count": 0,
-          "score": 334,
+          "score": 246,
           "status": "ok",
           "strategy": "platform:elmo_talent"
         },
@@ -4997,8 +5005,8 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 6,
+      "accepted_count": 4,
+      "candidate_count": 5,
       "chosen_strategy": "platform:pulse",
       "council_key": "SWAN HILL",
       "council_name": "Swan Hill Rural City Council",
@@ -5020,31 +5028,31 @@
       "fallback_used": false,
       "platform": "pulse",
       "quality": {
-        "accepted_count": 5,
+        "accepted_count": 4,
         "band_count": 0,
-        "candidate_count": 6,
-        "closing_count": 5,
-        "description_count": 5,
+        "candidate_count": 5,
+        "closing_count": 4,
+        "description_count": 4,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
-        "junk_rate": 0.1667,
+        "junk_rate": 0.2,
         "rejected_count": 1,
-        "salary_count": 5,
-        "score": 305
+        "salary_count": 4,
+        "score": 235
       },
       "quarantined_rows": 1,
       "rejected_count": 1,
-      "score": 305,
+      "score": 235,
       "source_id": "swan-hill-pulse",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 6,
+          "accepted_count": 4,
+          "candidate_count": 5,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 1,
-          "score": 305,
+          "score": 235,
           "status": "ok",
           "strategy": "platform:pulse"
         },
@@ -5880,10 +5888,10 @@
     }
   ],
   "summary": {
-    "degraded": 0,
+    "degraded": 1,
     "failed": 0,
-    "fallback_used": 0,
-    "ok": 79,
+    "fallback_used": 1,
+    "ok": 78,
     "quarantined_rows": 17,
     "sources": 79
   }

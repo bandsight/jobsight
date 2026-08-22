@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:42:25Z",
+  "generated_at": "2026-08-22T18:36:32Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 8,
@@ -223,9 +223,9 @@
       "status": "ok"
     },
     "pulse": {
-      "accepted_count": 35,
-      "band_coverage": 0.5429,
-      "candidate_count": 49,
+      "accepted_count": 34,
+      "band_coverage": 0.5588,
+      "candidate_count": 48,
       "chosen_strategies": {
         "discovered_endpoint": 1,
         "platform:pulse": 8
@@ -235,11 +235,11 @@
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.2857,
+      "junk_rate": 0.2917,
       "ok": 9,
       "quarantined_rows": 14,
       "rejected_count": 14,
-      "salary_coverage": 0.9714,
+      "salary_coverage": 0.9706,
       "sources": 9,
       "status": "ok"
     },
@@ -324,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260821T184225Z",
+  "run_id": "20260822T183632Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -1611,8 +1611,8 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 7,
+      "accepted_count": 4,
+      "candidate_count": 6,
       "chosen_strategy": "platform:pulse",
       "council_key": "EAST GIPPSLAND",
       "council_name": "East Gippsland Shire Council",
@@ -1634,31 +1634,31 @@
       "fallback_used": false,
       "platform": "pulse",
       "quality": {
-        "accepted_count": 5,
+        "accepted_count": 4,
         "band_count": 0,
-        "candidate_count": 7,
-        "closing_count": 5,
-        "description_count": 5,
+        "candidate_count": 6,
+        "closing_count": 4,
+        "description_count": 4,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
-        "junk_rate": 0.2857,
+        "junk_rate": 0.3333,
         "rejected_count": 2,
-        "salary_count": 5,
-        "score": 260
+        "salary_count": 4,
+        "score": 190
       },
       "quarantined_rows": 2,
       "rejected_count": 2,
-      "score": 260,
+      "score": 190,
       "source_id": "east-gippsland-pulse",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 7,
+          "accepted_count": 4,
+          "candidate_count": 6,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 2,
-          "score": 260,
+          "score": 190,
           "status": "ok",
           "strategy": "platform:pulse"
         },
@@ -5561,7 +5561,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Yarra Junction Community Link has temporarily relocated to the library Visit the Yarra Junction Library English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chin",
-          "id": "0a13497a25a9c658",
+          "id": "e1a1b59a292b52ed",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },

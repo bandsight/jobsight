@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T01:34:58Z",
+  "generated_at": "2026-08-29T20:44:14Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 9,
@@ -143,14 +143,14 @@
     },
     "native_council": {
       "accepted_count": 29,
-      "band_coverage": 0.7931,
+      "band_coverage": 0.7586,
       "candidate_count": 31,
       "chosen_strategies": {
         "json_ld": 2,
         "platform:native_council": 30
       },
       "degraded": 0,
-      "description_coverage": 1.0,
+      "description_coverage": 0.9655,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -325,7 +325,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260829T013458Z",
+  "run_id": "20260829T204414Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -3467,20 +3467,20 @@
       "platform": "native_council",
       "quality": {
         "accepted_count": 6,
-        "band_count": 5,
+        "band_count": 4,
         "candidate_count": 6,
         "closing_count": 6,
-        "description_count": 6,
+        "description_count": 5,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 6,
-        "score": 510
+        "score": 484
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 510,
+      "score": 484,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
@@ -3490,7 +3490,7 @@
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 510,
+          "score": 484,
           "status": "ok",
           "strategy": "platform:native_council"
         },
@@ -5616,7 +5616,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Yarra Junction Community Link has temporarily relocated to the library Visit the Yarra Junction Library English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chin",
-          "id": "dcd796e8a74a4191",
+          "id": "197dba9c9cf58f6c",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },

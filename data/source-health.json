@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:21:27Z",
+  "generated_at": "2026-09-08T20:56:35Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 6,
@@ -102,9 +102,9 @@
       "status": "ok"
     },
     "elmo_talent": {
-      "accepted_count": 12,
-      "band_coverage": 0.5,
-      "candidate_count": 12,
+      "accepted_count": 11,
+      "band_coverage": 0.5455,
+      "candidate_count": 11,
       "chosen_strategies": {
         "platform:elmo_talent": 4
       },
@@ -163,18 +163,18 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 13,
-      "band_coverage": 0.7692,
-      "candidate_count": 14,
+      "accepted_count": 14,
+      "band_coverage": 0.7857,
+      "candidate_count": 15,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.6154,
+      "description_coverage": 0.6429,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.0714,
+      "junk_rate": 0.0667,
       "ok": 6,
       "quarantined_rows": 1,
       "rejected_count": 1,
@@ -203,18 +203,18 @@
       "status": "ok"
     },
     "pageup": {
-      "accepted_count": 25,
-      "band_coverage": 0.96,
-      "candidate_count": 27,
+      "accepted_count": 28,
+      "band_coverage": 0.9643,
+      "candidate_count": 30,
       "chosen_strategies": {
         "platform:pageup": 4
       },
       "degraded": 0,
-      "description_coverage": 0.96,
+      "description_coverage": 0.9643,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.0741,
+      "junk_rate": 0.0667,
       "ok": 4,
       "quarantined_rows": 2,
       "rejected_count": 2,
@@ -223,9 +223,9 @@
       "status": "ok"
     },
     "pulse": {
-      "accepted_count": 37,
-      "band_coverage": 0.3784,
-      "candidate_count": 52,
+      "accepted_count": 36,
+      "band_coverage": 0.3611,
+      "candidate_count": 51,
       "chosen_strategies": {
         "platform:pulse": 9
       },
@@ -234,7 +234,7 @@
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
-      "junk_rate": 0.2885,
+      "junk_rate": 0.2941,
       "ok": 9,
       "quarantined_rows": 15,
       "rejected_count": 15,
@@ -323,7 +323,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260907T212127Z",
+  "run_id": "20260908T205635Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -787,8 +787,8 @@
       ]
     },
     {
-      "accepted_count": 1,
-      "candidate_count": 1,
+      "accepted_count": 2,
+      "candidate_count": 2,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "BAYSIDE",
       "council_name": "Bayside City Council",
@@ -797,31 +797,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 1,
-        "band_count": 1,
-        "candidate_count": 1,
-        "closing_count": 1,
-        "description_count": 1,
+        "accepted_count": 2,
+        "band_count": 2,
+        "candidate_count": 2,
+        "closing_count": 2,
+        "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 1,
-        "score": 88
+        "salary_count": 2,
+        "score": 176
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 88,
+      "score": 176,
       "source_id": "bayside-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 1,
-          "candidate_count": 1,
+          "accepted_count": 2,
+          "candidate_count": 2,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 88,
+          "score": 176,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -979,8 +979,8 @@
       ]
     },
     {
-      "accepted_count": 3,
-      "candidate_count": 4,
+      "accepted_count": 2,
+      "candidate_count": 3,
       "chosen_strategy": "platform:pulse",
       "council_key": "BRIMBANK",
       "council_name": "Brimbank City Council",
@@ -1002,31 +1002,31 @@
       "fallback_used": false,
       "platform": "pulse",
       "quality": {
-        "accepted_count": 3,
-        "band_count": 3,
-        "candidate_count": 4,
-        "closing_count": 3,
-        "description_count": 3,
+        "accepted_count": 2,
+        "band_count": 2,
+        "candidate_count": 3,
+        "closing_count": 2,
+        "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
-        "junk_rate": 0.25,
+        "junk_rate": 0.3333,
         "rejected_count": 1,
-        "salary_count": 3,
-        "score": 219
+        "salary_count": 2,
+        "score": 131
       },
       "quarantined_rows": 1,
       "rejected_count": 1,
-      "score": 219,
+      "score": 131,
       "source_id": "brimbank-pulse",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 3,
-          "candidate_count": 4,
+          "accepted_count": 2,
+          "candidate_count": 3,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 1,
-          "score": 219,
+          "score": 131,
           "status": "ok",
           "strategy": "platform:pulse"
         },
@@ -1195,6 +1195,12 @@
       "council_name": "Cardinia Shire Council",
       "discovered_endpoints": [
         {
+          "evidence": "Call Centre & Customer Service Call Centre & Customer Service Jobs",
+          "id": "c24473a70bcc289b",
+          "kind": "feed_or_link",
+          "url": "https://careers.cardinia.vic.gov.au/our-jobs/query/Industry/Call+Centre+andamp%3B+Customer+Service/53930/"
+        },
+        {
           "evidence": "Community Services & Development Community Services & Development Jobs",
           "id": "11951da864397885",
           "kind": "feed_or_link",
@@ -1213,12 +1219,6 @@
           "url": "https://careers.cardinia.vic.gov.au/job-details/query/Coordinator+Governance+and+Councillor+Services/in/Australia/9800952/"
         },
         {
-          "evidence": "Call Centre & Customer Service Call Centre & Customer Service Jobs",
-          "id": "c24473a70bcc289b",
-          "kind": "feed_or_link",
-          "url": "https://careers.cardinia.vic.gov.au/our-jobs/query/Industry/Call+Centre+andamp%3B+Customer+Service/53930/"
-        },
-        {
           "evidence": "Trades & Services Trades & Services Jobs",
           "id": "87ceb5d47ea236bf",
           "kind": "feed_or_link",
@@ -1232,18 +1232,18 @@
         "accepted_count": 6,
         "band_count": 5,
         "candidate_count": 7,
-        "closing_count": 4,
+        "closing_count": 5,
         "description_count": 6,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.1429,
         "rejected_count": 1,
         "salary_count": 6,
-        "score": 455
+        "score": 460
       },
       "quarantined_rows": 1,
       "rejected_count": 1,
-      "score": 455,
+      "score": 460,
       "source_id": "cardinia-adlogic-martianlogic",
       "status": "ok",
       "strategy_results": [
@@ -1253,7 +1253,7 @@
           "discovered_endpoint_count": 5,
           "message": "",
           "rejected_count": 1,
-          "score": 455,
+          "score": 460,
           "status": "ok",
           "strategy": "platform:adlogic_martianlogic"
         },
@@ -1535,7 +1535,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Quick Links Contact Us Darebin Arts Darebin Libraries Your Say Darebin English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as y",
-          "id": "ce832ece65728e74",
+          "id": "89dc49944f290d2b",
           "kind": "form_action",
           "url": "https://www.darebin.vic.gov.au/jobs"
         },
@@ -1728,18 +1728,18 @@
         "accepted_count": 5,
         "band_count": 4,
         "candidate_count": 5,
-        "closing_count": 4,
+        "closing_count": 5,
         "description_count": 5,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 5,
-        "score": 417
+        "score": 422
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 417,
+      "score": 422,
       "source_id": "frankston-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -1749,7 +1749,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 417,
+          "score": 422,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -2044,18 +2044,18 @@
         "accepted_count": 6,
         "band_count": 4,
         "candidate_count": 7,
-        "closing_count": 5,
+        "closing_count": 6,
         "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.1429,
         "rejected_count": 1,
         "salary_count": 6,
-        "score": 402
+        "score": 407
       },
       "quarantined_rows": 1,
       "rejected_count": 1,
-      "score": 402,
+      "score": 407,
       "source_id": "greater-dandenong-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -2065,7 +2065,7 @@
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 1,
-          "score": 402,
+          "score": 407,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         },
@@ -2082,8 +2082,8 @@
       ]
     },
     {
-      "accepted_count": 11,
-      "candidate_count": 11,
+      "accepted_count": 14,
+      "candidate_count": 14,
       "chosen_strategy": "platform:pageup",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
@@ -2096,7 +2096,7 @@
         },
         {
           "evidence": "Send me jobs like these We will email you new jobs that match this search. Great, we can send you jobs like this, if this is your first time signing up, please check your inbox to confirm your subscription. The email address was invalid, pl",
-          "id": "4be9c4f840745653",
+          "id": "c7474c7edf163690",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/887/cw/en/search/"
         }
@@ -2105,31 +2105,31 @@
       "fallback_used": false,
       "platform": "pageup",
       "quality": {
-        "accepted_count": 11,
-        "band_count": 10,
-        "candidate_count": 11,
-        "closing_count": 11,
-        "description_count": 11,
+        "accepted_count": 14,
+        "band_count": 13,
+        "candidate_count": 14,
+        "closing_count": 14,
+        "description_count": 14,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 11,
-        "score": 950
+        "salary_count": 14,
+        "score": 1214
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 950,
+      "score": 1214,
       "source_id": "greater-geelong-pageup",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 11,
-          "candidate_count": 11,
+          "accepted_count": 14,
+          "candidate_count": 14,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 950,
+          "score": 1214,
           "status": "ok",
           "strategy": "platform:pageup"
         },
@@ -2396,7 +2396,7 @@
       "discovered_endpoints": [
         {
           "evidence": "Position No Job Title Work Type Closing Date 854274 Risk Advisor Permanent - Full Time 13/09/2026 854391 Senior Building Site Compliance Officer Permanent - Full Time 15/09/2026 854392 Building Site Compliance Officer Permanent - Full Time ",
-          "id": "2eb10b5825bdeb9c",
+          "id": "9f9fabed0de61312",
           "kind": "form_action",
           "url": "https://hobsonsbay.bigredsky.com/page.php?pageID=106"
         }
@@ -2505,7 +2505,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Waste collection disruptions due to protected industrial action Protected industrial action may affect waste collections scheduled for Wednesday, Thursday and Friday this week. Put your bin out as usual and if it ",
-          "id": "95c895cc9fcc213f",
+          "id": "6fa256222c56c4a4",
           "kind": "form_action",
           "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities"
         },
@@ -3204,7 +3204,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Quick Links Contact Us Email us Print this page Book hard waste English (Australia) Select this as your preferred language မြန်မာ (ဗမာ) - (Myanmar - Burmese) Select this as your preferred language 简体中文 (Chinese - ",
-          "id": "6af7580fb1ae7c39",
+          "id": "b1a20d57d35c9251",
           "kind": "form_action",
           "url": "https://www.maroondah.vic.gov.au/About-Council/CareersMaroondah"
         },
@@ -3640,8 +3640,8 @@
       ]
     },
     {
-      "accepted_count": 6,
-      "candidate_count": 6,
+      "accepted_count": 5,
+      "candidate_count": 5,
       "chosen_strategy": "platform:elmo_talent",
       "council_key": "MOIRA",
       "council_name": "Moira Shire Council",
@@ -3650,31 +3650,31 @@
       "fallback_used": false,
       "platform": "elmo_talent",
       "quality": {
-        "accepted_count": 6,
+        "accepted_count": 5,
         "band_count": 4,
-        "candidate_count": 6,
-        "closing_count": 6,
-        "description_count": 6,
+        "candidate_count": 5,
+        "closing_count": 5,
+        "description_count": 5,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 6,
-        "score": 492
+        "salary_count": 5,
+        "score": 422
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 492,
+      "score": 422,
       "source_id": "moira-elmo-talent",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 6,
-          "candidate_count": 6,
+          "accepted_count": 5,
+          "candidate_count": 5,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 492,
+          "score": 422,
           "status": "ok",
           "strategy": "platform:elmo_talent"
         }
@@ -4287,8 +4287,8 @@
       "council_name": "Northern Grampians Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Have you received your 2026/27 rates notice? Our 2026/27 financial year notices should be arriving in your postal mailboxes and email inboxes. If you have not received your notice and want to check the delivery de",
-          "id": "50296d6072f50f47",
+          "evidence": "opens in new tab or window Have Your Say | Stawell Entertainment Centre Future Planning Project Council is creating a long-term plan for the Stawell Entertainment Centre to ensure it continues to meet the needs of the community for many yea",
+          "id": "19ca51572c274668",
           "kind": "form_action",
           "url": "https://www.ngshire.vic.gov.au/Careers"
         },
@@ -4450,7 +4450,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Have your say on Avoca’s entrance sculpture Vote now for which sculpture you want to welcome people to Avoca Vote here Community Funding Program now open Apply for 2026/27 grants More information Menu Search Home ",
-          "id": "5dd6dfb6b266bf78",
+          "id": "263c23c247cb67f4",
           "kind": "form_action",
           "url": "https://www.pyrenees.vic.gov.au/About-Pyrenees-Shire-Council/Work-For-Pyrenees-Shire-Council/Employment-Opportunities-with-Pyrenees-Shire-Council"
         },
@@ -5493,8 +5493,8 @@
           "url": "https://careers.pageuppeople.com/817/cw/en/job/496909/senior-coordinator-seniors-support-services"
         },
         {
-          "evidence": "Already Applied? Update your details, view your application and progress >> Login Job search e.g. \"Administrator, Melbourne\" Refine search Work type Casual 3 Full Time - Permanent 2 Full Time - Temporary 3 Management Contract 2 Locations Me",
-          "id": "2216f194328bbf8f",
+          "evidence": "Already Applied? Update your details, view your application and progress >> Login Job search e.g. \"Administrator, Melbourne\" Refine search Work type Casual 3 Full Time - Permanent 1 Full Time - Temporary 4 Management Contract 2 Locations Me",
+          "id": "671b0433bac51ec5",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/817/cw/en/search/"
         }
@@ -5716,7 +5716,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Quick Links Contact Us Facebook LinkedIn YouTube PlanSuite POZI (Community Map) Menu Open Search Search Discover Yarriambiack Silo Art Trail Heritage Trail Discover More Trails Silo Art Trail Heritage Trail Lakes ",
-          "id": "2474108053516cbe",
+          "id": "575eb1b31cabd6cd",
           "kind": "form_action",
           "url": "https://www.yarriambiack.vic.gov.au/Engage-With-Us/Jobs"
         },

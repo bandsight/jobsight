@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:45:15Z",
+  "generated_at": "2026-09-12T20:22:55Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 6,
@@ -163,14 +163,14 @@
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 11,
-      "band_coverage": 0.7273,
-      "candidate_count": 11,
+      "accepted_count": 12,
+      "band_coverage": 0.75,
+      "candidate_count": 12,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.7273,
+      "description_coverage": 0.75,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -284,7 +284,7 @@
     },
     "successfactors": {
       "accepted_count": 11,
-      "band_coverage": 0.6364,
+      "band_coverage": 0.7273,
       "candidate_count": 11,
       "chosen_strategies": {
         "platform:successfactors": 1
@@ -323,7 +323,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260911T204515Z",
+  "run_id": "20260912T202255Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -899,7 +899,7 @@
       "platform": "successfactors",
       "quality": {
         "accepted_count": 11,
-        "band_count": 7,
+        "band_count": 8,
         "candidate_count": 11,
         "closing_count": 8,
         "description_count": 11,
@@ -908,11 +908,11 @@
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 10,
-        "score": 869
+        "score": 887
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 869,
+      "score": 887,
       "source_id": "boroondara-successfactors",
       "status": "ok",
       "strategy_results": [
@@ -922,7 +922,7 @@
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 869,
+          "score": 887,
           "status": "ok",
           "strategy": "platform:successfactors"
         },
@@ -1850,8 +1850,8 @@
       ]
     },
     {
-      "accepted_count": 0,
-      "candidate_count": 0,
+      "accepted_count": 1,
+      "candidate_count": 1,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GLEN EIRA",
       "council_name": "Glen Eira City Council",
@@ -1860,31 +1860,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 0,
-        "band_count": 0,
-        "candidate_count": 0,
-        "closing_count": 0,
-        "description_count": 0,
+        "accepted_count": 1,
+        "band_count": 1,
+        "candidate_count": 1,
+        "closing_count": 1,
+        "description_count": 1,
         "duplicate_count": 0,
-        "duplicate_rate": 0,
-        "junk_rate": 0,
+        "duplicate_rate": 0.0,
+        "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 0,
-        "score": 0
+        "salary_count": 1,
+        "score": 88
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 0,
+      "score": 88,
       "source_id": "glen-eira-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 0,
-          "candidate_count": 0,
+          "accepted_count": 1,
+          "candidate_count": 1,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 0,
+          "score": 88,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -2518,7 +2518,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Waste collection disruptions due to protected industrial action Protected industrial action may affect waste collections in Hume. Put your bin out as usual on your scheduled collection day. If your bin is not coll",
-          "id": "4aeaed31fdc4ffd1",
+          "id": "21065aa2e40ac09a",
           "kind": "form_action",
           "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities"
         },

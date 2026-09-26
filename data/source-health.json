@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:20:02Z",
+  "generated_at": "2026-09-26T20:52:21Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 2,
@@ -150,7 +150,7 @@
         "platform:native_council": 29
       },
       "degraded": 0,
-      "description_coverage": 0.9565,
+      "description_coverage": 1.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -203,14 +203,14 @@
       "status": "ok"
     },
     "pageup": {
-      "accepted_count": 23,
-      "band_coverage": 0.9565,
-      "candidate_count": 23,
+      "accepted_count": 22,
+      "band_coverage": 0.9545,
+      "candidate_count": 22,
       "chosen_strategies": {
         "platform:pageup": 4
       },
       "degraded": 0,
-      "description_coverage": 0.9565,
+      "description_coverage": 0.9545,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -323,7 +323,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20260925T212002Z",
+  "run_id": "20260926T205221Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -715,7 +715,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as your preferred language Dutch Select this as your preferred language Fre",
-          "id": "f27a404d2dd3255f",
+          "id": "44ba72ecffd5c038",
           "kind": "form_action",
           "url": "https://www.bawbawshire.vic.gov.au/About-Council/Our-Organisation/Join-us-and-lets-grow-together"
         },
@@ -2094,8 +2094,8 @@
       ]
     },
     {
-      "accepted_count": 8,
-      "candidate_count": 8,
+      "accepted_count": 7,
+      "candidate_count": 7,
       "chosen_strategy": "platform:pageup",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
@@ -2114,7 +2114,7 @@
         },
         {
           "evidence": "Send me jobs like these We will email you new jobs that match this search. Great, we can send you jobs like this, if this is your first time signing up, please check your inbox to confirm your subscription. The email address was invalid, pl",
-          "id": "ba0e85a41d8dc69f",
+          "id": "d461b405d0a35045",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/887/cw/en/search/"
         }
@@ -2123,31 +2123,31 @@
       "fallback_used": false,
       "platform": "pageup",
       "quality": {
-        "accepted_count": 8,
-        "band_count": 7,
-        "candidate_count": 8,
-        "closing_count": 8,
-        "description_count": 8,
+        "accepted_count": 7,
+        "band_count": 6,
+        "candidate_count": 7,
+        "closing_count": 7,
+        "description_count": 7,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 8,
-        "score": 686
+        "salary_count": 7,
+        "score": 598
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 686,
+      "score": 598,
       "source_id": "greater-geelong-pageup",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 8,
-          "candidate_count": 8,
+          "accepted_count": 7,
+          "candidate_count": 7,
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 686,
+          "score": 598,
           "status": "ok",
           "strategy": "platform:pageup"
         },
@@ -3471,17 +3471,17 @@
         "band_count": 4,
         "candidate_count": 6,
         "closing_count": 6,
-        "description_count": 5,
+        "description_count": 6,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 6,
-        "score": 484
+        "score": 492
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 484,
+      "score": 492,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
@@ -3491,7 +3491,7 @@
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 484,
+          "score": 492,
           "status": "ok",
           "strategy": "platform:native_council"
         },

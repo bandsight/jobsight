@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:47:08Z",
+  "generated_at": "2026-11-03T23:03:21Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 6,
@@ -122,14 +122,14 @@
       "status": "ok"
     },
     "employmenthero": {
-      "accepted_count": 6,
+      "accepted_count": 0,
       "band_coverage": 0.0,
-      "candidate_count": 6,
+      "candidate_count": 0,
       "chosen_strategies": {
         "platform:employmenthero": 1
       },
       "degraded": 0,
-      "description_coverage": 1.0,
+      "description_coverage": 0.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -137,14 +137,14 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 1.0,
+      "salary_coverage": 0.0,
       "sources": 1,
       "status": "ok"
     },
     "native_council": {
-      "accepted_count": 21,
-      "band_coverage": 0.9048,
-      "candidate_count": 21,
+      "accepted_count": 20,
+      "band_coverage": 0.95,
+      "candidate_count": 20,
       "chosen_strategies": {
         "json_ld": 3,
         "platform:native_council": 29
@@ -158,7 +158,7 @@
       "ok": 32,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.8095,
+      "salary_coverage": 0.8,
       "sources": 32,
       "status": "ok"
     },
@@ -326,7 +326,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20261103T004708Z",
+  "run_id": "20261103T230321Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -1504,8 +1504,8 @@
       "council_name": "Darebin City Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Public holiday services Some of our services are closed or have different hours on Tuesday 3 November for the Melbourne Cup public holiday. Find public holiday service and facility hours Quick Links Contact Us Dar",
-          "id": "b11b22b682278b35",
+          "evidence": "opens in new tab or window Quick Links Contact Us Darebin Arts Darebin Libraries Your Say Darebin English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as y",
+          "id": "a24efa6e9767bd67",
           "kind": "form_action",
           "url": "https://www.darebin.vic.gov.au/jobs"
         },
@@ -2096,7 +2096,7 @@
         },
         {
           "evidence": "Send me jobs like these We will email you new jobs that match this search. Great, we can send you jobs like this, if this is your first time signing up, please check your inbox to confirm your subscription. The email address was invalid, pl",
-          "id": "8c7e4a7a1e8fa445",
+          "id": "4f15c787125e79d8",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/887/cw/en/search/"
         }
@@ -2272,10 +2272,10 @@
           "accepted_count": 0,
           "candidate_count": 0,
           "discovered_endpoint_count": 1,
-          "message": "HTTPSConnectionPool(host='hepburn.t1cloud.com', port=443): Read timed out. (read timeout=8)",
+          "message": "endpoint did not return JSON",
           "rejected_count": 0,
-          "score": -100,
-          "status": "failed",
+          "score": 0,
+          "status": "skipped",
           "strategy": "discovered_endpoint"
         },
         {
@@ -2378,8 +2378,8 @@
       "council_name": "Hobsons Bay City Council",
       "discovered_endpoints": [
         {
-          "evidence": "Position No Job Title Work Type Closing Date 844158 Sports Team Member Permanent - Full Time 03/11/2026 853203 Parking Officer Permanent - Part Time 03/11/2026 860786 Senior Arborist Permanent - Full Time 09/11/2026 861672 Parking and Local",
-          "id": "f6a24509eea36b8f",
+          "evidence": "Position No Job Title Work Type Closing Date 860786 Senior Arborist Permanent - Full Time 09/11/2026 861672 Parking and Local Laws Officer Permanent - Full Time 08/11/2026 862443 Graduate Drainage and Development Engineer Fixed Term - Full ",
+          "id": "26d413479908a397",
           "kind": "form_action",
           "url": "https://hobsonsbay.bigredsky.com/page.php?pageID=106"
         }
@@ -2488,7 +2488,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Waste collection disruptions due to protected industrial action Protected industrial action may affect waste collections in Hume. Put your bin out as usual on your scheduled collection day. If your bin is not coll",
-          "id": "95d761fad705d868",
+          "id": "343bcdb9ca754bbe",
           "kind": "form_action",
           "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities"
         },
@@ -3349,8 +3349,8 @@
       ]
     },
     {
-      "accepted_count": 3,
-      "candidate_count": 3,
+      "accepted_count": 2,
+      "candidate_count": 2,
       "chosen_strategy": "platform:native_council",
       "council_key": "MERRI BEK",
       "council_name": "Merri-bek City Council",
@@ -3402,31 +3402,31 @@
       "fallback_used": false,
       "platform": "native_council",
       "quality": {
-        "accepted_count": 3,
+        "accepted_count": 2,
         "band_count": 2,
-        "candidate_count": 3,
-        "closing_count": 3,
-        "description_count": 3,
+        "candidate_count": 2,
+        "closing_count": 2,
+        "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 3,
-        "score": 246
+        "salary_count": 2,
+        "score": 176
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 246,
+      "score": 176,
       "source_id": "merri-bek-native-council",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 3,
-          "candidate_count": 3,
+          "accepted_count": 2,
+          "candidate_count": 2,
           "discovered_endpoint_count": 7,
           "message": "",
           "rejected_count": 0,
-          "score": 246,
+          "score": 176,
           "status": "ok",
           "strategy": "platform:native_council"
         },
@@ -3461,7 +3461,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Quick Links 03 5018 8100 Like us on Facebook Watch our YouTube channel Connect with us on LinkedIn English (Australia) Select this as your preferred language Albanian Select this as your preferred language Amharic",
-          "id": "8fbb6553e2ed2ea8",
+          "id": "20fe082f298887b6",
           "kind": "form_action",
           "url": "https://www.mildura.vic.gov.au/Council/Careers/Current-Job-Vacancies"
         },
@@ -3478,8 +3478,8 @@
           "url": "https://www.mildura.vic.gov.au/Contact-us/Report-it/Submit-feedback"
         },
         {
-          "evidence": "Waste Services Relief Operator Applications closing on Thursday, 05 November 2026 Reference Number: R2804 Casual Position Band 2 of Council’s Current Enterprise Agreement commencing at $43.72 per hour including industry allowance plus statu",
-          "id": "6fa64ae9a4ebd743",
+          "evidence": "Waste Services Relief Operator Applications closing on Thursday, 12 November 2026 Reference Number: R2804 Casual Position Band 2 of Council’s Current Enterprise Agreement commencing at $43.72 per hour including industry allowance plus statu",
+          "id": "1a94404f08c62953",
           "kind": "feed_or_link",
           "url": "https://www.mildura.vic.gov.au/Jobs-Listing/Waste-Services-Relief-Operator-R2804"
         },
@@ -4277,8 +4277,8 @@
       "council_name": "Northern Grampians Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Melbourne Cup Public Holiday Closure Please note that our offices will be closed for the Melbourne Cup Public Holiday on Tuesday, November 3, 2026. If your matter is urgent, please call (03) 5358 8700. Quick Links",
-          "id": "13fde9949e4c9638",
+          "evidence": "opens in new tab or window Quick Links Contact Us Facebook LinkedIn YouTube Instagram English (Australia) Select this as your preferred language Chinese (Simplified) Select this as your preferred language Tagalog (Filipino) Select this as y",
+          "id": "4f06b333ae15d523",
           "kind": "form_action",
           "url": "https://www.ngshire.vic.gov.au/Careers"
         },
@@ -4935,130 +4935,43 @@
       ]
     },
     {
-      "accepted_count": 6,
-      "candidate_count": 6,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:employmenthero",
       "council_key": "TOWONG",
       "council_name": "Towong Shire Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "alternate application/rss+xml Employment Hero » Feed",
-          "id": "297f2d65ff707f55",
-          "kind": "feed_or_link",
-          "url": "https://employmenthero.com/feed/"
-        },
-        {
-          "evidence": "alternate application/rss+xml Employment Hero » Comments Feed",
-          "id": "402fee1f2076b5e6",
-          "kind": "feed_or_link",
-          "url": "https://employmenthero.com/comments/feed/"
-        },
-        {
-          "evidence": "https://api.w.org/",
-          "id": "e2400044faf37cdd",
-          "kind": "feed_or_link",
-          "url": "https://employmenthero.com/wp-json/"
-        },
-        {
-          "evidence": "Visitor Services Officer (Corryong) at Towong Shire Council • Corryong, Victoria 3707 • Part-time • On-site posted 29 Oct 2026",
-          "id": "463d5e99e2b30ac8",
-          "kind": "feed_or_link",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-visitor-services-officer-corryong-m8q1u/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-senior-officer-planning-building-and-compliance-7sqbc/\"",
-          "id": "aa2dbd63fed46a58",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-senior-officer-planning-building-and-compliance-7sqbc/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-early-years-educator-2vf6s/\"",
-          "id": "92ea2059d39203e8",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-early-years-educator-2vf6s/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-parks-and-gardens-operator-full-time-and-casual-roles-82vvs/\"",
-          "id": "dac0d1b3e5e7ba1f",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-parks-and-gardens-operator-full-time-and-casual-roles-82vvs/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-plant-operatorlabourer-07vq9/\"",
-          "id": "54cab7483835a5ed",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-plant-operatorlabourer-07vq9/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-operations-manager-2ku37/\"",
-          "id": "938c85b77f935754",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-operations-manager-2ku37/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-early-childhood-multiple-roles-expression-of-interest-a5u82/\"",
-          "id": "540c91dae837a5c5",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/towong-shire-council-early-childhood-multiple-roles-expression-of-interest-a5u82/"
-        },
-        {
-          "evidence": "\"https://employmenthero.com/jobs/position/\"",
-          "id": "dcbc68f008c8dc52",
-          "kind": "inline_script",
-          "url": "https://employmenthero.com/jobs/position/"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "employmenthero",
       "quality": {
-        "accepted_count": 6,
+        "accepted_count": 0,
         "band_count": 0,
-        "candidate_count": 6,
-        "closing_count": 6,
-        "description_count": 6,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 6,
-        "score": 420
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 420,
+      "score": 0,
       "source_id": "towong-employmenthero",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 6,
-          "candidate_count": 6,
-          "discovered_endpoint_count": 11,
-          "message": "",
-          "rejected_count": 0,
-          "score": 420,
-          "status": "ok",
-          "strategy": "platform:employmenthero"
-        },
-        {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 11,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
-          "strategy": "json_ld"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 1,
-          "discovered_endpoint_count": 0,
-          "message": "",
-          "rejected_count": 1,
-          "score": -45,
-          "status": "ok",
-          "strategy": "sitemap_feed"
+          "strategy": "platform:employmenthero"
         }
       ]
     },

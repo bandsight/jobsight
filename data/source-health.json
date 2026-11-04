@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T23:03:21Z",
+  "generated_at": "2026-11-04T23:26:56Z",
   "platforms": {
     "adlogic_martianlogic": {
-      "accepted_count": 6,
+      "accepted_count": 5,
       "band_coverage": 1.0,
-      "candidate_count": 6,
+      "candidate_count": 5,
       "chosen_strategies": {
         "platform:adlogic_martianlogic": 1
       },
@@ -22,14 +22,14 @@
       "status": "ok"
     },
     "applynow": {
-      "accepted_count": 21,
-      "band_coverage": 0.9524,
-      "candidate_count": 21,
+      "accepted_count": 18,
+      "band_coverage": 0.9444,
+      "candidate_count": 18,
       "chosen_strategies": {
         "platform:applynow": 6
       },
       "degraded": 0,
-      "description_coverage": 0.5714,
+      "description_coverage": 0.6667,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -37,7 +37,7 @@
       "ok": 6,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.8571,
+      "salary_coverage": 0.8333,
       "sources": 6,
       "status": "ok"
     },
@@ -122,14 +122,14 @@
       "status": "ok"
     },
     "employmenthero": {
-      "accepted_count": 0,
+      "accepted_count": 4,
       "band_coverage": 0.0,
-      "candidate_count": 0,
+      "candidate_count": 4,
       "chosen_strategies": {
         "platform:employmenthero": 1
       },
       "degraded": 0,
-      "description_coverage": 0.0,
+      "description_coverage": 1.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -137,14 +137,14 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.0,
+      "salary_coverage": 1.0,
       "sources": 1,
       "status": "ok"
     },
     "native_council": {
-      "accepted_count": 20,
-      "band_coverage": 0.95,
-      "candidate_count": 20,
+      "accepted_count": 18,
+      "band_coverage": 0.9444,
+      "candidate_count": 18,
       "chosen_strategies": {
         "json_ld": 3,
         "platform:native_council": 29
@@ -158,19 +158,19 @@
       "ok": 32,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.8,
+      "salary_coverage": 0.7778,
       "sources": 32,
       "status": "ok"
     },
     "native_council_custom": {
-      "accepted_count": 12,
-      "band_coverage": 0.8333,
-      "candidate_count": 12,
+      "accepted_count": 13,
+      "band_coverage": 0.8462,
+      "candidate_count": 13,
       "chosen_strategies": {
         "platform:native_council_custom": 6
       },
       "degraded": 0,
-      "description_coverage": 0.5833,
+      "description_coverage": 0.5385,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -223,24 +223,24 @@
       "status": "ok"
     },
     "pulse": {
-      "accepted_count": 33,
-      "band_coverage": 0.5152,
-      "candidate_count": 53,
+      "accepted_count": 29,
+      "band_coverage": 0.4828,
+      "candidate_count": 41,
       "chosen_strategies": {
-        "discovered_endpoint": 1,
-        "platform:pulse": 8
+        "discovered_endpoint": 2,
+        "platform:pulse": 7
       },
-      "degraded": 2,
+      "degraded": 1,
       "description_coverage": 1.0,
       "drift_flags": {
-        "junk_inflation": 2
+        "junk_inflation": 1
       },
       "failed": 0,
-      "fallback_used": 2,
-      "junk_rate": 0.3774,
-      "ok": 7,
-      "quarantined_rows": 20,
-      "rejected_count": 20,
+      "fallback_used": 1,
+      "junk_rate": 0.2927,
+      "ok": 8,
+      "quarantined_rows": 12,
+      "rejected_count": 12,
       "salary_coverage": 1.0,
       "sources": 9,
       "status": "degraded"
@@ -286,9 +286,9 @@
       "status": "ok"
     },
     "successfactors": {
-      "accepted_count": 9,
-      "band_coverage": 0.8889,
-      "candidate_count": 9,
+      "accepted_count": 8,
+      "band_coverage": 0.875,
+      "candidate_count": 8,
       "chosen_strategies": {
         "platform:successfactors": 1
       },
@@ -301,7 +301,7 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 0.8889,
+      "salary_coverage": 0.875,
       "sources": 1,
       "status": "ok"
     },
@@ -326,99 +326,9 @@
       "status": "ok"
     }
   },
-  "run_id": "20261103T230321Z",
+  "run_id": "20261104T232656Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
-    {
-      "accepted_count": 0,
-      "candidate_count": 13,
-      "chosen_strategy": "platform:pulse",
-      "council_key": "BALLARAT",
-      "council_name": "Ballarat City Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "{1} ##LOC[OK]## {1} ##LOC[OK]## ##LOC[Cancel]## {1} ##LOC[OK]## ##LOC[Cancel]## Logout",
-          "id": "e978150809096885",
-          "kind": "form_action",
-          "url": "https://ballarat.pulsesoftware.com/Pulse/jobs"
-        },
-        {
-          "evidence": "'/RCM/Jobs/Jobs?internalOnly='",
-          "id": "e10e6ea707a62269",
-          "kind": "inline_script",
-          "url": "https://ballarat.pulsesoftware.com/RCM/Jobs/Jobs?internalOnly="
-        }
-      ],
-      "drift_flags": [
-        {
-          "code": "junk_inflation",
-          "message": "junk rate 0.6154",
-          "severity": "severe"
-        }
-      ],
-      "fallback_used": true,
-      "platform": "pulse",
-      "quality": {
-        "accepted_count": 5,
-        "band_count": 4,
-        "candidate_count": 13,
-        "closing_count": 5,
-        "description_count": 5,
-        "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.6154,
-        "rejected_count": 8,
-        "salary_count": 5,
-        "score": 62
-      },
-      "quarantined_rows": 8,
-      "rejected_count": 8,
-      "score": 62,
-      "source_id": "ballarat-pulse",
-      "status": "degraded",
-      "strategy_results": [
-        {
-          "accepted_count": 5,
-          "candidate_count": 13,
-          "discovered_endpoint_count": 2,
-          "message": "",
-          "rejected_count": 8,
-          "score": 62,
-          "status": "ok",
-          "strategy": "platform:pulse"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "endpoint did not return JSON",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "skipped",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "HTTP 404",
-          "rejected_count": 0,
-          "score": -100,
-          "status": "failed",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 2,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
-        }
-      ]
-    },
     {
       "accepted_count": 0,
       "candidate_count": 5,
@@ -510,8 +420,8 @@
       ]
     },
     {
-      "accepted_count": 3,
-      "candidate_count": 3,
+      "accepted_count": 1,
+      "candidate_count": 1,
       "chosen_strategy": "platform:native_council",
       "council_key": "ALPINE",
       "council_name": "Alpine Shire Council",
@@ -533,31 +443,31 @@
       "fallback_used": false,
       "platform": "native_council",
       "quality": {
-        "accepted_count": 3,
-        "band_count": 3,
-        "candidate_count": 3,
-        "closing_count": 3,
-        "description_count": 3,
+        "accepted_count": 1,
+        "band_count": 1,
+        "candidate_count": 1,
+        "closing_count": 1,
+        "description_count": 1,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 3,
-        "score": 264
+        "salary_count": 1,
+        "score": 88
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 264,
+      "score": 88,
       "source_id": "alpine-native-council",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 3,
-          "candidate_count": 3,
+          "accepted_count": 1,
+          "candidate_count": 1,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 264,
+          "score": 88,
           "status": "ok",
           "strategy": "platform:native_council"
         },
@@ -624,6 +534,90 @@
           "score": 152,
           "status": "ok",
           "strategy": "platform:native_council"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 2,
+          "message": "",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "ok",
+          "strategy": "json_ld"
+        }
+      ]
+    },
+    {
+      "accepted_count": 0,
+      "candidate_count": 0,
+      "chosen_strategy": "discovered_endpoint",
+      "council_key": "BALLARAT",
+      "council_name": "Ballarat City Council",
+      "discovered_endpoints": [
+        {
+          "evidence": "{1} ##LOC[OK]## {1} ##LOC[OK]## ##LOC[Cancel]## {1} ##LOC[OK]## ##LOC[Cancel]## Logout",
+          "id": "e978150809096885",
+          "kind": "form_action",
+          "url": "https://ballarat.pulsesoftware.com/Pulse/jobs"
+        },
+        {
+          "evidence": "'/RCM/Jobs/Jobs?internalOnly='",
+          "id": "e10e6ea707a62269",
+          "kind": "inline_script",
+          "url": "https://ballarat.pulsesoftware.com/RCM/Jobs/Jobs?internalOnly="
+        }
+      ],
+      "drift_flags": [],
+      "fallback_used": false,
+      "platform": "pulse",
+      "quality": {
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
+        "duplicate_count": 0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
+        "rejected_count": 0,
+        "salary_count": 0,
+        "score": 0
+      },
+      "quarantined_rows": 0,
+      "rejected_count": 0,
+      "score": 0,
+      "source_id": "ballarat-pulse",
+      "status": "ok",
+      "strategy_results": [
+        {
+          "accepted_count": 4,
+          "candidate_count": 14,
+          "discovered_endpoint_count": 0,
+          "message": "",
+          "rejected_count": 10,
+          "score": -116,
+          "status": "ok",
+          "strategy": "platform:pulse"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 2,
+          "message": "endpoint did not return JSON",
+          "rejected_count": 0,
+          "score": 0,
+          "status": "skipped",
+          "strategy": "discovered_endpoint"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 0,
+          "discovered_endpoint_count": 1,
+          "message": "HTTP 404",
+          "rejected_count": 0,
+          "score": -100,
+          "status": "failed",
+          "strategy": "discovered_endpoint"
         },
         {
           "accepted_count": 0,
@@ -884,8 +878,8 @@
       ]
     },
     {
-      "accepted_count": 9,
-      "candidate_count": 9,
+      "accepted_count": 8,
+      "candidate_count": 8,
       "chosen_strategy": "platform:successfactors",
       "council_key": "BOROONDARA",
       "council_name": "Boroondara City Council",
@@ -913,31 +907,31 @@
       "fallback_used": false,
       "platform": "successfactors",
       "quality": {
-        "accepted_count": 9,
-        "band_count": 8,
-        "candidate_count": 9,
-        "closing_count": 6,
-        "description_count": 9,
+        "accepted_count": 8,
+        "band_count": 7,
+        "candidate_count": 8,
+        "closing_count": 5,
+        "description_count": 8,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 8,
-        "score": 747
+        "salary_count": 7,
+        "score": 659
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 747,
+      "score": 659,
       "source_id": "boroondara-successfactors",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 9,
-          "candidate_count": 9,
+          "accepted_count": 8,
+          "candidate_count": 8,
           "discovered_endpoint_count": 3,
           "message": "",
           "rejected_count": 0,
-          "score": 747,
+          "score": 659,
           "status": "ok",
           "strategy": "platform:successfactors"
         },
@@ -1203,8 +1197,8 @@
       ]
     },
     {
-      "accepted_count": 6,
-      "candidate_count": 6,
+      "accepted_count": 5,
+      "candidate_count": 5,
       "chosen_strategy": "platform:adlogic_martianlogic",
       "council_key": "CARDINIA",
       "council_name": "Cardinia Shire Council",
@@ -1226,31 +1220,31 @@
       "fallback_used": false,
       "platform": "adlogic_martianlogic",
       "quality": {
-        "accepted_count": 6,
-        "band_count": 6,
-        "candidate_count": 6,
-        "closing_count": 4,
-        "description_count": 6,
+        "accepted_count": 5,
+        "band_count": 5,
+        "candidate_count": 5,
+        "closing_count": 3,
+        "description_count": 5,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 6,
-        "score": 518
+        "salary_count": 5,
+        "score": 430
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 518,
+      "score": 430,
       "source_id": "cardinia-adlogic-martianlogic",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 6,
-          "candidate_count": 6,
+          "accepted_count": 5,
+          "candidate_count": 5,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 518,
+          "score": 430,
           "status": "ok",
           "strategy": "platform:adlogic_martianlogic"
         },
@@ -1728,18 +1722,18 @@
         "accepted_count": 5,
         "band_count": 5,
         "candidate_count": 5,
-        "closing_count": 4,
+        "closing_count": 5,
         "description_count": 5,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
         "salary_count": 5,
-        "score": 435
+        "score": 440
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 435,
+      "score": 440,
       "source_id": "frankston-native-council-custom",
       "status": "ok",
       "strategy_results": [
@@ -1749,7 +1743,7 @@
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 435,
+          "score": 440,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         }
@@ -2018,8 +2012,8 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 5,
+      "accepted_count": 6,
+      "candidate_count": 6,
       "chosen_strategy": "platform:native_council_custom",
       "council_key": "GREATER DANDENONG",
       "council_name": "Greater Dandenong City Council",
@@ -2041,31 +2035,31 @@
       "fallback_used": false,
       "platform": "native_council_custom",
       "quality": {
-        "accepted_count": 5,
-        "band_count": 3,
-        "candidate_count": 5,
-        "closing_count": 5,
+        "accepted_count": 6,
+        "band_count": 4,
+        "candidate_count": 6,
+        "closing_count": 6,
         "description_count": 0,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 5,
-        "score": 364
+        "salary_count": 6,
+        "score": 444
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 364,
+      "score": 444,
       "source_id": "greater-dandenong-native-council-custom",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 5,
+          "accepted_count": 6,
+          "candidate_count": 6,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 364,
+          "score": 444,
           "status": "ok",
           "strategy": "platform:native_council_custom"
         },
@@ -2082,8 +2076,8 @@
       ]
     },
     {
-      "accepted_count": 9,
-      "candidate_count": 9,
+      "accepted_count": 10,
+      "candidate_count": 10,
       "chosen_strategy": "platform:pageup",
       "council_key": "GREATER GEELONG",
       "council_name": "Greater Geelong City Council",
@@ -2096,7 +2090,7 @@
         },
         {
           "evidence": "Send me jobs like these We will email you new jobs that match this search. Great, we can send you jobs like this, if this is your first time signing up, please check your inbox to confirm your subscription. The email address was invalid, pl",
-          "id": "4f15c787125e79d8",
+          "id": "5d56a1cb32c7bd8b",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/887/cw/en/search/"
         }
@@ -2105,31 +2099,31 @@
       "fallback_used": false,
       "platform": "pageup",
       "quality": {
-        "accepted_count": 9,
-        "band_count": 8,
-        "candidate_count": 9,
-        "closing_count": 9,
-        "description_count": 9,
+        "accepted_count": 10,
+        "band_count": 9,
+        "candidate_count": 10,
+        "closing_count": 10,
+        "description_count": 10,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 9,
-        "score": 774
+        "salary_count": 10,
+        "score": 862
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 774,
+      "score": 862,
       "source_id": "greater-geelong-pageup",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 9,
-          "candidate_count": 9,
+          "accepted_count": 10,
+          "candidate_count": 10,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
-          "score": 774,
+          "score": 862,
           "status": "ok",
           "strategy": "platform:pageup"
         },
@@ -2299,7 +2293,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Subscribe to our E-news Sign up to receive fortnightly updates on Council news, updates, events, projects and other up-to-date information. Subscribe to E-news Menu Search Council Councillors Youth Councillors Cou",
-          "id": "1962416bc846c114",
+          "id": "8cb7349659c6d43e",
           "kind": "form_action",
           "url": "https://www.hindmarsh.vic.gov.au/Council/Working-With-Us/Work-In-Council"
         },
@@ -2488,7 +2482,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Waste collection disruptions due to protected industrial action Protected industrial action may affect waste collections in Hume. Put your bin out as usual on your scheduled collection day. If your bin is not coll",
-          "id": "343bcdb9ca754bbe",
+          "id": "e5b9d27d6ae6427e",
           "kind": "form_action",
           "url": "https://www.hume.vic.gov.au/Your-Council/Careers-at-Hume/Jobs-and-Opportunities"
         },
@@ -2744,8 +2738,8 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 6,
+      "accepted_count": 6,
+      "candidate_count": 7,
       "chosen_strategy": "platform:pulse",
       "council_key": "LATROBE",
       "council_name": "Latrobe City Council",
@@ -2767,31 +2761,31 @@
       "fallback_used": false,
       "platform": "pulse",
       "quality": {
-        "accepted_count": 5,
-        "band_count": 3,
-        "candidate_count": 6,
-        "closing_count": 5,
-        "description_count": 5,
+        "accepted_count": 6,
+        "band_count": 4,
+        "candidate_count": 7,
+        "closing_count": 6,
+        "description_count": 6,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
-        "junk_rate": 0.1667,
+        "junk_rate": 0.1429,
         "rejected_count": 1,
-        "salary_count": 5,
-        "score": 359
+        "salary_count": 6,
+        "score": 447
       },
       "quarantined_rows": 1,
       "rejected_count": 1,
-      "score": 359,
+      "score": 447,
       "source_id": "latrobe-pulse",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 6,
+          "accepted_count": 6,
+          "candidate_count": 7,
           "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 1,
-          "score": 359,
+          "score": 447,
           "status": "ok",
           "strategy": "platform:pulse"
         },
@@ -3001,12 +2995,6 @@
       "council_name": "Mansfield Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "Search Content type Jobs Webforms News Page Consultations",
-          "id": "01ade443533c4a35",
-          "kind": "form_action",
-          "url": "https://www.mansfield.vic.gov.au/search"
-        },
-        {
           "evidence": "Search Job Type - Any - Casual Fixed Term, Part-Time Fixed Term, Full-Time Permanent, Full-Time Permanent, Part-Time Permanent, Full-Time/ Part-Time / Casual Fixed Term, Part / Full Time",
           "id": "2454469460f165e0",
           "kind": "form_action",
@@ -3038,7 +3026,7 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 2,
+          "discovered_endpoint_count": 1,
           "message": "",
           "rejected_count": 0,
           "score": 0,
@@ -3048,7 +3036,7 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 2,
+          "discovered_endpoint_count": 1,
           "message": "",
           "rejected_count": 0,
           "score": 0,
@@ -3281,70 +3269,43 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 5,
+      "accepted_count": 4,
+      "candidate_count": 4,
       "chosen_strategy": "platform:applynow",
       "council_key": "MELTON",
       "council_name": "Melton City Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "Senior Animal Attendant - Pound Services",
-          "id": "d4d40c874a250f96",
-          "kind": "feed_or_link",
-          "url": "https://meltoncity-external.applynow.net.au/jobs/MEL1909-senior-animal-attendant-pound-services"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "applynow",
       "quality": {
-        "accepted_count": 5,
-        "band_count": 4,
-        "candidate_count": 5,
-        "closing_count": 5,
+        "accepted_count": 4,
+        "band_count": 3,
+        "candidate_count": 4,
+        "closing_count": 4,
         "description_count": 2,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 5,
-        "score": 398
+        "salary_count": 4,
+        "score": 318
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 398,
+      "score": 318,
       "source_id": "melton-applynow",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 5,
-          "discovered_endpoint_count": 1,
+          "accepted_count": 4,
+          "candidate_count": 4,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 398,
+          "score": 318,
           "status": "ok",
           "strategy": "platform:applynow"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "endpoint did not return JSON",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "skipped",
-          "strategy": "discovered_endpoint"
-        },
-        {
-          "accepted_count": 0,
-          "candidate_count": 0,
-          "discovered_endpoint_count": 1,
-          "message": "",
-          "rejected_count": 0,
-          "score": 0,
-          "status": "ok",
-          "strategy": "json_ld"
         }
       ]
     },
@@ -3850,7 +3811,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window H5N1 avian influenza (bird flu) H5N1 avian influenza (bird flu) has been detected in Victoria. If you see sick or dead birds on the Peninsula, avoid contact and record what you see. Report it online or via the Eme",
-          "id": "0bcce353106643c1",
+          "id": "c6329048607045f4",
           "kind": "form_action",
           "url": "https://www.mornpen.vic.gov.au/The-Shire/Careers-and-volunteering/Current-vacancies"
         },
@@ -3913,8 +3874,8 @@
       "council_name": "Mount Alexander Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Maldon Transfer Station closed The Maldon Transfer Station is closed while we undertake urgent essential repairs. It will open at selected times to take green waste only. See our Waste Transfer Stations page for d",
-          "id": "05abc6f99719506d",
+          "evidence": "opens in new tab or window Maldon Transfer Station - limited hours The Maldon Transfer Station has limited hours and services. It will reopen for green waste only on Wednesdays, Fridays, Saturdays and Sundays, 9.00am-11.00am until 15 Novemb",
+          "id": "a6988cbc7df9a1f0",
           "kind": "form_action",
           "url": "https://www.mountalexander.vic.gov.au/Council/Work-with-us/Current-vacancies"
         },
@@ -4086,7 +4047,7 @@
       "discovered_endpoints": [
         {
           "evidence": "opens in new tab or window Open Search Menu Home Council Who We Are Councillors Executive Management Team What We Do Council Elections Kinglake Ward by-election 2026 Enrolling to vote Voting in the Kinglake Ward by-election Election Period ",
-          "id": "12de1a8007bc2a7d",
+          "id": "62d9f76da53d1fda",
           "kind": "form_action",
           "url": "https://www.murrindindi.vic.gov.au/Council/Jobs-and-Tenders/Vacant-Positions"
         },
@@ -4277,8 +4238,8 @@
       "council_name": "Northern Grampians Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Quick Links Contact Us Facebook LinkedIn YouTube Instagram English (Australia) Select this as your preferred language Chinese (Simplified) Select this as your preferred language Tagalog (Filipino) Select this as y",
-          "id": "4f06b333ae15d523",
+          "evidence": "opens in new tab or window Nominate for 2027 Australia Day Awards Do you know someone who goes above and beyond for our community? Is there a local group or individual who has made a real difference in Northern Grampians Shire this year? No",
+          "id": "421b5d95038c1b6b",
           "kind": "form_action",
           "url": "https://www.ngshire.vic.gov.au/Careers"
         },
@@ -4535,8 +4496,8 @@
       ]
     },
     {
-      "accepted_count": 5,
-      "candidate_count": 5,
+      "accepted_count": 3,
+      "candidate_count": 3,
       "chosen_strategy": "platform:applynow",
       "council_key": "SOUTH GIPPSLAND",
       "council_name": "South Gippsland Shire Council",
@@ -4545,31 +4506,31 @@
       "fallback_used": false,
       "platform": "applynow",
       "quality": {
-        "accepted_count": 5,
-        "band_count": 5,
-        "candidate_count": 5,
-        "closing_count": 5,
+        "accepted_count": 3,
+        "band_count": 3,
+        "candidate_count": 3,
+        "closing_count": 3,
         "description_count": 0,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 3,
-        "score": 376
+        "salary_count": 1,
+        "score": 216
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 376,
+      "score": 216,
       "source_id": "south-gippsland-applynow",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 5,
-          "candidate_count": 5,
+          "accepted_count": 3,
+          "candidate_count": 3,
           "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
-          "score": 376,
+          "score": 216,
           "status": "ok",
           "strategy": "platform:applynow"
         }
@@ -4935,43 +4896,118 @@
       ]
     },
     {
-      "accepted_count": 0,
-      "candidate_count": 0,
+      "accepted_count": 4,
+      "candidate_count": 4,
       "chosen_strategy": "platform:employmenthero",
       "council_key": "TOWONG",
       "council_name": "Towong Shire Council",
-      "discovered_endpoints": [],
+      "discovered_endpoints": [
+        {
+          "evidence": "alternate application/rss+xml Employment Hero » Feed",
+          "id": "297f2d65ff707f55",
+          "kind": "feed_or_link",
+          "url": "https://employmenthero.com/feed/"
+        },
+        {
+          "evidence": "alternate application/rss+xml Employment Hero » Comments Feed",
+          "id": "402fee1f2076b5e6",
+          "kind": "feed_or_link",
+          "url": "https://employmenthero.com/comments/feed/"
+        },
+        {
+          "evidence": "https://api.w.org/",
+          "id": "e2400044faf37cdd",
+          "kind": "feed_or_link",
+          "url": "https://employmenthero.com/wp-json/"
+        },
+        {
+          "evidence": "Visitor Services Officer (Corryong) at Towong Shire Council • Corryong, Victoria 3707 • Part-time • On-site posted 29 Oct 2026",
+          "id": "463d5e99e2b30ac8",
+          "kind": "feed_or_link",
+          "url": "https://employmenthero.com/jobs/position/towong-shire-council-visitor-services-officer-corryong-m8q1u/"
+        },
+        {
+          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-senior-officer-planning-building-and-compliance-7sqbc/\"",
+          "id": "aa2dbd63fed46a58",
+          "kind": "inline_script",
+          "url": "https://employmenthero.com/jobs/position/towong-shire-council-senior-officer-planning-building-and-compliance-7sqbc/"
+        },
+        {
+          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-early-years-educator-2vf6s/\"",
+          "id": "92ea2059d39203e8",
+          "kind": "inline_script",
+          "url": "https://employmenthero.com/jobs/position/towong-shire-council-early-years-educator-2vf6s/"
+        },
+        {
+          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-parks-and-gardens-operator-full-time-and-casual-roles-82vvs/\"",
+          "id": "dac0d1b3e5e7ba1f",
+          "kind": "inline_script",
+          "url": "https://employmenthero.com/jobs/position/towong-shire-council-parks-and-gardens-operator-full-time-and-casual-roles-82vvs/"
+        },
+        {
+          "evidence": "\"https://employmenthero.com/jobs/position/towong-shire-council-early-childhood-multiple-roles-expression-of-interest-a5u82/\"",
+          "id": "540c91dae837a5c5",
+          "kind": "inline_script",
+          "url": "https://employmenthero.com/jobs/position/towong-shire-council-early-childhood-multiple-roles-expression-of-interest-a5u82/"
+        },
+        {
+          "evidence": "\"https://employmenthero.com/jobs/position/\"",
+          "id": "dcbc68f008c8dc52",
+          "kind": "inline_script",
+          "url": "https://employmenthero.com/jobs/position/"
+        }
+      ],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "employmenthero",
       "quality": {
-        "accepted_count": 0,
+        "accepted_count": 4,
         "band_count": 0,
-        "candidate_count": 0,
-        "closing_count": 0,
-        "description_count": 0,
+        "candidate_count": 4,
+        "closing_count": 4,
+        "description_count": 4,
         "duplicate_count": 0,
-        "duplicate_rate": 0,
-        "junk_rate": 0,
+        "duplicate_rate": 0.0,
+        "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 0,
-        "score": 0
+        "salary_count": 4,
+        "score": 280
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 0,
+      "score": 280,
       "source_id": "towong-employmenthero",
       "status": "ok",
       "strategy_results": [
         {
+          "accepted_count": 4,
+          "candidate_count": 4,
+          "discovered_endpoint_count": 9,
+          "message": "",
+          "rejected_count": 0,
+          "score": 280,
+          "status": "ok",
+          "strategy": "platform:employmenthero"
+        },
+        {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 0,
+          "discovered_endpoint_count": 9,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
-          "strategy": "platform:employmenthero"
+          "strategy": "json_ld"
+        },
+        {
+          "accepted_count": 0,
+          "candidate_count": 1,
+          "discovered_endpoint_count": 0,
+          "message": "",
+          "rejected_count": 1,
+          "score": -45,
+          "status": "ok",
+          "strategy": "sitemap_feed"
         }
       ]
     },
@@ -5370,8 +5406,8 @@
       ]
     },
     {
-      "accepted_count": 9,
-      "candidate_count": 9,
+      "accepted_count": 8,
+      "candidate_count": 8,
       "chosen_strategy": "platform:pageup",
       "council_key": "YARRA",
       "council_name": "Yarra City Council",
@@ -5389,8 +5425,8 @@
           "url": "https://careers.pageuppeople.com/817/cw/en/job/496974/family-services-case-worker"
         },
         {
-          "evidence": "Already Applied? Update your details, view your application and progress >> Login Job search e.g. \"Administrator, Melbourne\" Refine search Work type Casual 3 Full Time - Permanent 4 Full Time - Temporary 2 Part Time - Permanent 1 Part Time ",
-          "id": "49627966bbcf8d2c",
+          "evidence": "Already Applied? Update your details, view your application and progress >> Login Job search e.g. \"Administrator, Melbourne\" Refine search Work type Casual 3 Full Time - Permanent 3 Full Time - Temporary 2 Part Time - Permanent 1 Part Time ",
+          "id": "1a7903a7edf991b7",
           "kind": "form_action",
           "url": "https://careers.pageuppeople.com/817/cw/en/search/"
         },
@@ -5405,31 +5441,31 @@
       "fallback_used": false,
       "platform": "pageup",
       "quality": {
-        "accepted_count": 9,
-        "band_count": 9,
-        "candidate_count": 9,
-        "closing_count": 9,
-        "description_count": 8,
+        "accepted_count": 8,
+        "band_count": 8,
+        "candidate_count": 8,
+        "closing_count": 8,
+        "description_count": 7,
         "duplicate_count": 0,
         "duplicate_rate": 0.0,
         "junk_rate": 0.0,
         "rejected_count": 0,
-        "salary_count": 9,
-        "score": 784
+        "salary_count": 8,
+        "score": 696
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 784,
+      "score": 696,
       "source_id": "yarra-pageup",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 9,
-          "candidate_count": 9,
+          "accepted_count": 8,
+          "candidate_count": 8,
           "discovered_endpoint_count": 4,
           "message": "",
           "rejected_count": 0,
-          "score": 784,
+          "score": 696,
           "status": "ok",
           "strategy": "platform:pageup"
         },
@@ -5483,8 +5519,8 @@
       "council_name": "Yarra Ranges Shire Council",
       "discovered_endpoints": [
         {
-          "evidence": "opens in new tab or window Melbourne Cup public holiday We’ll be closed on Tuesday, 3 November 2026, for the Melbourne Cup public holiday. Our Community Links will reopen on Wednesday, 4 November 2026 at their usual times. For urgent enquir",
-          "id": "e359db52c7928d08",
+          "evidence": "opens in new tab or window English (Australia) Select this as your preferred language Arabic Select this as your preferred language Chinese (Simplified) Select this as your preferred language Chinese (Traditional) Select this as your prefer",
+          "id": "5d446b5166c9fed5",
           "kind": "form_action",
           "url": "https://www.yarraranges.vic.gov.au/Our-Council/Careers-at-Yarra-Ranges"
         },
@@ -5681,11 +5717,11 @@
     }
   ],
   "summary": {
-    "degraded": 2,
+    "degraded": 1,
     "failed": 0,
-    "fallback_used": 2,
-    "ok": 77,
-    "quarantined_rows": 22,
+    "fallback_used": 1,
+    "ok": 78,
+    "quarantined_rows": 14,
     "sources": 79
   }
 }

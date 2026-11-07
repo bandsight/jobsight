@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T22:54:04Z",
+  "generated_at": "2026-11-07T21:38:22Z",
   "platforms": {
     "adlogic_martianlogic": {
       "accepted_count": 5,
@@ -324,7 +324,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20261106T225404Z",
+  "run_id": "20261107T213822Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -968,12 +968,12 @@
           "strategy": "json_ld"
         },
         {
-          "accepted_count": 0,
-          "candidate_count": 2,
+          "accepted_count": 1,
+          "candidate_count": 14,
           "discovered_endpoint_count": 0,
           "message": "",
-          "rejected_count": 2,
-          "score": -90,
+          "rejected_count": 13,
+          "score": -509,
           "status": "ok",
           "strategy": "sitemap_feed"
         }

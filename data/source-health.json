@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-20T23:50:31Z",
+  "generated_at": "2026-11-21T22:56:16Z",
   "platforms": {
     "adlogic_martianlogic": {
-      "accepted_count": 6,
-      "band_coverage": 0.8333,
-      "candidate_count": 6,
+      "accepted_count": 0,
+      "band_coverage": 0.0,
+      "candidate_count": 0,
       "chosen_strategies": {
         "platform:adlogic_martianlogic": 1
       },
       "degraded": 0,
-      "description_coverage": 1.0,
+      "description_coverage": 0.0,
       "drift_flags": {},
       "failed": 0,
       "fallback_used": 0,
@@ -17,7 +17,7 @@
       "ok": 1,
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "salary_coverage": 1.0,
+      "salary_coverage": 0.0,
       "sources": 1,
       "status": "ok"
     },
@@ -326,7 +326,7 @@
       "status": "ok"
     }
   },
-  "run_id": "20261120T235031Z",
+  "run_id": "20261121T225616Z",
   "schema_version": "jobsight.source_health.v1",
   "sources": [
     {
@@ -1191,66 +1191,43 @@
       ]
     },
     {
-      "accepted_count": 6,
-      "candidate_count": 6,
+      "accepted_count": 0,
+      "candidate_count": 0,
       "chosen_strategy": "platform:adlogic_martianlogic",
       "council_key": "CARDINIA",
       "council_name": "Cardinia Shire Council",
-      "discovered_endpoints": [
-        {
-          "evidence": "Community Services & Development Community Services & Development Jobs",
-          "id": "11951da864397885",
-          "kind": "feed_or_link",
-          "url": "https://careers.cardinia.vic.gov.au/our-jobs/query/Industry/Community+Services+andamp%3B+Development/53939/"
-        },
-        {
-          "evidence": "Trades & Services Trades & Services Jobs",
-          "id": "87ceb5d47ea236bf",
-          "kind": "feed_or_link",
-          "url": "https://careers.cardinia.vic.gov.au/our-jobs/query/Industry/Trades+andamp%3B+Services/54251/"
-        }
-      ],
+      "discovered_endpoints": [],
       "drift_flags": [],
       "fallback_used": false,
       "platform": "adlogic_martianlogic",
       "quality": {
-        "accepted_count": 6,
-        "band_count": 5,
-        "candidate_count": 6,
-        "closing_count": 4,
-        "description_count": 6,
+        "accepted_count": 0,
+        "band_count": 0,
+        "candidate_count": 0,
+        "closing_count": 0,
+        "description_count": 0,
         "duplicate_count": 0,
-        "duplicate_rate": 0.0,
-        "junk_rate": 0.0,
+        "duplicate_rate": 0,
+        "junk_rate": 0,
         "rejected_count": 0,
-        "salary_count": 6,
-        "score": 500
+        "salary_count": 0,
+        "score": 0
       },
       "quarantined_rows": 0,
       "rejected_count": 0,
-      "score": 500,
+      "score": 0,
       "source_id": "cardinia-adlogic-martianlogic",
       "status": "ok",
       "strategy_results": [
         {
-          "accepted_count": 6,
-          "candidate_count": 6,
-          "discovered_endpoint_count": 2,
-          "message": "",
-          "rejected_count": 0,
-          "score": 500,
-          "status": "ok",
-          "strategy": "platform:adlogic_martianlogic"
-        },
-        {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 2,
+          "discovered_endpoint_count": 0,
           "message": "",
           "rejected_count": 0,
           "score": 0,
           "status": "ok",
-          "strategy": "json_ld"
+          "strategy": "platform:adlogic_martianlogic"
         }
       ]
     },
@@ -3859,18 +3836,6 @@
           "url": "https://www.mornpen.vic.gov.au/The-Shire/Careers-and-volunteering/Current-vacancies"
         },
         {
-          "evidence": "Read aloud Read aloud",
-          "id": "8840e1bd514274f4",
-          "kind": "feed_or_link",
-          "url": "https://www.mornpen.vic.gov.au/Telerik.Web.UI.WebResource.axd?type=cah&isc=true&guid=feeda0c3-a91c-478a-ae0e-c63f60db9229"
-        },
-        {
-          "evidence": "\"/Telerik.Web.UI.WebResource.axd?type=cah\\u0026isc=true\\u0026guid=feeda0c3-a91c-478a-ae0e-c63f60db9229\"",
-          "id": "be857983069e800d",
-          "kind": "inline_script",
-          "url": "https://www.mornpen.vic.gov.au/Telerik.Web.UI.WebResource.axd?type=cah\\u0026isc=true\\u0026guid=feeda0c3-a91c-478a-ae0e-c63f60db9229"
-        },
-        {
           "evidence": "\"/$12aad1f0-76ef-46e9-bf6e-e4ff2f1066ff$/The-Shire/Careers-and-volunteering/Current-vacancies\"",
           "id": "08419f7081d3f4e4",
           "kind": "linked_script",
@@ -3902,7 +3867,7 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 4,
+          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
           "score": 0,
@@ -3912,7 +3877,7 @@
         {
           "accepted_count": 0,
           "candidate_count": 0,
-          "discovered_endpoint_count": 4,
+          "discovered_endpoint_count": 2,
           "message": "",
           "rejected_count": 0,
           "score": 0,
